@@ -1,5 +1,5 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated August 2, 2025 - 2:30 PM with peer-reviewed data*
+*Updated August 2, 2025 - 2:52 PM with peer-reviewed data*
 *Evidence-Based Analysis of Environmental Health Research*
 ---
 > 🔬 **Key Finding:** Multiple peer-reviewed studies confirm nanoplastic presence in human blood, placenta, and other tissues. Research into health implications is actively ongoing.
@@ -33,7 +33,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 **Inclusion Criteria:** Peer-reviewed studies published 2019-2025, government documents, industry memos, and legal filings. Studies must include human tissue analysis, environmental monitoring, or policy analysis.
 **Methodology:** Raman spectroscopy, fluorescence microscopy, and mass spectrometry used for detection. Sample sizes range from 22-100+ participants across studies.
 **Limitations:** Cross-sectional studies predominate; longitudinal human data limited. Animal studies suggest mechanisms; human health impacts require further investigation.
-**† Footnotes:** Brain data from Dunlop et al. used limited autopsy sample (n=12). Blood study sample size (n=22) is small but significant. EPA environmental health funding has declined in recent years; NIH environmental health portfolio reduction requires verification from official budget documents.
+**† Footnotes:** Brain data from Dunlop et al. used limited autopsy sample (n=12). Blood study sample size (n=22) is small but significant. Research funding trends require verification from official budget documents.
 ---
 ## 4. ESTABLISHED FACTS vs. EMERGING RESEARCH
 **✅ Established Facts:**
@@ -58,8 +58,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 **1973:** Industry documents suggest awareness of recycling limitations (requires primary source verification)
 **1990s-2020s:** Industry communications have referenced regulatory approaches (requires primary source verification)
 **2016-2024:**
-- EPA environmental health funding has declined in recent years (requires official budget document verification)
-- CDC environmental health grants reduced (FY 2023, requires official budget document verification)
+- Research funding trends require verification from official budget documents
 **The Pattern:** The documentation reveals a decades-long approach: minimize health risks, promote limited solutions (recycling), and reduce funding for government agencies responsible for public health oversight.
 **⚠️ Budget Verification:** Specific budget percentages require verification through official government budget documents. EPA budget reduction needs confirmation from official FY 2016-2024 budget documents. NIH environmental health portfolio reduction needs confirmation from official sources.
 ---
