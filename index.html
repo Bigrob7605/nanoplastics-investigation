@@ -74,47 +74,13 @@
          }
          
          function downloadPolicyBrief() {
-             // Create the policy brief content
-             const policyBrief = `
-NANOPLASTICS POLICY BRIEF
-Updated: 2 Aug 2025, 19:15
-
-URGENT: Nanoplastics Amplify Deadly Bacteria
-Peer-reviewed evidence shows nanoplastics triple Shiga-toxin output in E. coli
-
-KEY FINDINGS:
-• Nanoplastics detected in every newborn placenta tested
-• New study: E. coli exposed to nanoplastics produces 3.4× more Shiga toxin
-• England reports 26% spike in Shiga-toxin E. coli infections (2024 vs 2023)
-• Industry aware of contamination since 1973, no action taken
-
-CRITICAL DEADLINES:
-• September 18, 2025: Congress must restore $120M NIH research funding
-• Immediate action required to prevent amplified bacterial outbreaks
-
-POLICY RECOMMENDATIONS:
-1. Restore $120M NIH nanoplastics research line-item
-2. Implement mandatory testing for nanoplastics in medical supplies
-3. Establish FDA guidelines for nanoplastics in healthcare products
-4. Fund research into bacterial amplification mechanisms
-5. Create emergency response protocols for amplified infections
-
-CONTACT YOUR REPRESENTATIVE:
-Demand immediate restoration of NIH funding before September 18 markup.
-
-Source: Journal of Nanobiotechnology, April 2025
-             `;
-             
-             // Create blob and download
-             const blob = new Blob([policyBrief], { type: 'application/pdf' });
-             const url = window.URL.createObjectURL(blob);
+             // Download the local PDF file
              const a = document.createElement('a');
-             a.href = url;
+             a.href = 'nanoplastics-policy-brief.pdf';
              a.download = 'nanoplastics-policy-brief.pdf';
              document.body.appendChild(a);
              a.click();
              document.body.removeChild(a);
-             window.URL.revokeObjectURL(url);
              
              // Show success message
              const button = event.target;
