@@ -72,6 +72,63 @@
                  }, 2000);
              });
          }
+         
+         function downloadPolicyBrief() {
+             // Create the policy brief content
+             const policyBrief = `
+NANOPLASTICS POLICY BRIEF
+Updated: 2 Aug 2025, 17:15
+
+URGENT: Nanoplastics Amplify Deadly Bacteria
+Peer-reviewed evidence shows nanoplastics triple Shiga-toxin output in E. coli
+
+KEY FINDINGS:
+• Nanoplastics detected in every newborn placenta tested
+• New study: E. coli exposed to nanoplastics produces 3.4× more Shiga toxin
+• England reports 26% spike in Shiga-toxin E. coli infections (2024 vs 2023)
+• Industry aware of contamination since 1973, no action taken
+
+CRITICAL DEADLINES:
+• September 18, 2025: Congress must restore $120M NIH research funding
+• Immediate action required to prevent amplified bacterial outbreaks
+
+POLICY RECOMMENDATIONS:
+1. Restore $120M NIH nanoplastics research line-item
+2. Implement mandatory testing for nanoplastics in medical supplies
+3. Establish FDA guidelines for nanoplastics in healthcare products
+4. Fund research into bacterial amplification mechanisms
+5. Create emergency response protocols for amplified infections
+
+CONTACT YOUR REPRESENTATIVE:
+Demand immediate restoration of NIH funding before September 18 markup.
+
+Source: Journal of Nanobiotechnology, April 2025
+             `;
+             
+             // Create blob and download
+             const blob = new Blob([policyBrief], { type: 'text/plain' });
+             const url = window.URL.createObjectURL(blob);
+             const a = document.createElement('a');
+             a.href = url;
+             a.download = 'nanoplastics-policy-brief.txt';
+             document.body.appendChild(a);
+             a.click();
+             document.body.removeChild(a);
+             window.URL.revokeObjectURL(url);
+             
+             // Show success message
+             const button = event.target;
+             const originalText = button.textContent;
+             button.textContent = '✅ Downloaded!';
+             button.classList.remove('bg-blue-600', 'hover:bg-blue-700');
+             button.classList.add('bg-green-600');
+             
+             setTimeout(function() {
+                 button.textContent = originalText;
+                 button.classList.remove('bg-green-600');
+                 button.classList.add('bg-blue-600', 'hover:bg-blue-700');
+             }, 2000);
+         }
      </script>
 </head>
 <body class="bg-gray-50 text-gray-900">
@@ -102,13 +159,25 @@
     </nav>
 
     <!-- TL;DR Section -->
-    <div class="bg-yellow-100 border-b-4 border-yellow-500 py-6">
+    <div class="bg-gradient-to-r from-yellow-100 to-orange-100 border-b-4 border-yellow-500 py-8 shadow-lg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <h2 class="text-2xl font-bold text-yellow-900 mb-3">📋 TL;DR</h2>
-                <p class="text-lg text-yellow-800 font-semibold leading-relaxed max-w-4xl mx-auto">
-                    Nanoplastics don't just contaminate human tissue—they now amplify deadly bacteria. Peer-reviewed, global, urgent. Immediate action required. See full evidence and recommendations below.
-                </p>
+                <div class="inline-block bg-yellow-500 text-yellow-900 px-6 py-2 rounded-full mb-4">
+                    <h2 class="text-2xl font-bold">📋 TL;DR</h2>
+                </div>
+                <div class="bg-white rounded-lg p-6 shadow-md max-w-4xl mx-auto">
+                    <p class="text-xl text-gray-800 font-semibold leading-relaxed mb-4">
+                        Nanoplastics don't just contaminate human tissue—they now amplify deadly bacteria. Peer-reviewed, global, urgent. Immediate action required. See full evidence and recommendations below.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-3 justify-center items-center mt-4">
+                        <button onclick="copyPageLink()" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors shadow-md">
+                            📤 Share This Page
+                        </button>
+                        <a href="#policy-brief" onclick="downloadPolicyBrief()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors shadow-md">
+                            📄 Download Policy Brief PDF
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -192,7 +261,7 @@
                     <p class="text-xs text-orange-700 mt-2">England already reports 26% rise in Shiga-toxin E. coli infections. This transforms the crisis from contamination to active pathogen amplification.</p>
                 </div>
                                                  <p class="text-sm text-blue-200 mt-4">
-                    <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 17:12
+                    <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 17:15
                 </p>
                 <div class="flex flex-wrap justify-center gap-4 text-sm">
                     <span class="bg-blue-600 px-4 py-2 rounded-full">Peer-Reviewed Research</span>
@@ -506,20 +575,20 @@
                  </div>
                  <h3 class="text-xl font-bold text-red-900 mb-3">Policy Recommendations</h3>
                  <p class="text-lg leading-relaxed mb-4">
-                     <strong>The FY-2026 LHHS bill markup drops 18 Sept; staff contact for 2-page summary + appendix.</strong>
+                     <strong>The FY-2026 LHHS bill markup drops <span class="bg-red-200 px-2 py-1 rounded font-bold">18 Sept</span>; staff contact for 2-page summary + appendix.</strong>
                  </p>
                 <p class="text-lg leading-relaxed">
                     <strong>Immediate (FY-26 LHHS bill, markup pending):</strong> Restore NIH nanoplastics & autoimmune research line-item.
                 </p>
                 <p class="text-lg leading-relaxed">
-                    <strong>12 months:</strong> FDA final guidance banning intentionally added micro/nanoplastics in IV fluids & infant formula.
+                    <strong><span class="bg-yellow-200 px-2 py-1 rounded font-bold">12 months</span>:</strong> FDA final guidance banning intentionally added micro/nanoplastics in IV fluids & infant formula.
                 </p>
                 <p class="text-lg leading-relaxed">
-                    <strong>24 months:</strong> National bottle-deposit ≥ 10¢ + virgin-plastic tax to fund independent safety studies.
+                    <strong><span class="bg-yellow-200 px-2 py-1 rounded font-bold">24 months</span>:</strong> National bottle-deposit ≥ 10¢ + virgin-plastic tax to fund independent safety studies.
                 </p>
                 <p class="text-lg leading-relaxed">
                                          <strong>Ongoing:</strong> Support state AG climate & health-cost suits; template amicus brief provided.
-                     <strong>36 months:</strong> EPA & CDC to establish a public <strong>National Biomonitoring Dashboard</strong> for nanoplastics, tracking exposure levels in the population by region, similar to existing dashboards for lead and PFAS.
+                     <strong><span class="bg-yellow-200 px-2 py-1 rounded font-bold">36 months</span>:</strong> EPA & CDC to establish a public <strong>National Biomonitoring Dashboard</strong> for nanoplastics, tracking exposure levels in the population by region, similar to existing dashboards for lead and PFAS.
                 </p>
             </div>
 
@@ -738,7 +807,7 @@ Full brief: https://bigrob7605.github.io/nanoplastics-investigation/
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                                                  <p class="text-sm text-gray-400">
-                    <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 17:12
+                    <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 17:15
                 </p>
                 <p class="text-sm text-gray-400 mt-2">
                     This investigation is based on peer-reviewed scientific literature, industry documents, and legal filings.
