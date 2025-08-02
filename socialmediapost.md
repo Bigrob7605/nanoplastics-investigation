@@ -84,7 +84,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 | Metric | 2000 | **2025** | Source |
 |--------|-----:|---------:|--------|
 | Global plastic output | 180 Mt | **460 Mt** | OECD, 2024 |
-| U.S. autoimmune prevalence | 5% | **8%** | CDC NHIS, 2024 |
+| U.S. autoimmune prevalence | 5% | **8%** | CDC NHIS 2019-2024 |
 | Nanoplastic detection in blood | No baseline data | 77% of samples | Leslie et al., 2022 |
 
 ---
@@ -139,7 +139,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 - Dunlop et al. (2023). "Microplastics in human brain tissue: Detection and characterization." Science of the Total Environment, 859, 160143. DOI: 10.1016/j.scitotenv.2022.160143
 
 **Government Data:**
-- CDC NHIS Autoimmune Disease Prevalence Data
+- CDC NHIS Autoimmune Disease Prevalence Data (2019-2024)
 - OECD Global Plastic Production Statistics
 
 ---
