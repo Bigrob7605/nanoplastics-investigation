@@ -83,8 +83,8 @@ The pattern is clear: delay costs lives and money.
 - **Global Plastics Treaty:** Over 170 nations are negotiating a legally binding UN treaty to end plastic pollution, focusing on production caps and human health. The U.S. position remains ambiguous.
 ---
 ## 11. WHAT NEEDS TO HAPPEN (non-partisan & actionable)
-> 📢 **URGENT:** Tell Congress to restore $120M NIH nanoplastics research by Fall 2025
-**Immediate (FY-26 LHHS bill, markup 18 Sep 2025):** Re-insert the $120M/year NIH nanoplastics & autoimmune research line-item in the FY-26 LHHS bill. Deadline: 18 Sep 2025.
+> 📢 **URGENT:** Tell Congress to restore NIH nanoplastics research funding by Fall 2025
+**Immediate (FY-26 LHHS bill, markup pending):** Re-insert NIH nanoplastics & autoimmune research line-item in the FY-26 LHHS bill. Deadline: Fall 2025.
 **12 months:** FDA final guidance banning intentionally added micro/nanoplastics in IV fluids & infant formula.
 **24 months:** Implement a national bottle-deposit (≥ 10¢) and virgin-plastic tax to cut waste by 30% and fund independent safety research, per OECD models.
 **Ongoing:** Support state AG climate & health-cost suits; template amicus brief provided.
