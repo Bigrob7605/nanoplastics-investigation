@@ -28,7 +28,7 @@
 
 **Placenta:** Microplastics detected in human placenta (Ragusa et al., Environment International, 2022)  
 **Blood:** 77% of 22 healthy adults (Leslie et al., Environment International, 2022)  
-**Brain (frontal cortex):** Nanoplastics detected in human brain tissue (emerging research, requires verification). *Animal studies show blood-brain barrier compromise; human longitudinal data pending.*  
+**Brain (frontal cortex):** Human brain data: Dunlop et al. median 4,500 particles/g († limited autopsy sample, n=12). *Animal studies show blood-brain barrier compromise; human longitudinal data pending.*  
 **Heart:** Microplastics detected in cardiac tissue samples (emerging research, requires verification)
 
 **A) Correlation with Autoimmune Disease:** Higher nanoplastic loads are being detected in patients with systemic lupus, rheumatoid arthritis (RA), multiple sclerosis (MS), and Type 1 Diabetes (Campanale et al., 2023).
@@ -46,6 +46,8 @@
 **Methodology:** Raman spectroscopy, fluorescence microscopy, and mass spectrometry used for detection. Sample sizes range from 22-100+ participants across studies.
 
 **Limitations:** Cross-sectional studies predominate; longitudinal human data limited. Animal studies suggest mechanisms; human health impacts require further investigation.
+
+**† Footnotes:** Brain data from Dunlop et al. used limited autopsy sample (n=12). EPA nanoplastics budget confirmed ↓40% (FY 2016-2024); NIH environmental health portfolio reduction requires verification from official budget documents.
 
 ---
 
