@@ -48,18 +48,18 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 - Long-term health impacts not yet quantified
 ---
 ## 5. INDUSTRY DOCUMENTATION
-**Industry documents reveal limitations of recycling as a solution:**
-- **"Large-scale recycling is not technically or economically viable"** - SPI internal memo, 1973 (as cited in environmental law review, verification pending)
-- **"Use recycling to avoid regulation"** - American Chemistry Council, 2016 (as cited in regulatory analysis, verification pending)
-- **Pending litigation:** 12 states suing plastic manufacturers for health costs
-**⚠️ Document Verification:** Industry memo quotes require verification through court filings or public records. Direct links to original documents would strengthen these claims. These quotes are cited in secondary sources but need primary document verification.
+**Industry awareness and regulatory approaches:**
+- **Industry awareness:** Historical documents suggest industry recognition of recycling limitations dating back to the 1970s (requires primary source verification)
+- **Regulatory strategy:** Industry communications have referenced recycling as a regulatory approach (requires primary source verification)
+- **Pending litigation:** Multiple states pursuing legal action against plastic manufacturers for health costs
+**⚠️ Document Verification:** Industry document claims require verification through court filings or public records. Direct links to original documents would strengthen these claims.
 ---
 ## 6. THE 70-YEAR PAPER TRAIL
-**1973:** Society of the Plastics Industry memo— "Large-scale recycling is not technically or economically viable" (SPI, 14 Feb 1973, p. 3)
-**1990s-2020s:** PR plans cite recycling to "avoid regulation" (American Chemistry Council, internal slide deck, 2016, slide 7)
+**1973:** Industry documents suggest awareness of recycling limitations (requires primary source verification)
+**1990s-2020s:** Industry communications have referenced regulatory approaches (requires primary source verification)
 **2016-2024:**
 - EPA environmental health funding has declined in recent years (requires official budget document verification)
-- CDC environmental health grants ↓ 30% (FY 2023)
+- CDC environmental health grants reduced (FY 2023, requires official budget document verification)
 **The Pattern:** The documentation reveals a decades-long approach: minimize health risks, promote limited solutions (recycling), and reduce funding for government agencies responsible for public health oversight.
 **⚠️ Budget Verification:** Specific budget percentages require verification through official government budget documents. EPA budget reduction needs confirmation from official FY 2016-2024 budget documents. NIH environmental health portfolio reduction needs confirmation from official sources.
 ---
@@ -71,8 +71,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 | Nanoplastic Load in Brain | No baseline data | Emerging research | Requires verification |
 ---
 ## 8. HISTORICAL PRECEDENT
-**Took 50 years to act on tobacco, 30 years on asbestos, 20 years on lead paint - how long for nanoplastics?**
-The pattern is clear: delay costs lives and money.
+**Historical regulatory delays:** Tobacco (50 years), asbestos (30 years), lead paint (20 years) - regulatory action often follows scientific evidence by decades. The question is whether nanoplastics will follow this pattern.
 ---
 ## 9. ECONOMIC IMPACT
 - **Public Health Burden:** Autoimmune disease treatment now costs the U.S. over $100 billion annually.
@@ -102,10 +101,10 @@ The pattern is clear: delay costs lives and money.
 **Reporter DM:** "Nanoplastics detected in human tissues—emerging research shows contamination in placenta, blood, and brain. Source pack:" + URL.
 ---
 ## THE EVIDENCE MOUNTS
-**Inaction is now riskier than action.**
-Contamination has been documented in multiple studies. The memos are public. The litigation is pending.
-**Europe is acting. Insurance companies are investigating. States are suing.**
-The question is no longer "if" but "when" - and who will be held accountable.
+**The evidence continues to accumulate.**
+Contamination has been documented in multiple studies. Industry documents suggest awareness of limitations. Litigation is pending.
+**Europe is implementing regulations. Insurance companies are assessing risks. States are pursuing legal action.**
+The question is no longer "if" but "when" - and how the response will be structured.
 ---
 ## A NOTE ON THE EVIDENCE
 *This document synthesizes peer-reviewed findings and public records. Reported correlations do not imply causation. Health impact research remains emergent. Always consult primary sources.*
