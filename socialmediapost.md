@@ -1,15 +1,15 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated 2 Aug 2025, 19:30 with peer-reviewed data*
+*Updated 2 Aug 2025, 19:45 with peer-reviewed data*
 *Evidence-Based Analysis of Environmental Health Research*
 
-**📋 TL;DR:** Nanoplastics don't just contaminate human tissue—they now amplify deadly bacteria. Peer-reviewed, global, urgent. Immediate action required. See full evidence and recommendations below.
+**📋 TL;DR:** Nanoplastics contaminate human tissue—peer-reviewed studies confirm detection in placenta, blood, and brain. Research funding urgently needed. See full evidence and recommendations below.
 
 **🦠 CRISIS TIMELINE:** ⚠️ 1973 claims require verification → 2022: Tissues contaminated → ⚠️ 2025 claims require verification (bacterial amplification claims under review) → [Action now]
 
 ---
 
 **📋 What's New in this Update?**
-• **New peer-reviewed evidence:** Nanoplastics amplify pathogens, not just contaminate humans
+• **New peer-reviewed evidence:** Nanoplastics detected in human tissues across multiple studies
 • **⚠️ England E. coli statistics removed pending verification**
 • **Calls for urgent action:** Congressional, FDA, and hospital supply chain action needed
 
@@ -20,7 +20,7 @@
 
 **⚡ What Changed with This New Study?**
 **Before:** Nanoplastics contaminate our bodies
-**Now:** Nanoplastics amplify the bacteria that kill us
+**Now:** Nanoplastics detected in human tissues across multiple studies
 *⚠️ NOTE: England E. coli statistics removed pending verification of source accuracy.*
 
 ---
@@ -69,7 +69,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 - Specific health effects still under investigation
 - Dose-response relationships being studied
 - Long-term health impacts not yet quantified
-- How many other pathogens (Salmonella, MRSA) are similarly super-charged?
+- Health implications of nanoplastic exposure require further investigation
 ---
 ## 5. INDUSTRY DOCUMENTATION
 **Industry awareness and regulatory approaches:**
@@ -107,7 +107,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 ---
 ## 11. WHAT NEEDS TO HAPPEN (non-partisan & actionable)
 > 📢 **URGENT:** Tell Congress to restore NIH nanoplastics research funding by Fall 2025
-**Immediate (FY-26 LHHS bill, markup pending):** Re-insert NIH nanoplastics & autoimmune research line-item in the FY-26 LHHS bill. Deadline: Fall 2025.
+**Immediate (FY-26 LHHS bill, markup pending):** Re-insert NIH nanoplastics & autoimmune research line-item in the FY-26 LHHS bill. Deadline: Fall 2025. ⚠️ NOTE: Specific budget figures require verification from official government budget documents.
 **12 months:** FDA final guidance banning intentionally added micro/nanoplastics in IV fluids & infant formula.
 **24 months:** Implement a national bottle-deposit (≥ 10¢) and virgin-plastic tax to cut waste by 30% and fund independent safety research, per OECD models.
 **Ongoing:** Support state AG climate & health-cost suits; template amicus brief provided.
@@ -116,17 +116,17 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 ## 12. 🧵 ONE-CLICK TWEET THREAD
 **📱 [CLICK TO COPY TWEET THREAD]**
 
-🧵 BREAKING: Peer-reviewed studies confirm nanoplastics in human placenta, blood & brain. Yet NIH funding for follow-up health research is on the chopping block—again. Congress has 46 days to restore the $120 M line item or we fly blind. Full brief → https://bigrob7605.github.io/nanoplastics-investigation/ #PolicyChangeNow
+🧵 BREAKING: Peer-reviewed studies confirm nanoplastics in human placenta, blood & brain. Yet NIH funding for follow-up health research is on the chopping block—again. Congress has 46 days to restore research funding or we fly blind. Full brief → https://bigrob7605.github.io/nanoplastics-investigation/ #PolicyChangeNow
 ---
 ## 13. 📧 30-SECOND STAFFER EMAIL BLURB
 **📧 [CLICK TO COPY EMAIL BLURB]**
 
-**Subject:** Restore $120M NIH Nanoplastics Line-Item—Human Tissue Contamination Confirmed
+**Subject:** Restore NIH Nanoplastics Research Funding—Human Tissue Contamination Confirmed
 
-New peer-reviewed data confirms nanoplastics detected in human placenta, blood, and brain tissues. Research into health implications is urgently needed. Without restored NIH funding we cannot quantify the full scope of human exposure and potential health impacts. Re-insert the $120M line-item in the FY-26 LHHS bill before the 18 Sept markup.
+New peer-reviewed data confirms nanoplastics detected in human placenta, blood, and brain tissues. Research into health implications is urgently needed. Without restored NIH funding we cannot quantify the full scope of human exposure and potential health impacts. Re-insert the nanoplastics research line-item in the FY-26 LHHS bill before the 18 Sept markup.
 ---
 ## 14. BOTTOM LINE UPGRADE
-Yesterday: Nanoplastics contaminate our bodies. Today: Nanoplastics amplify the bacteria that kill us. Delay = stronger pathogens + weaker response.
+Yesterday: Nanoplastics contaminate our bodies. Today: Nanoplastics detected in human tissues across multiple studies. Research funding urgently needed to understand health implications.
 ---
 ## 15. 30-SECOND USE GUIDE
 **Staffer email:** Paste Sections 1-4 from above.
