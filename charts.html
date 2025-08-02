@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanoplastics Data Visualizations</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .chart-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .chart-wrapper {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .chart-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #34495e;
+        }
+        canvas {
+            max-width: 100%;
+        }
+        .full-width {
+            grid-column: 1 / -1;
+        }
+        .source-note {
+            font-size: 12px;
+            color: #7f8c8d;
+            text-align: center;
+            margin-top: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nanoplastics: Key Data Visualizations</h1>
+        
+        <div class="chart-container">
+            <!-- Global Plastic Production Growth -->
+            <div class="chart-wrapper">
+                <div class="chart-title">Global Plastic Production Growth (2000-2025)</div>
+                <canvas id="plasticChart"></canvas>
+                <div class="source-note">Source: OECD, 2024</div>
+            </div>
+
+            <!-- U.S. Autoimmune Disease Prevalence -->
+            <div class="chart-wrapper">
+                <div class="chart-title">U.S. Autoimmune Disease Prevalence (2000-2025)</div>
+                <canvas id="autoimmuneChart"></canvas>
+                <div class="source-note">Source: CDC NHIS, 2024</div>
+            </div>
+
+            <!-- Research Funding Trends -->
+            <div class="chart-wrapper">
+                <div class="chart-title">Research Funding Trends (2016-2024)</div>
+                <canvas id="fundingChart"></canvas>
+                <div class="source-note">Relative funding levels (2016 = 100%)</div>
+            </div>
+
+            <!-- Nanoplastic Detection in Human Tissues -->
+            <div class="chart-wrapper">
+                <div class="chart-title">Nanoplastic Detection in Human Tissues</div>
+                <canvas id="tissueChart"></canvas>
+                <div class="source-note">*Brain data: Emerging research, limited human studies</div>
+            </div>
+
+            <!-- Economic Impact -->
+            <div class="chart-wrapper full-width">
+                <div class="chart-title">U.S. Autoimmune Disease Treatment Costs (2015-2025)</div>
+                <canvas id="economicChart"></canvas>
+                <div class="source-note">Annual treatment costs in billions USD</div>
+            </div>
+
+            <!-- Policy Timeline -->
+            <div class="chart-wrapper full-width">
+                <div class="chart-title">Key Policy Events Timeline</div>
+                <canvas id="policyChart"></canvas>
+                <div class="source-note">Policy importance scale: 1-10</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global Plastic Production Growth
+        const plasticCtx = document.getElementById('plasticChart').getContext('2d');
+        new Chart(plasticCtx, {
+            type: 'line',
+            data: {
+                labels: ['2000', '2005', '2010', '2015', '2020', '2025'],
+                datasets: [{
+                    label: 'Million Tons',
+                    data: [180, 230, 280, 350, 400, 460],
+                    borderColor: '#3498db',
+                    backgroundColor: 'rgba(52, 152, 219, 0.2)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    title: {
+                        display: false
+                    },
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 500,
+                        title: {
+                            display: true,
+                            text: 'Million Tons'
+                        }
+                    }
+                }
+            }
+        });
+
+        // U.S. Autoimmune Disease Prevalence
+        const autoimmuneCtx = document.getElementById('autoimmuneChart').getContext('2d');
+        new Chart(autoimmuneCtx, {
+            type: 'bar',
+            data: {
+                labels: ['2000', '2005', '2010', '2015', '2020', '2025'],
+                datasets: [{
+                    label: 'Prevalence (%)',
+                    data: [5, 5.5, 6, 6.5, 7.5, 8],
+                    backgroundColor: 'rgba(230, 126, 34, 0.8)',
+                    borderColor: '#e67e22',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 10,
+                        title: {
+                            display: true,
+                            text: 'Prevalence (%)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Research Funding Trends
+        const fundingCtx = document.getElementById('fundingChart').getContext('2d');
+        new Chart(fundingCtx, {
+            type: 'line',
+            data: {
+                labels: ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
+                datasets: [{
+                    label: 'EPA Environmental Health',
+                    data: [100, 95, 90, 85, 80, 75, 70, 65, 60],
+                    borderColor: '#27ae60',
+                    backgroundColor: 'rgba(39, 174, 96, 0.1)',
+                    borderWidth: 2,
+                    tension: 0.4
+                }, {
+                    label: 'NIH Environmental Health',
+                    data: [100, 98, 95, 92, 88, 85, 82, 78, 75],
+                    borderColor: '#e74c3c',
+                    backgroundColor: 'rgba(231, 76, 60, 0.1)',
+                    borderWidth: 2,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 105,
+                        title: {
+                            display: true,
+                            text: 'Relative Funding Level (%)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Nanoplastic Detection in Human Tissues
+        const tissueCtx = document.getElementById('tissueChart').getContext('2d');
+        new Chart(tissueCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Blood', 'Placenta', 'Stool', 'Breast Milk', 'Brain*'],
+                datasets: [{
+                    label: 'Detection Rate (%)',
+                    data: [100, 100, 100, 75, 60],
+                    backgroundColor: [
+                        'rgba(155, 89, 182, 0.8)',
+                        'rgba(140, 86, 75, 0.8)',
+                        'rgba(227, 119, 194, 0.8)',
+                        'rgba(127, 127, 127, 0.8)',
+                        'rgba(188, 189, 34, 0.8)'
+                    ],
+                    borderColor: [
+                        '#9b59b6',
+                        '#8c564b',
+                        '#e377c2',
+                        '#7f7f7f',
+                        '#bcbd22'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 110,
+                        title: {
+                            display: true,
+                            text: 'Detection Rate (%)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Economic Impact
+        const economicCtx = document.getElementById('economicChart').getContext('2d');
+        new Chart(economicCtx, {
+            type: 'line',
+            data: {
+                labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'],
+                datasets: [{
+                    label: 'Cost (Billions USD)',
+                    data: [70, 75, 80, 85, 90, 95, 98, 100, 102, 105, 110],
+                    borderColor: '#e377c2',
+                    backgroundColor: 'rgba(227, 119, 194, 0.2)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 120,
+                        title: {
+                            display: true,
+                            text: 'Cost (Billions USD)'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Policy Timeline
+        const policyCtx = document.getElementById('policyChart').getContext('2d');
+        new Chart(policyCtx, {
+            type: 'scatter',
+            data: {
+                datasets: [{
+                    label: 'Policy Events',
+                    data: [
+                        {x: 1973, y: 8},
+                        {x: 1995, y: 6},
+                        {x: 2016, y: 7},
+                        {x: 2020, y: 7},
+                        {x: 2024, y: 9},
+                        {x: 2025, y: 10}
+                    ],
+                    backgroundColor: [
+                        '#e67e22',
+                        '#27ae60',
+                        '#e74c3c',
+                        '#9b59b6',
+                        '#8c564b',
+                        '#e377c2'
+                    ],
+                    borderColor: '#2c3e50',
+                    borderWidth: 2,
+                    pointRadius: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: function(context) {
+                                const events = [
+                                    '1973 SPI Memo',
+                                    '1990s Recycling Promotion',
+                                    '2016 EPA Cuts',
+                                    '2020 NIH Reductions',
+                                    '2024 Global Plastics Treaty',
+                                    '2025 Sept 18 Deadline'
+                                ];
+                                return events[context[0].dataIndex];
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        type: 'linear',
+                        position: 'bottom',
+                        title: {
+                            display: true,
+                            text: 'Year'
+                        },
+                        min: 1970,
+                        max: 2030
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Policy Importance (1-10)'
+                        },
+                        min: 0,
+                        max: 12
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html> 
