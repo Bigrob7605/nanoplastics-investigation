@@ -1,5 +1,5 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated August 2, 2025 - 1:34 PM with peer-reviewed data*
+*Updated August 2, 2025 - 2:05 PM with peer-reviewed data*
 
 *Evidence-Based Analysis of Environmental Health Research*
 
@@ -55,7 +55,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 
 **Limitations:** Cross-sectional studies predominate; longitudinal human data limited. Animal studies suggest mechanisms; human health impacts require further investigation.
 
-**† Footnotes:** Brain data from Dunlop et al. used limited autopsy sample (n=12). Blood study sample size (n=22) is small but significant. EPA nanoplastics budget confirmed ↓40% (FY 2016-2024); NIH environmental health portfolio reduction requires verification from official budget documents.
+**† Footnotes:** Brain data from Dunlop et al. used limited autopsy sample (n=12). Blood study sample size (n=22) is small but significant. EPA environmental health funding has declined in recent years; NIH environmental health portfolio reduction requires verification from official budget documents.
 
 ---
 
@@ -93,7 +93,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 **1990s-2020s:** PR plans cite recycling to "avoid regulation" (American Chemistry Council, internal slide deck, 2016, slide 7)
 
 **2016-2024:**
-- EPA nanoplastics budget ↓ 40% (FY 2016 → FY 2024) (requires official budget document verification)
+- EPA environmental health funding has declined in recent years (requires official budget document verification)
 - CDC environmental health grants ↓ 30% (FY 2023)
 
 **The Pattern:** The documentation reveals a decades-long approach: minimize health risks, promote limited solutions (recycling), and reduce funding for government agencies responsible for public health oversight.
@@ -168,7 +168,7 @@ The pattern is clear: delay costs lives and money.
 
 **Inaction is now riskier than action.**
 
-The contamination is documented. The memos are public. The litigation is pending.
+Contamination has been documented in multiple studies. The memos are public. The litigation is pending.
 
 **Europe is acting. Insurance companies are investigating. States are suing.**
 
