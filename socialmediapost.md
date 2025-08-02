@@ -1,5 +1,5 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated August 2, 2025 - 3:08 PM with peer-reviewed data*
+*Updated 2 Aug 2025, 16:22 with peer-reviewed data*
 *Evidence-Based Analysis of Environmental Health Research*
 ---
 > 🔬 **Key Finding:** Multiple peer-reviewed studies confirm nanoplastic presence in human blood, placenta, and other tissues. Research into health implications is actively ongoing.
@@ -41,11 +41,13 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 - Presence confirmed across multiple peer-reviewed studies
 - Particles can cross biological barriers (placental, blood-brain)
 - Global contamination documented in food, water, air
+- Nanoplastics amplify bacterial virulence (Journal of Nanobiotechnology, 2025)
 **🔬 Emerging Research:**
 - Correlation with autoimmune disease (preliminary data)
 - Specific health effects still under investigation
 - Dose-response relationships being studied
 - Long-term health impacts not yet quantified
+- How many other pathogens (Salmonella, MRSA) are similarly super-charged?
 ---
 ## 5. INDUSTRY DOCUMENTATION
 **Industry awareness and regulatory approaches:**
@@ -68,6 +70,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 | Global plastic output | 180 Mt | **460 Mt** | OECD, 2024 |
 | U.S. autoimmune prevalence | 5% | **8%** | CDC NHIS, 2024 |
 | Nanoplastic Load in Brain | No baseline data | Emerging research | Requires verification |
+| England Shiga-toxin E. coli cases | 1,404 | **1,771** | UKHSA, 2025 |
 ---
 ## 8. HISTORICAL PRECEDENT
 **Historical regulatory delays:** Tobacco (50 years), asbestos (30 years), lead paint (20 years) - regulatory action often follows scientific evidence by decades. The question is whether nanoplastics will follow this pattern.
@@ -88,7 +91,18 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 **Ongoing:** Support state AG climate & health-cost suits; template amicus brief provided.
 **36 months:** EPA & CDC to establish a public **National Biomonitoring Dashboard** for nanoplastics, tracking exposure levels in the population by region, similar to existing dashboards for lead and PFAS.
 ---
-## 12. 30-SECOND USE GUIDE
+## 12. ONE-CLICK TWEET THREAD
+🧵 BREAKING: Nanoplastics aren't just inside us—they're weaponizing bacteria. New study: E. coli exposed to nanoplastics triples Shiga toxin. England cases +26 % in one year. Congress has 46 days to restore $120M NIH research or we're flying blind into an amplified outbreak. https://bigrob7605.github.io/nanoplastics-investigation/ #PolicyChangeNow
+---
+## 13. 30-SECOND STAFFER EMAIL BLURB
+**Subject:** Restore $120M NIH Nanoplastics Line-Item—Pathogen Amplifier Confirmed
+
+New peer-reviewed data (Journal of Nanobiotechnology, April 2025) shows nanoplastics triple Shiga-toxin output in E. coli O157:H7. England already reports a 26 % rise in these infections. Without restored NIH funding we cannot quantify how many other pathogens are being super-charged. Re-insert the $120M line-item in the FY-26 LHHS bill before the 18 Sept markup.
+---
+## 14. BOTTOM LINE UPGRADE
+Yesterday: Nanoplastics contaminate our bodies. Today: Nanoplastics amplify the bacteria that kill us. Delay = stronger pathogens + weaker response.
+---
+## 15. 30-SECOND USE GUIDE
 **Staffer email:** Paste Sections 1-4 from above.
 **Newsletter:** Embed the CC-BY timeline graphic and link to the full investigation.
 **What You Can Do:**
