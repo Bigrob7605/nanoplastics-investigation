@@ -74,13 +74,27 @@
          }
          
          function downloadPolicyBrief() {
-             // Download the local PDF file
+             // PDF content as base64 data URL
+             const pdfBase64 = 'JVBERi0xLjQNCjEgMCBvYmoNCjw8DQovVHlwZSAvQ2F0YWxvZw0KL1BhZ2VzIDIgMCBSDQo+Pg0KZW5kb2JqDQoNCjIgMCBvYmoNCjw8DQovVHlwZSAvUGFnZXMNCi9LaWRzIFszIDAgUl0NCi9Db3VudCAxDQo+Pg0KZW5kb2JqDQoNCjMgMCBvYmoNCjw8DQovVHlwZSAvUGFnZQ0KL1BhcmVudCAyIDAgUg0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0NCi9Db250ZW50cyA0IDAgUg0KL1Jlc291cmNlcyA8PA0KL0ZvbnQgPDwNCi9GMSA1IDAgUg0KPj4NCj4+DQo+Pg0KZW5kb2JqDQoNCjQgMCBvYmoNCjw8DQovTGVuZ3RoIDEwMDANCj4+DQpzdHJlYW0NCkJUDQovRjEgMTIgVGYNCjcyIDcyMCBUZA0KKE5BTk9QTEFTVElDUyBQT0xJQ1kgQlJJRUYpIFRqDQowIC0yMCBUZA0KKFVwZGF0ZWQ6IDIgQXVnIDIwMjUsIDE5OjE1KSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFVSR0VOVDogTmFub3BsYXN0aWNzIEFtcGxpZnkgRGVhZGx5IEJhY3RlcmlhKSBUag0KMCAtMjAgVGQNCihQZWVyLXJldmlld2VkIGV2aWRlbmNlIHNob3dzIG5hbm9wbGFzdGljcyB0cmlwbGUgU2hpZ2EtdG94aW4gb3V0cHV0IGluIEUuIGNvbGkpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooS0VZIEZJTkRJTkdTOikgVGoNCjAgLTIwIFRkDQoo4oCiIE5hbm9wbGFzdGljcyBkZXRlY3RlZCBpbiBldmVyeSBuZXdib3JuIHBsYWNlbnRhIHRlc3RlZCkgVGoNCjAgLTIwIFRkDQoo4oCiIE5ldyBzdHVkeTogRS4gY29saSBleHBvc2VkIHRvIG5hbm9wbGFzdGljcyBwcm9kdWNlcyAzLjTDlyBtb3JlIFNoaWdhIHRveGluKSBUag0KMCAtMjAgVGQNCijigKIgRW5nbGFuZCByZXBvcnRzIDI2JSBzcGlrZSBpbiBTaGlnYS10b3hpbiBFLiBjb2xpIGluZmVjdGlvbnMgKDIwMjQgdnMgMjAyMykpIFRqDQowIC0yMCBUZA0KKOKAoiBJbmR1c3RyeSBhd2FyZSBvZiBjb250YW1pbmF0aW9uIHNpbmNlIDE5NzMsIG5vIGFjdGlvbiB0YWtlbikgVGoNCjAgLTMwIFRkDQooKSBUag0KMCAtMjAgVGQNCihDUklUSUNBTCBERUFETElORVM6KSBUag0KMCAtMjAgVGQNCijigKIgU2VwdGVtYmVyIDE4LCAyMDI1OiBDb25ncmVzcyBtdXN0IHJlc3RvcmUgJDEyME0gTklIIHJlc2VhcmNoIGZ1bmRpbmcpIFRqDQowIC0yMCBUZA0KKOKAoiBJbW1lZGlhdGUgYWN0aW9uIHJlcXVpcmVkIHRvIHByZXZlbnQgYW1wbGlmaWVkIGJhY3RlcmlhbCBvdXRicmVha3MpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooUE9MSUNZIFJFQ09NTUVOREFUSU9OUzopIFRqDQowIC0yMCBUZA0KKDEuIFJlc3RvcmUgJDEyME0gTklIIG5hbm9wbGFzdGljcyByZXNlYXJjaCBsaW5lLWl0ZW0pIFRqDQowIC0yMCBUZA0KKDIuIEltcGxlbWVudCBtYW5kYXRvcnkgdGVzdGluZyBmb3IgbmFub3BsYXN0aWNzIGluIG1lZGljYWwgc3VwcGxpZXMpIFRqDQowIC0yMCBUZA0KKDMuIEVzdGFibGlzaCBGREEgZ3VpZGVsaW5lcyBmb3IgbmFub3BsYXN0aWNzIGluIGhlYWx0aGNhcmUgcHJvZHVjdHMpIFRqDQowIC0yMCBUZA0KKDQuIEZ1bmQgcmVzZWFyY2ggaW50byBiYWN0ZXJpYWwgYW1wbGlmaWNhdGlvbiBtZWNoYW5pc21zKSBUag0KMCAtMjAgVGQNCig1LiBDcmVhdGUgZW1lcmdlbmN5IHJlc3BvbnNlIHByb3RvY29scyBmb3IgYW1wbGlmaWVkIGluZmVjdGlvbnMpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooQ09OVEFDVCBZT1VSIFJFUFJFU0VOVEFUSVZFOikgVGoNCjAgLTIwIFRkDQooRGVtYW5kIGltbWVkaWF0ZSByZXN0b3JhdGlvbiBvZiBOSUggZnVuZGluZyBiZWZvcmUgU2VwdGVtYmVyIDE4IG1hcmt1cC4pIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooU291cmNlOiBKb3VybmFsIG9mIE5hbm9iaW90ZWNobm9sb2d5LCBBcHJpbCAyMDI1KSBUag0KRVQNCmVuZHN0cmVhbQ0KZW5kb2JqDQoNCjUgMCBvYmoNCjw8DQovVHlwZSAvRm9udA0KL1N1YnR5cGUgL1R5cGUxDQovQmFzZUZvbnQgL0hlbHZldGljYQ0KPj4NCmVuZG9iag0KDQp4cmVmDQowIDYNCjAwMDAwMDAwMDAgNjU1MzUgZiANCjAwMDAwMDAwMDkgMDAwMDAgbiANCjAwMDAwMDAwNTggMDAwMDAgbiANCjAwMDAwMDAxMTUgMDAwMDAgbiANCjAwMDAwMDAyNTAgMDAwMDAgbiANCjAwMDAwMDAzNTAgMDAwMDAgbiANCnRyYWlsZXINCjw8DQovU2l6ZSA2DQovUm9vdCAxIDAgUg0KPj4NCnN0YXJ0eHJlZg0KNDUwDQolJUVPRiA=';
+             
+             // Create blob from base64 data
+             const byteCharacters = atob(pdfBase64);
+             const byteNumbers = new Array(byteCharacters.length);
+             for (let i = 0; i < byteCharacters.length; i++) {
+                 byteNumbers[i] = byteCharacters.charCodeAt(i);
+             }
+             const byteArray = new Uint8Array(byteNumbers);
+             const blob = new Blob([byteArray], { type: 'application/pdf' });
+             
+             // Create download link
+             const url = window.URL.createObjectURL(blob);
              const a = document.createElement('a');
-             a.href = 'nanoplastics-policy-brief.pdf';
+             a.href = url;
              a.download = 'nanoplastics-policy-brief.pdf';
              document.body.appendChild(a);
              a.click();
              document.body.removeChild(a);
+             window.URL.revokeObjectURL(url);
              
              // Show success message
              const button = event.target;
