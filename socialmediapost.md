@@ -7,7 +7,7 @@
 
 > 🔖 **TL;DR:** Nanoplastics found in every newborn's placenta; industry knew recycling was a lie since 1973.
 
-**🚨 BREAKING:** Every newborn tested contains nanoplastics in placenta. 240,000 particles per liter in bottled water. Industry memos show they knew recycling wouldn't work since 1973. Congress must restore $120M NIH funding by Sept 18.
+**🚨 BREAKING:** Every newborn tested has nanoplastics in the placenta. Industry knew recycling wouldn't work in 1973. Congress has 38 days to restore $120M NIH research.
 
 ---
 
@@ -127,7 +127,7 @@ The pattern is clear: delay costs lives and money.
 
 > 📢 **URGENT:** Tell Congress to restore $120M NIH nanoplastics research by Sept 18
 
-**Immediate (FY-26 LHHS bill, markup 18 Sep 2025):** Restore $120M/year NIH nanoplastics & autoimmune research line-item to fund urgent studies on health impacts, currently stalled by budget cuts.
+**Immediate (FY-26 LHHS bill, markup 18 Sep 2025):** Re-insert the $120M/year NIH nanoplastics & autoimmune research line-item in the FY-26 LHHS bill. Deadline: 18 Sep 2025.
 
 **12 months:** FDA final guidance banning intentionally added micro/nanoplastics in IV fluids & infant formula.
 
