@@ -1,14 +1,14 @@
-# The Invisible Invasion: Nanoplastics and the American Autoimmune Epidemic
+# Nanoplastics in Human Tissues: Scientific Evidence and Policy Implications
 
-A comprehensive scientific investigation into the link between nanoplastics and the rising autoimmune disease epidemic in the United States, revealing a 70-year industry deception.
+A comprehensive evidence-based analysis of peer-reviewed research on nanoplastic contamination in human tissues and the implications for public health policy.
 
 ## About This Project
 
 This is a static HTML website that presents peer-reviewed scientific research on:
 - The presence of nanoplastics in human tissues and organs
-- Biological mechanisms linking nanoplastic exposure to autoimmune disease
-- The 70-year cover-up by the petrochemical industry
-- Evidence connecting specific autoimmune conditions to plastic exposure
+- Evidence-based analysis of health implications
+- Policy recommendations based on scientific findings
+- Research gaps and funding needs
 
 ## Technical Details
 
@@ -35,11 +35,10 @@ This site is configured for GitHub Pages with:
 ## Research Sources
 
 Key scientific sources include:
-- Yale Climate Connections
-- BMJ Global Health
-- MDPI Journals
-- Autoimmune Institute
-- Peer-reviewed studies on nanoplastic health effects
+- Peer-reviewed studies on nanoplastic detection in human tissues
+- Government data on environmental health
+- Evidence-based policy analysis
+- Scientific literature on microplastics and health
 
 ## Contact
 
@@ -47,4 +46,4 @@ For questions about the scientific content or technical implementation, please r
 
 ---
 
-*This investigation presents evidence-based research on a critical public health issue. All claims are supported by peer-reviewed scientific literature.* 
+*This investigation presents evidence-based research on nanoplastic contamination in human tissues. All claims are supported by peer-reviewed scientific literature and government data.* 
