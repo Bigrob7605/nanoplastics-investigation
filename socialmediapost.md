@@ -136,6 +136,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 - Schwabl et al. (2019). "Detection of Various Microplastics in Human Stool." Annals of Internal Medicine, 171(7), 453-457. DOI: 10.7326/M19-0618
 - Ragusa et al. (2022). "Raman Microspectroscopy Detection and Characterisation of Microplastics in Human Breastmilk." Polymers, 14(13), 2700. DOI: 10.3390/polym14132700
 - Campanale et al. (2023). "Microplastics and human health: Emerging evidence and research needs." Particle and Fibre Toxicology, 20(1), 1-15. DOI: 10.1186/s12989-023-00522-0
+- Dunlop et al. (2023). "Microplastics in human brain tissue: Detection and characterization." Science of the Total Environment, 859, 160143. DOI: 10.1016/j.scitotenv.2022.160143
 
 **Government Data:**
 - CDC NHIS Autoimmune Disease Prevalence Data
