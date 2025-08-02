@@ -101,7 +101,7 @@ The pattern is clear: delay costs lives and money.
 - Share this resource with friends, reporters, and policymakers
 **Reporter DM:** "Nanoplastics detected in human tissues—emerging research shows contamination in placenta, blood, and brain. Source pack:" + URL.
 ---
-## THE EQUATION FLIPPED
+## THE EVIDENCE MOUNTS
 **Inaction is now riskier than action.**
 Contamination has been documented in multiple studies. The memos are public. The litigation is pending.
 **Europe is acting. Insurance companies are investigating. States are suing.**
@@ -112,11 +112,11 @@ The question is no longer "if" but "when" - and who will be held accountable.
 ---
 ## PRIMARY SOURCES & CITATIONS
 **Peer-Reviewed Studies:**
-- Leslie et al. (2022). "Discovery and quantification of plastic particle pollution in human blood." Environment International, 163, 107199.
-- Na et al. (2024). "Rapid single-particle chemical imaging of nanoplastics in bottled water." Proceedings of the National Academy of Sciences, 121(3), e2300582121.
-- Schwabl et al. (2019). "Detection of Various Microplastics in Human Stool." Annals of Internal Medicine, 171(7), 453-457.
-- Ragusa et al. (2022). "Raman Microspectroscopy Detection and Characterisation of Microplastics in Human Breastmilk." Polymers, 14(13), 2700.
-- Campanale et al. (2023). "Microplastics and human health: Emerging evidence and research needs." Particle and Fibre Toxicology, 20(1), 1-15.
+- Leslie et al. (2022). "Discovery and quantification of plastic particle pollution in human blood." Environment International, 163, 107199. DOI: 10.1016/j.envint.2022.107199
+- Na et al. (2024). "Rapid single-particle chemical imaging of nanoplastics in bottled water." Proceedings of the National Academy of Sciences, 121(3), e2300582121. DOI: 10.1073/pnas.2300582121
+- Schwabl et al. (2019). "Detection of Various Microplastics in Human Stool." Annals of Internal Medicine, 171(7), 453-457. DOI: 10.7326/M19-0618
+- Ragusa et al. (2022). "Raman Microspectroscopy Detection and Characterisation of Microplastics in Human Breastmilk." Polymers, 14(13), 2700. DOI: 10.3390/polym14132700
+- Campanale et al. (2023). "Microplastics and human health: Emerging evidence and research needs." Particle and Fibre Toxicology, 20(1), 1-15. DOI: 10.1186/s12989-023-00522-0
 **Industry Documents:**
 - Society of the Plastics Industry (1973). Internal memo on recycling feasibility.
 - American Chemistry Council (2016). Internal slide deck on regulatory strategy.
