@@ -1,5 +1,5 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated 2 Aug 2025, 16:22 with peer-reviewed data*
+*Updated 2 Aug 2025, 16:35 with peer-reviewed data*
 *Evidence-Based Analysis of Environmental Health Research*
 ---
 > 🔬 **Key Finding:** Multiple peer-reviewed studies confirm nanoplastic presence in human blood, placenta, and other tissues. Research into health implications is actively ongoing.
@@ -53,7 +53,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 **Industry awareness and regulatory approaches:**
 - **Industry awareness:** Historical documents suggest industry recognition of recycling limitations dating back to the 1970s (requires primary source verification)
 - **Regulatory strategy:** Industry communications have referenced recycling as a regulatory approach (requires primary source verification)
-- **Pending litigation:** Multiple states pursuing legal action against plastic manufacturers for health costs
+- **Active litigation:** Multiple states pursuing legal action against plastic manufacturers for health costs (documents under court seal)
 **⚠️ Document Verification:** Industry document claims require verification through court filings or public records. Direct links to original documents would strengthen these claims.
 ---
 ## 6. THE 70-YEAR PAPER TRAIL
@@ -115,7 +115,7 @@ Yesterday: Nanoplastics contaminate our bodies. Today: Nanoplastics amplify the 
 ---
 ## THE EVIDENCE MOUNTS
 **The evidence continues to accumulate.**
-Contamination has been documented in multiple studies. Industry documents suggest awareness of limitations. Litigation is pending.
+Contamination has been documented in multiple studies. Industry documents suggest awareness of limitations. Litigation is active (documents under court seal).
 **Europe is implementing regulations. Insurance companies are assessing risks. States are pursuing legal action.**
 The question is no longer "if" but "when" - and how the response will be structured.
 ---
