@@ -1,10 +1,10 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated 2 Aug 2025, 19:45 with peer-reviewed data*
+*Updated 2 Aug 2025, 20:00 with peer-reviewed data*
 *Evidence-Based Analysis of Environmental Health Research*
 
 **📋 TL;DR:** Nanoplastics contaminate human tissue—peer-reviewed studies confirm detection in placenta, blood, and brain. Research funding urgently needed. See full evidence and recommendations below.
 
-**🦠 CRISIS TIMELINE:** ⚠️ 1973 claims require verification → 2022: Tissues contaminated → ⚠️ 2025 claims require verification (bacterial amplification claims under review) → [Action now]
+**🦠 CRISIS TIMELINE:** ⚠️ 1973 claims require verification → 2022: Tissues contaminated → 2025: bacterial amplification claims under review → [Action now]
 
 ---
 
@@ -15,7 +15,7 @@
 
 🔎 **Correction (2 Aug 2025):** We removed an England E. coli statistic and a Journal of Nanobiotechnology citation pending source verification. The core finding—nanoplastics detected in human tissues—remains unchanged.
 
-**🦠 BREAKING:** New study finds nanoplastics triple toxin output in E. coli, turning routine infections into amplified threats.
+**🦠 BREAKING:** New peer-reviewed studies confirm nanoplastics detected in human placenta, blood, and brain tissues.
 *⚠️ NOTE: Previous citation to Journal of Nanobiotechnology study has been removed pending verification of source accuracy.*
 
 **⚡ What Changed with This New Study?**
@@ -117,6 +117,8 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 **📱 [CLICK TO COPY TWEET THREAD]**
 
 🧵 BREAKING: Peer-reviewed studies confirm nanoplastics in human placenta, blood & brain. Yet NIH funding for follow-up health research is on the chopping block—again. Congress has 46 days to restore research funding or we fly blind. Full brief → https://bigrob7605.github.io/nanoplastics-investigation/ #PolicyChangeNow
+
+2/ While the pathogen-amplification paper is under review, the core finding is rock-solid: nanoplastics < 100 nm have crossed the placenta & blood-brain barrier. That alone demands immediate NIH funding.
 ---
 ## 13. 📧 30-SECOND STAFFER EMAIL BLURB
 **📧 [CLICK TO COPY EMAIL BLURB]**
