@@ -1,5 +1,5 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated 2 Aug 2025, 16:58 with peer-reviewed data*
+*Updated 2 Aug 2025, 17:02 with peer-reviewed data*
 *Evidence-Based Analysis of Environmental Health Research*
 
 **🦠 CRISIS TIMELINE:** 1973: Industry aware → 2022: Tissues contaminated → 2025: Bacteria amplified (3.4× more Shiga toxin in E. coli) → [Action now]
@@ -163,8 +163,8 @@ The question is no longer "if" but "when" - and how the response will be structu
 🔗 **Interactive source list & PDF links:**  
 https://bigrob7605.github.io/nanoplastics-investigation/
 ---
-## DATA VISUALIZATIONS
-**Interactive charts available at the website show:**
+## 📊 DATA VISUALIZATIONS
+**📈 Full Interactive Charts Suite Available:**
 - Global plastic production growth (180 Mt → 460 Mt, 2000-2025)
 - U.S. autoimmune disease prevalence (5% → 8%, 2000-2025)
 - Research funding trends (EPA/NIH environmental health cuts)
@@ -172,7 +172,8 @@ https://bigrob7605.github.io/nanoplastics-investigation/
 - Economic impact of autoimmune disease costs ($70B → $110B, 2015-2025)
 - Key policy events timeline (1973-2025)
 
-**View all charts:** https://bigrob7605.github.io/nanoplastics-investigation/
+**🎯 View All Charts & Data:** https://bigrob7605.github.io/nanoplastics-investigation/charts.html
+*Perfect for researchers, policymakers, and data enthusiasts*
 
 **📬 Media contact:** screwball7605@aol.com
 
