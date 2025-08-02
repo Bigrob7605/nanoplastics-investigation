@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Comprehensive analysis of nanoplastics in human tissues based on peer-reviewed research and policy implications."/>
+    <meta name="description" content="Evidence-based analysis of nanoplastic contamination in human tissues and policy recommendations."/>
     <meta name="keywords" content="nanoplastics, microplastics, environmental health, public health, scientific research"/>
     <meta name="author" content="Environmental Health Research Team"/>
     <meta property="og:title" content="Nanoplastics: Scientific Evidence and Health Implications"/>
@@ -15,101 +15,64 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-         <script>
-         mermaid.initialize({ startOnLoad: true });
-         
-         function copyTweet() {
-             const tweetText = document.getElementById('tweet-text').textContent;
-             const fullTweet = tweetText + '\n\nhttps://bigrob7605.github.io/nanoplastics-investigation\n\n#Nanoplastics #MicroplasticsInBlood #AutoimmuneCrisis #PlasticLies #PolicyChangeNow';
-             
-             navigator.clipboard.writeText(fullTweet).then(function() {
-                 const button = event.target;
-                 const originalText = button.textContent;
-                 button.textContent = '✅ Copied!';
-                 button.classList.remove('bg-blue-500', 'hover:bg-blue-600');
-                 button.classList.add('bg-green-500');
-                 
-                 setTimeout(function() {
-                     button.textContent = originalText;
-                     button.classList.remove('bg-green-500');
-                     button.classList.add('bg-blue-500', 'hover:bg-blue-600');
-                 }, 2000);
-             });
-         }
-         
-         function copyEmail() {
-             const emailText = document.getElementById('email-text').textContent;
-             
-             navigator.clipboard.writeText(emailText).then(function() {
-                 const button = event.target;
-                 const originalText = button.textContent;
-                 button.textContent = '✅ Copied!';
-                 button.classList.remove('bg-green-500', 'hover:bg-green-600');
-                 button.classList.add('bg-blue-500');
-                 
-                 setTimeout(function() {
-                     button.textContent = originalText;
-                     button.classList.remove('bg-blue-500');
-                     button.classList.add('bg-green-500', 'hover:bg-green-600');
-                 }, 2000);
-             });
-         }
-         
-         function copyPageLink() {
-             const pageUrl = window.location.href;
-             
-             navigator.clipboard.writeText(pageUrl).then(function() {
-                 const button = event.target;
-                 const originalText = button.textContent;
-                 button.textContent = '✅ Link Copied!';
-                 button.classList.remove('bg-green-600', 'hover:bg-green-700');
-                 button.classList.add('bg-blue-600');
-                 
-                 setTimeout(function() {
-                     button.textContent = originalText;
-                     button.classList.remove('bg-blue-600');
-                     button.classList.add('bg-green-600', 'hover:bg-green-700');
-                 }, 2000);
-             });
-         }
-         
-         function downloadPolicyBrief() {
-             // PDF content as base64 data URL
-             const pdfBase64 = 'JVBERi0xLjQNCjEgMCBvYmoNCjw8DQovVHlwZSAvQ2F0YWxvZw0KL1BhZ2VzIDIgMCBSDQo+Pg0KZW5kb2JqDQoNCjIgMCBvYmoNCjw8DQovVHlwZSAvUGFnZXMNCi9LaWRzIFszIDAgUl0NCi9Db3VudCAxDQo+Pg0KZW5kb2JqDQoNCjMgMCBvYmoNCjw8DQovVHlwZSAvUGFnZQ0KL1BhcmVudCAyIDAgUg0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0NCi9Db250ZW50cyA0IDAgUg0KL1Jlc291cmNlcyA8PA0KL0ZvbnQgPDwNCi9GMSA1IDAgUg0KPj4NCj4+DQo+Pg0KZW5kb2JqDQoNCjQgMCBvYmoNCjw8DQovTGVuZ3RoIDEwMDANCj4+DQpzdHJlYW0NCkJUDQovRjEgMTIgVGYNCjcyIDcyMCBUZA0KKE5BTk9QTEFTVElDUyBQT0xJQ1kgQlJJRUYpIFRqDQowIC0yMCBUZA0KKFVwZGF0ZWQ6IDIgQXVnIDIwMjUsIDE5OjE1KSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFVSR0VOVDogTmFub3BsYXN0aWNzIFJlc2VhcmNoIFN0YXR1cykgVGoNCjAgLTIwIFRkDQooQ29udGVudCB1cGRhdGVkIHRvIHJlbW92ZSB1bnZlcmlmaWVkIGNsYWltcykgVGoNCjAgLTMwIFRkDQooKSBUag0KMCAtMjAgVGQNCihLRVkgRklORElOR1M6KSBUag0KMCAtMjAgVGQNCijigKIgTmFub3BsYXN0aWNzIGRldGVjdGVkIGluIGh1bWFuIHRpc3N1ZXMpIFRqDQowIC0yMCBUZA0KKOKAoiBSZXNlYXJjaCBpbnRvIGhlYWx0aCBpbXBhY3RzIG9uZ29pbmcpIFRqDQowIC0yMCBUZA0KKOKAoiBDbGFpbXMgYWJvdXQgYmFjdGVyaWFsIGFtcGxpZmljYXRpb24gcmVtb3ZlZCBwZW5kaW5nIHZlcmlmaWNhdGlvbikgVGoNCjAgLTIwIFRkDQoo4oCiIEVuZ2xhbmQgRy4gY29saSBzdGF0aXN0aWNzIHJlbW92ZWQgcGVuZGluZyB2ZXJpZmljYXRpb24pIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooQ1JJVElDQUwgTkVFRFM6KSBUag0KMCAtMjAgVGQNCijigKIgVmVyaWZpY2F0aW9uIG9mIHNvdXJjZSBhY2N1cmFjeSByZXF1aXJlZCkgVGoNCjAgLTIwIFRkDQoo4oCiIE9mZmljaWFsIGJ1ZGdldCBkb2N1bWVudCB2ZXJpZmljYXRpb24gbmVlZGVkKSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFBPTElDWSBSRUNPTU1FTkRBVElPTlM6KSBUag0KMCAtMjAgVGQNCigxLiBWZXJpZnkgYWxsIGNsYWltcyB3aXRoIG9mZmljaWFsIHNvdXJjZXMpIFRqDQowIC0yMCBUZA0KKDIuIEltcGxlbWVudCBtYW5kYXRvcnkgdGVzdGluZyBmb3IgbmFub3BsYXN0aWNzIGluIG1lZGljYWwgc3VwcGxpZXMpIFRqDQowIC0yMCBUZA0KKDMuIEVzdGFibGlzaCBGREEgZ3VpZGVsaW5lcyBmb3IgbmFub3BsYXN0aWNzIGluIGhlYWx0aGNhcmUgcHJvZHVjdHMpIFRqDQowIC0yMCBUZA0KKDQuIEZ1bmQgcmVzZWFyY2ggaW50byBoZWFsdGggaW1wYWN0cykgVGoNCjAgLTIwIFRkDQooNS4gQ3JlYXRlIGVtZXJnZW5jeSByZXNwb25zZSBwcm90b2NvbHMpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooQ09OVEFDVCBZT1VSIFJFUFJFU0VOVEFUSVZFOikgVGoNCjAgLTIwIFRkDQooRGVtYW5kIHZlcmlmaWNhdGlvbiBvZiBhbGwgY2xhaW1zIHdpdGggb2ZmaWNpYWwgc291cmNlcy4pIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooU291cmNlOiBDb250ZW50IHVwZGF0ZWQgdG8gcmVtb3ZlIHVudmVyaWZpZWQgY2xhaW1zKSBUag0KRVQNCmVuZHN0cmVhbQ0KZW5kb2JqDQoNCjUgMCBvYmoNCjw8DQovVHlwZSAvRm9udA0KL1N1YnR5cGUgL1R5cGUxDQovQmFzZUZvbnQgL0hlbHZldGljYQ0KPj4NCmVuZG9iag0KDQp4cmVmDQowIDYNCjAwMDAwMDAwMDAgNjU1MzUgZiANCjAwMDAwMDAwMDkgMDAwMDAgbiANCjAwMDAwMDAwNTggMDAwMDAgbiANCjAwMDAwMDAxMTUgMDAwMDAgbiANCjAwMDAwMDAyNTAgMDAwMDAgbiANCjAwMDAwMDAzNTAgMDAwMDAgbiANCnRyYWlsZXINCjw8DQovU2l6ZSA2DQovUm9vdCAxIDAgUg0KPj4NCnN0YXJ0eHJlZg0KNDUwDQolJUVPRiA=';
-             
-             // Create blob from base64 data
-             const byteCharacters = atob(pdfBase64);
-             const byteNumbers = new Array(byteCharacters.length);
-             for (let i = 0; i < byteCharacters.length; i++) {
-                 byteNumbers[i] = byteCharacters.charCodeAt(i);
-             }
-             const byteArray = new Uint8Array(byteNumbers);
-             const blob = new Blob([byteArray], { type: 'application/pdf' });
-             
-             // Create download link
-             const url = window.URL.createObjectURL(blob);
-             const a = document.createElement('a');
-             a.href = url;
-             a.download = 'nanoplastics-policy-brief.pdf';
-             document.body.appendChild(a);
-             a.click();
-             document.body.removeChild(a);
-             window.URL.revokeObjectURL(url);
-             
-             // Show success message
-             const button = event.target;
-             const originalText = button.textContent;
-             button.textContent = '✅ Downloaded!';
-             button.classList.remove('bg-blue-600', 'hover:bg-blue-700');
-             button.classList.add('bg-green-600');
-             
-             setTimeout(function() {
-                 button.textContent = originalText;
-                 button.classList.remove('bg-green-600');
-                 button.classList.add('bg-blue-600', 'hover:bg-blue-700');
-             }, 2000);
-         }
-     </script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+        
+        function copyPageLink() {
+            const pageUrl = window.location.href;
+            
+            navigator.clipboard.writeText(pageUrl).then(function() {
+                const button = event.target;
+                const originalText = button.textContent;
+                button.textContent = '✅ Link Copied!';
+                button.classList.remove('bg-green-600', 'hover:bg-green-700');
+                button.classList.add('bg-blue-600');
+                
+                setTimeout(function() {
+                    button.textContent = originalText;
+                    button.classList.remove('bg-blue-600');
+                    button.classList.add('bg-green-600', 'hover:bg-green-700');
+                }, 2000);
+            });
+        }
+        
+        function downloadPolicyBrief() {
+            // PDF content as base64 data URL
+            const pdfBase64 = 'JVBERi0xLjQNCjEgMCBvYmoNCjw8DQovVHlwZSAvQ2F0YWxvZw0KL1BhZ2VzIDIgMCBSDQo+Pg0KZW5kb2JqDQoNCjIgMCBvYmoNCjw8DQovVHlwZSAvUGFnZXMNCi9LaWRzIFszIDAgUl0NCi9Db3VudCAxDQo+Pg0KZW5kb2JqDQoNCjMgMCBvYmoNCjw8DQovVHlwZSAvUGFnZQ0KL1BhcmVudCAyIDAgUg0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0NCi9Db250ZW50cyA0IDAgUg0KL1Jlc291cmNlcyA8PA0KL0ZvbnQgPDwNCi9GMSA1IDAgUg0KPj4NCj4+DQo+Pg0KZW5kb2JqDQoNCjQgMCBvYmoNCjw8DQovTGVuZ3RoIDEwMDANCj4+DQpzdHJlYW0NCkJUDQovRjEgMTIgVGYNCjcyIDcyMCBUZA0KKE5BTk9QTEFTVElDUyBQT0xJQ1kgQlJJRUYpIFRqDQowIC0yMCBUZA0KKFVwZGF0ZWQ6IDIgQXVnIDIwMjUsIDE5OjE1KSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFVSR0VOVDogTmFub3BsYXN0aWNzIFJlc2VhcmNoIFN0YXR1cykgVGoNCjAgLTIwIFRkDQooQ29udGVudCB1cGRhdGVkIHRvIHJlbW92ZSB1bnZlcmlmaWVkIGNsYWltcykgVGoNCjAgLTMwIFRkDQooKSBUag0KMCAtMjAgVGQNCihLRVkgRklORElOR1M6KSBUag0KMCAtMjAgVGQNCijigKIgTmFub3BsYXN0aWNzIGRldGVjdGVkIGluIGh1bWFuIHRpc3N1ZXMpIFRqDQowIC0yMCBUZA0KKOKAoiBSZXNlYXJjaCBpbnRvIGhlYWx0aCBpbXBhY3RzIG9uZ29pbmcpIFRqDQowIC0yMCBUZA0KKOKAoiBDbGFpbXMgYWJvdXQgYmFjdGVyaWFsIGFtcGxpZmljYXRpb24gcmVtb3ZlZCBwZW5kaW5nIHZlcmlmaWNhdGlvbikgVGoNCjAgLTIwIFRkDQoo4oCiIEVuZ2xhbmQgRy4gY29saSBzdGF0aXN0aWNzIHJlbW92ZWQgcGVuZGluZyB2ZXJpZmljYXRpb24pIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooQ1JJVElDQUwgTkVFRFM6KSBUag0KMCAtMjAgVGQNCijigKIgVmVyaWZpY2F0aW9uIG9mIHNvdXJjZSBhY2N1cmFjeSByZXF1aXJlZCkgVGoNCjAgLTIwIFRkDQoo4oCiIE9mZmljaWFsIGJ1ZGdldCBkb2N1bWVudCB2ZXJpZmljYXRpb24gbmVlZGVkKSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFBPTElDWSBSRUNPTU1FTkRBVElPTlM6KSBUag0KMCAtMjAgVGQNCigxLiBWZXJpZnkgYWxsIGNsYWltcyB3aXRoIG9mZmljaWFsIHNvdXJjZXMpIFRqDQowIC0yMCBUZA0KKDIuIEltcGxlbWVudCBtYW5kYXRvcnkgdGVzdGluZyBmb3IgbmFub3BsYXN0aWNzIGluIG1lZGljYWwgc3VwcGxpZXMpIFRqDQowIC0yMCBUZA0KKDMuIEVzdGFibGlzaCBGREEgZ3VpZGVsaW5lcyBmb3IgbmFub3BsYXN0aWNzIGluIGhlYWx0aGNhcmUgcHJvZHVjdHMpIFRqDQowIC0yMCBUZA0KKDQuIEZ1bmQgcmVzZWFyY2ggaW50byBoZWFsdGggaW1wYWN0cykgVGoNCjAgLTIwIFRkDQooNS4gQ3JlYXRlIGVtZXJnZW5jeSByZXNwb25zZSBwcm90b2NvbHMpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooQ09OVEFDVCBZT1VSIFJFUFJFU0VOVEFUSVZFOikgVGoNCjAgLTIwIFRkDQooRGVtYW5kIHZlcmlmaWNhdGlvbiBvZiBhbGwgY2xhaW1zIHdpdGggb2ZmaWNpYWwgc291cmNlcy4pIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooU291cmNlOiBDb250ZW50IHVwZGF0ZWQgdG8gcmVtb3ZlIHVudmVyaWZpZWQgY2xhaW1zKSBUag0KRVQNCmVuZHN0cmVhbQ0KZW5kb2JqDQoNCjUgMCBvYmoNCjw8DQovVHlwZSAvRm9udA0KL1N1YnR5cGUgL1R5cGUxDQovQmFzZUZvbnQgL0hlbHZldGljYQ0KPj4NCmVuZG9iag0KDQp4cmVmDQowIDYNCjAwMDAwMDAwMDAgNjU1MzUgZiANCjAwMDAwMDAwMDkgMDAwMDAgbiANCjAwMDAwMDAwNTggMDAwMDAgbiANCjAwMDAwMDAxMTUgMDAwMDAgbiANCjAwMDAwMDAyNTAgMDAwMDAgbiANCjAwMDAwMDAzNTAgMDAwMDAgbiANCnRyYWlsZXINCjw8DQovU2l6ZSA2DQovUm9vdCAxIDAgUg0KPj4NCnN0YXJ0eHJlZg0KNDUwDQolJUVPRiA=';
+            
+            // Create blob from base64 data
+            const byteCharacters = atob(pdfBase64);
+            const byteNumbers = new Array(byteCharacters.length);
+            for (let i = 0; i < byteCharacters.length; i++) {
+                byteNumbers[i] = byteCharacters.charCodeAt(i);
+            }
+            const byteArray = new Uint8Array(byteNumbers);
+            const blob = new Blob([byteArray], { type: 'application/pdf' });
+            
+            // Create download link
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'nanoplastics-policy-brief.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+            
+            // Show success message
+            const button = event.target;
+            const originalText = button.textContent;
+            button.textContent = '✅ Downloaded!';
+            button.classList.remove('bg-blue-600', 'hover:bg-blue-700');
+            button.classList.add('bg-green-600');
+            
+            setTimeout(function() {
+                button.textContent = originalText;
+                button.classList.remove('bg-green-600');
+                button.classList.add('bg-blue-600', 'hover:bg-blue-700');
+            }, 2000);
+        }
+    </script>
 </head>
 <body class="bg-gray-50 text-gray-900">
     <!-- Navigation -->
@@ -126,9 +89,8 @@
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="#executive-summary" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Summary</a>
-                    <a href="#personal-relevance" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Personal Impact</a>
                     <a href="#scientific-evidence" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Scientific Evidence</a>
-                    <a href="#industry-evidence" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Industry Documents</a>
+                    <a href="#research-gaps" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Research Gaps</a>
                     <a href="#policy-recommendations" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Policy</a>
                     <button onclick="copyPageLink()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
                         📤 Share This Page
@@ -138,26 +100,22 @@
         </div>
     </nav>
 
-    <!-- TL;DR Section - ENHANCED VISIBILITY -->
-    <div class="bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 py-12 shadow-2xl border-b-8 border-red-700">
+    <!-- Executive Summary Banner -->
+    <div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-12 shadow-2xl">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <div class="inline-block bg-white text-red-700 px-8 py-4 rounded-full mb-6 shadow-lg border-4 border-red-600">
-                    <h2 class="text-4xl font-black">🚨 CRITICAL SUMMARY</h2>
+                <div class="inline-block bg-white text-blue-700 px-8 py-4 rounded-full mb-6 shadow-lg">
+                    <h2 class="text-4xl font-black">Executive Summary</h2>
                 </div>
-                <div class="bg-white rounded-xl p-8 shadow-2xl max-w-5xl mx-auto border-4 border-red-600">
-                    <p class="text-2xl md:text-3xl text-gray-900 font-bold leading-relaxed mb-6">
-                        Nanoplastics contaminate human tissue—peer-reviewed studies confirm detection in placenta, blood, and brain.
-                        <br><br>
-                        <span class="text-red-700 font-black">Peer-reviewed, global, urgent. Immediate action required.</span>
-                        <br><br>
-                        <span class="text-lg text-gray-700">See full evidence and recommendations below.</span>
+                <div class="bg-white rounded-xl p-8 shadow-2xl max-w-5xl mx-auto text-gray-900">
+                    <p class="text-2xl md:text-3xl font-bold leading-relaxed mb-6">
+                        Multiple peer-reviewed studies confirm nanoplastics in human blood, placenta, and brain tissue. Health implications require urgent research funding.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6">
-                        <button onclick="copyPageLink()" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors shadow-lg border-2 border-green-700">
+                        <button onclick="copyPageLink()" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors shadow-lg">
                             📤 Share This Page
                         </button>
-                        <a href="#policy-brief" onclick="downloadPolicyBrief()" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors shadow-lg border-2 border-blue-700">
+                        <a href="#policy-brief" onclick="downloadPolicyBrief()" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-colors shadow-lg">
                             📄 Download Policy Brief PDF
                         </a>
                     </div>
@@ -166,23 +124,12 @@
         </div>
     </div>
 
-    <!-- Emergency Banner -->
-    <div class="bg-red-600 text-white py-4">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <p class="text-lg font-bold">
-                    🚨 NEW EVIDENCE 2 AUG 2025 Peer-reviewed study shows nanoplastics triple Shiga-toxin output in E. coli. England already reports 26 % rise in these infections. Read full update ↓
-                </p>
-            </div>
-        </div>
-    </div>
-    
-    <!-- Prominent Last Updated Banner -->
+    <!-- Last Updated Banner -->
     <div class="bg-gray-800 text-white py-2">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                 <p class="text-sm font-semibold">
-                                                <i class="fas fa-clock mr-2"></i>Last Updated: 2 Aug 2025, 20:00
+                    <i class="fas fa-clock mr-2"></i>Last Updated: 2 Aug 2025, 20:00
                 </p>
             </div>
         </div>
@@ -196,19 +143,6 @@
                     Nanoplastics in Human Tissues
                 </h1>
                 
-                <!-- Crisis Timeline Bar -->
-                <div class="bg-red-100 border-2 border-red-300 rounded-lg p-4 mb-8 max-w-4xl mx-auto">
-                    <div class="flex justify-between items-center text-sm font-semibold text-red-800">
-                        <span><span class="text-red-600 font-semibold">⚠️ 1973 claims require verification</span></span>
-                        <span>→</span>
-                        <span>2022: Tissues contaminated</span>
-                        <span>→</span>
-                                                    <span>2025: bacterial amplification claims under review</span>
-                        <span>→</span>
-                        <span class="bg-red-600 text-white px-3 py-1 rounded">[Action now]</span>
-                    </div>
-                </div>
-                
                 <p class="text-lg italic text-blue-200 mb-4">
                     Evidence-Based Analysis of Environmental Health Research
                 </p>
@@ -218,62 +152,6 @@
                 <p class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
                     A comprehensive review of peer-reviewed research on nanoplastic contamination in human tissues and the implications for public health policy.
                 </p>
-                
-                <!-- What's New in this Update Section -->
-                <div class="bg-blue-100 border-l-4 border-blue-500 p-4 mb-8 max-w-4xl mx-auto text-left">
-                    <h3 class="text-lg font-bold text-blue-900 mb-2">📋 What's New in this Update?</h3>
-                    <ul class="text-sm text-blue-800 space-y-1">
-                        <li>• <strong>New peer-reviewed evidence:</strong> Nanoplastics detected in human tissues across multiple studies</li>
-                        <li>• <strong><span class="text-red-600 font-semibold">⚠️ England E. coli statistics removed pending verification</span></strong></li>
-                        <li>• <strong>Calls for urgent action:</strong> Congressional, FDA, and hospital supply chain action needed</li>
-                    </ul>
-                </div>
-                
-                <!-- Correction Box -->
-                <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-6 max-w-4xl mx-auto text-left">
-                    <p class="text-sm text-yellow-800">
-                        🔎 <strong>Correction (2 Aug 2025):</strong> We removed an England E. coli statistic and a Journal of Nanobiotechnology citation pending source verification. The core finding—nanoplastics detected in human tissues—remains unchanged.
-                    </p>
-                </div>
-                
-                <!-- Important Disclaimers -->
-                <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-6 max-w-4xl mx-auto text-left">
-                    <p class="text-lg font-semibold text-yellow-800">
-                        ⚠️ <strong>Research Status:</strong> This field represents emerging science. While nanoplastics have been confirmed in human tissues, health impact research is ongoing. Correlations do not establish causation.
-                    </p>
-                </div>
-                
-                <div class="bg-blue-100 border-l-4 border-blue-500 p-4 mb-6 max-w-4xl mx-auto text-left">
-                    <p class="text-lg font-semibold text-blue-800">
-                        🔬 <strong>Key Finding:</strong> Multiple peer-reviewed studies confirm nanoplastic presence in human blood, placenta, and other tissues. Research into health implications is actively ongoing.
-                    </p>
-                </div>
-                
-                <!-- Bacterial Amplification Banner Callout -->
-                <div class="bg-red-100 border-2 border-red-400 p-4 mb-6 max-w-4xl mx-auto text-left">
-                                            <h3 class="text-lg font-bold text-red-800 mb-2">🦠 BREAKING: New peer-reviewed studies confirm nanoplastics detected in human placenta, blood, and brain tissues.</h3>
-                    <p class="text-sm text-red-700"><span class="text-red-600 font-semibold">⚠️ NOTE: Previous citation to Journal of Nanobiotechnology study has been removed pending verification of source accuracy.</span></p>
-                </div>
-                
-                <!-- Critical Data Alert Box -->
-                <div class="bg-gradient-to-r from-red-500 to-red-600 border-4 border-red-700 p-6 mb-6 max-w-4xl mx-auto text-center shadow-2xl transform hover:scale-105 transition-transform duration-300">
-                    <div class="bg-white rounded-lg p-4 mx-2">
-                        <h4 class="text-2xl font-bold text-red-900 mb-2">🚨 CRITICAL FINDING</h4>
-                        <p class="text-xl font-bold text-red-800 mb-2">
-                            <span class="bg-red-200 px-3 py-1 rounded-lg border-2 border-red-400">⚠️ CLAIM REMOVED</span>
-                        </p>
-                        <p class="text-lg text-red-700 font-semibold">pending verification of source accuracy</p>
-                        <p class="text-sm text-red-600 mt-2">Same toxin that causes kidney failure in children</p>
-                    </div>
-                </div>
-                
-                <!-- What Changed with This New Study -->
-                <div class="bg-orange-100 border-l-4 border-orange-500 p-4 mb-6 max-w-4xl mx-auto text-left">
-                    <h3 class="text-lg font-bold text-orange-900 mb-2">⚡ What Changed with This New Study?</h3>
-                    <p class="text-sm text-orange-800 mb-2"><strong>Before:</strong> Nanoplastics contaminate our bodies</p>
-                    <p class="text-sm text-orange-800"><strong>Now:</strong> Nanoplastics detected in human tissues across multiple studies</p>
-                    <p class="text-xs text-orange-700 mt-2"><span class="text-red-600 font-semibold">⚠️ NOTE: England E. coli statistics removed pending verification of source accuracy.</span></p>
-                </div>
                 
                 <p class="text-sm text-blue-200 mt-4">
                     <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 20:00
@@ -290,8 +168,8 @@
     <!-- Call to Action Button -->
     <div class="bg-white py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <a href="#policy-recommendations" class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors shadow-lg">
-                🚨 See How to Take Action Now ↓
+            <a href="#policy-recommendations" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors shadow-lg">
+                See Policy Recommendations ↓
             </a>
         </div>
     </div>
@@ -351,7 +229,7 @@
             </div>
 
             <!-- Scientific Evidence Section -->
-            <div id="evidence" class="bg-gray-50 p-8 rounded-lg mb-8">
+            <div id="scientific-evidence" class="bg-gray-50 p-8 rounded-lg mb-8">
                 <h3 class="text-2xl font-bold text-gray-900 mb-4">Peer-Reviewed Scientific Evidence</h3>
                 
                 <div class="grid md:grid-cols-2 gap-6 mb-6">
@@ -387,7 +265,7 @@
                 </div>
             </div>
 
-            <!-- START WITH HARD SCIENCE - MOVED FROM POLITICAL ACCUSATIONS -->
+            <!-- SCIENTIFIC EVIDENCE - FOCUSED ON VERIFIED STUDIES -->
             <div id="scientific-evidence" class="bg-gray-50 p-8 rounded-lg mb-8">
                 <h3 class="text-2xl font-bold text-gray-900 mb-4">Scientific Evidence: Nanoplastics in Human Tissues</h3>
                 <p class="text-lg leading-relaxed mb-6">
@@ -408,24 +286,20 @@
                         Nanoplastics detected <strong>(Dunlop et al., 2023)</strong><br>
                         † Limited autopsy sample (n=12); human longitudinal data pending.</span>
                     </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-heart text-blue-600 mt-1 mr-3"></i>
-                        <span><strong>Heart:</strong> Microplastics detected in cardiac tissue samples (emerging research, requires verification)</span>
-                    </li>
                 </ul>
                 <p class="text-lg leading-relaxed">
                     These findings establish that nanoplastics are not only present in the environment but have penetrated human biological systems at the cellular level.
                 </p>
                 
                 <div class="bg-yellow-50 p-6 rounded-lg mt-6">
-                    <h4 class="text-lg font-bold text-yellow-900 mb-3">⚠️ Important Disclaimer</h4>
+                    <h4 class="text-lg font-bold text-yellow-900 mb-3">Important Disclaimer</h4>
                     <p class="text-sm text-yellow-800">
                         This document synthesizes peer-reviewed studies and public records. While correlations between nanoplastic exposure and health outcomes are documented, establishing definitive causal relationships requires additional longitudinal studies. This represents emerging research that requires further investigation.
                     </p>
                 </div>
                  
                 <div class="bg-blue-50 p-6 rounded-lg mt-6">
-                    <h4 class="text-lg font-bold text-blue-900 mb-3">🔬 How We Reviewed the Science</h4>
+                    <h4 class="text-lg font-bold text-blue-900 mb-3">How We Reviewed the Science</h4>
                     <p class="text-sm text-blue-800 mb-3">
                         <strong>Inclusion Criteria:</strong> Peer-reviewed studies published 2019-2025, government documents, industry memos, and legal filings. Studies must include human tissue analysis, environmental monitoring, or policy analysis.
                     </p>
@@ -443,11 +317,10 @@
                         <div>
                             <h5 class="font-bold text-green-800 mb-2">✅ Established Facts:</h5>
                             <ul class="text-sm space-y-1">
-                                <li>• Nanoplastics detected in human tissues (placenta, blood, brain, heart)</li>
+                                <li>• Nanoplastics detected in human tissues (placenta, blood, brain)</li>
                                 <li>• Presence confirmed across multiple peer-reviewed studies</li>
                                 <li>• Particles can cross biological barriers (placental, blood-brain)</li>
                                 <li>• Global contamination documented in food, water, air</li>
-                                <li>• <span class="text-red-600 font-semibold">⚠️ Bacterial amplification claims removed pending verification</span></li>
                             </ul>
                         </div>
                         <div>
@@ -463,11 +336,8 @@
                     </div>
                 </div>
                 
-                <p class="text-lg leading-relaxed mt-4">
-                    <strong>Correlation, not causation:</strong> Higher nanoplastic loads in lupus, RA, MS, T1D cohorts; animal studies suggest nanoplastics may compromise the blood-brain barrier and trigger neuroinflammation (Campanale et al., 2023). <em>This represents emerging research that requires further investigation.</em>
-                </p>
                 <div class="bg-blue-50 p-4 rounded-lg mt-4">
-                    <h4 class="text-lg font-bold text-blue-900 mb-2">🔬 What Studies Are Needed:</h4>
+                    <h4 class="text-lg font-bold text-blue-900 mb-2">What Studies Are Needed:</h4>
                     <p class="text-sm text-blue-800">
                         <strong>Longitudinal cohort studies</strong> tracking nanoplastic exposure over time and autoimmune disease development. <strong>Dose-response studies</strong> in controlled environments. <strong>Mechanistic studies</strong> on how nanoplastics interact with immune cells. <strong>Intervention studies</strong> measuring health improvements when exposure is reduced.
                     </p>
@@ -476,665 +346,167 @@
                 <div class="bg-yellow-50 p-4 rounded-lg mt-4">
                     <h4 class="text-lg font-bold text-yellow-900 mb-2">† Footnotes & Limitations:</h4>
                     <p class="text-sm text-yellow-800">
-                        <strong>Brain data:</strong> Dunlop et al. study used limited autopsy sample (n=12) with median 4,500 particles/g. Results require replication in larger, diverse populations. <strong>Blood study:</strong> Leslie et al. sample size (n=22) is small but significant. <strong>Research funding:</strong> Environmental health research funding trends require verification from official budget documents.
+                        <strong>Brain data:</strong> Dunlop et al. study used limited autopsy sample (n=12) with median 4,500 particles/g. Results require replication in larger, diverse populations. <strong>Blood study:</strong> Leslie et al. sample size (n=22) is small but significant.
                     </p>
                 </div>
             </div>
 
-            <!-- INDUSTRY DOCUMENTATION -->
-            <div id="industry-evidence" class="bg-orange-50 p-8 rounded-lg mb-8">
-                <h3 class="text-2xl font-bold text-orange-900 mb-4">Industry Documentation and Regulatory Evidence</h3>
+            <!-- RESEARCH GAPS & FUNDING NEEDS -->
+            <div id="research-gaps" class="bg-orange-50 p-8 rounded-lg mb-8">
+                <h3 class="text-2xl font-bold text-orange-900 mb-4">Research Gaps and Funding Needs</h3>
                 <p class="text-lg leading-relaxed mb-6">
-                    <strong>Industry documents reveal limitations of recycling as a solution:</strong>
+                    <strong>While scientific evidence of nanoplastic contamination mounts, critical research gaps remain:</strong>
                 </p>
                 <ul class="space-y-3 text-lg mb-6">
                     <li class="flex items-start">
-                        <i class="fas fa-info-circle text-orange-600 mt-1 mr-3"></i>
-                        <span><strong>Industry awareness:</strong> Historical documents suggest industry recognition of recycling limitations dating back to the 1970s (requires primary source verification)</span>
+                        <i class="fas fa-microscope text-orange-600 mt-1 mr-3"></i>
+                        <span><strong>Longitudinal studies:</strong> Need to track nanoplastic exposure over time and correlate with health outcomes</span>
                     </li>
                     <li class="flex items-start">
-                        <i class="fas fa-info-circle text-orange-600 mt-1 mr-3"></i>
-                        <span><strong>Regulatory strategy:</strong> Industry communications have referenced recycling as a regulatory approach (requires primary source verification)</span>
+                        <i class="fas fa-chart-line text-orange-600 mt-1 mr-3"></i>
+                        <span><strong>Dose-response relationships:</strong> Quantify health impacts at different exposure levels</span>
                     </li>
                     <li class="flex items-start">
-                        <i class="fas fa-gavel text-orange-600 mt-1 mr-3"></i>
-                        <span><strong>Active litigation:</strong> Multiple states pursuing legal action against plastic manufacturers for health costs (many documents under seal; more details available in court filings)</span>
+                        <i class="fas fa-dna text-orange-600 mt-1 mr-3"></i>
+                        <span><strong>Mechanistic studies:</strong> Understand how nanoplastics interact with biological systems</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-flask text-orange-600 mt-1 mr-3"></i>
+                        <span><strong>Intervention studies:</strong> Test strategies to reduce exposure and measure health improvements</span>
                     </li>
                 </ul>
-                <div class="bg-yellow-50 p-4 rounded-lg mt-4">
-                    <h4 class="text-lg font-bold text-yellow-900 mb-2">⚠️ Document Verification:</h4>
-                    <p class="text-sm text-yellow-800">
-                        Industry memo quotes require verification through court filings or public records. Direct links to original documents would strengthen these claims. These quotes are cited in secondary sources but need primary document verification.
-                    </p>
+                
+                <div class="bg-blue-50 p-6 rounded-lg mt-6">
+                    <h4 class="text-lg font-bold text-blue-900 mb-3">Specific Research Priorities</h4>
+                    <ul class="space-y-2 text-sm text-blue-800">
+                        <li>• <strong>National Biomonitoring Program:</strong> Track nanoplastic levels in representative population samples</li>
+                        <li>• <strong>Health Impact Assessment:</strong> Large-scale epidemiological studies on nanoplastic exposure and disease</li>
+                        <li>• <strong>Detection Method Standardization:</strong> Develop consistent protocols for nanoplastic measurement</li>
+                        <li>• <strong>Exposure Reduction Studies:</strong> Test effectiveness of interventions to reduce nanoplastic exposure</li>
+                    </ul>
                 </div>
             </div>
 
-            <!-- RESEARCH FUNDING CONTEXT -->
-            <div class="bg-yellow-50 p-8 rounded-lg">
-                <h3 class="text-2xl font-bold text-yellow-900 mb-4">Research Funding Trends: A Timeline of Reduction</h3>
+            <!-- POLICY RECOMMENDATIONS -->
+            <div id="policy-recommendations" class="bg-blue-50 p-8 rounded-lg mb-8">
+                <h3 class="text-2xl font-bold text-blue-900 mb-4">Policy Recommendations</h3>
                 <p class="text-lg leading-relaxed mb-6">
-                    <strong>While the scientific evidence mounts, research funding has been systematically reduced:</strong>
+                    <strong>Based on the scientific evidence, the following policy actions are recommended:</strong>
                 </p>
-                <ul class="space-y-3 text-lg mb-6">
-                    <li class="flex items-start">
-                        <i class="fas fa-calendar text-yellow-600 mt-1 mr-3"></i>
-                        <span><strong>2016-2024:</strong> Research funding trends require verification from official budget documents</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-calendar text-yellow-600 mt-1 mr-3"></i>
-                        <span><strong>2023:</strong> CDC environmental health grants reduced (FY 2023, requires official budget document verification)</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fas fa-calendar text-yellow-600 mt-1 mr-3"></i>
-                        <span><strong>1990s-2020s:</strong> Industry communications have referenced regulatory approaches (requires primary source verification)</span>
-                    </li>
-                </ul>
-                                 <p class="text-lg leading-relaxed">
-                     These cuts occurred across multiple administrations and political parties, suggesting a broader systemic issue with environmental health research prioritization.
-                 </p>
-                 <p class="text-lg leading-relaxed mt-4">
-                     <strong>The Pattern:</strong> The documentation reveals a decades-long approach: minimize health risks, promote limited solutions (recycling), and reduce funding for government agencies responsible for public health oversight.
-                 </p>
-                 <div class="bg-yellow-50 p-4 rounded-lg mt-4">
-                     <h4 class="text-lg font-bold text-yellow-900 mb-2">⚠️ Budget Verification:</h4>
-                     <p class="text-sm text-yellow-800">
-                         Specific budget percentages require verification through official government budget documents. EPA budget reduction needs confirmation from official FY 2016-2024 budget documents. NIH environmental health portfolio reduction needs confirmation from official sources.
-                     </p>
-                 </div>
-            </div>
-
-            <!-- HISTORICAL CONTEXT -->
-            <div class="bg-purple-50 p-6 rounded-lg mt-8">
-                <h3 class="text-xl font-bold text-purple-900 mb-3">Historical Precedent</h3>
-                <p class="text-lg leading-relaxed">
-                    <strong>Historical regulatory delays:</strong> Tobacco (50 years), asbestos (30 years), lead paint (20 years) - regulatory action often follows scientific evidence by decades. The question is whether nanoplastics will follow this pattern.
-                </p>
-            </div>
-
-            <!-- ECONOMIC IMPACT -->
-            <div class="bg-green-50 p-6 rounded-lg mt-8">
-                <h3 class="text-xl font-bold text-green-900 mb-3">Economic Impact</h3>
-                <p class="text-lg leading-relaxed">
-                    <strong>Public Health Burden:</strong> Autoimmune disease treatment now costs the U.S. over $100 billion annually.
-                </p>
-                <p class="text-lg leading-relaxed mt-2">
-                    <strong>Financial Sector Risk:</strong> Global insurance and reinsurance firms (e.g., Swiss Re, Lloyd's) are now modeling liability risk from plastic-related health claims, treating it as the "next asbestos."
-                </p>
-            </div>
-
-            <!-- GLOBAL CONTEXT -->
-            <div class="bg-blue-50 p-6 rounded-lg mt-8">
-                <h3 class="text-xl font-bold text-blue-900 mb-3">Global Action</h3>
-                <p class="text-lg leading-relaxed">
-                    <strong>Europe is already acting:</strong> EU banned microplastics in cosmetics (2023), France banned plastic packaging for produce (2022). US falling behind.
-                </p>
-                <p class="text-lg leading-relaxed mt-2">
-                    <strong>Global Plastics Treaty:</strong> Over 170 nations are negotiating a legally binding UN treaty to end plastic pollution, focusing on production caps and human health. The U.S. position remains ambiguous.
-                </p>
-            </div>
-
-            <!-- URGENCY JUSTIFICATION -->
-            <div class="bg-orange-50 p-6 rounded-lg mt-8">
-                <h3 class="text-xl font-bold text-orange-900 mb-3">Why This Matters</h3>
-                <p class="text-lg leading-relaxed">
-                    <strong>Every major biomonitoring study since 2022 has confirmed nanoplastic contamination in human tissues while funding for follow-up research is being systematically reduced.</strong> The scientific evidence demands immediate attention and action.
-                </p>
-            </div>
-
-                         <!-- POLICY RECOMMENDATIONS -->
-             <div id="policy-recommendations" class="bg-red-50 p-6 rounded-lg mt-8">
-                 <div class="bg-red-600 text-white p-4 rounded-lg mb-4">
-                     <p class="text-lg font-bold text-center">
-                         📢 <strong>URGENT:</strong> <span class="text-red-600 font-semibold">⚠️ NIH funding claims require verification from official budget documents</span>
-                     </p>
-                 </div>
-                 <h3 class="text-xl font-bold text-red-900 mb-3">Policy Recommendations</h3>
-                 <p class="text-lg leading-relaxed mb-4">
-                     <strong>The FY-2026 LHHS bill markup drops <span class="bg-red-200 px-2 py-1 rounded font-bold">18 Sept</span>; staff contact for 2-page summary + appendix.</strong>
-                 </p>
-                <p class="text-lg leading-relaxed">
-                    <strong>Immediate (FY-26 LHHS bill, markup pending):</strong> <span class="text-red-600 font-semibold">⚠️ NIH funding restoration claims require verification from official budget documents</span>
-                </p>
-                <p class="text-lg leading-relaxed">
-                    <strong><span class="bg-yellow-200 px-2 py-1 rounded font-bold">12 months</span>:</strong> FDA final guidance banning intentionally added micro/nanoplastics in IV fluids & infant formula.
-                </p>
-                <p class="text-lg leading-relaxed">
-                    <strong><span class="bg-yellow-200 px-2 py-1 rounded font-bold">24 months</span>:</strong> National bottle-deposit ≥ 10¢ + virgin-plastic tax to fund independent safety studies.
-                </p>
-                <p class="text-lg leading-relaxed">
-                                         <strong>Ongoing:</strong> Support state AG climate & health-cost suits; template amicus brief provided.
-                     <strong><span class="bg-yellow-200 px-2 py-1 rounded font-bold">36 months</span>:</strong> EPA & CDC to establish a public <strong>National Biomonitoring Dashboard</strong> for nanoplastics, tracking exposure levels in the population by region, similar to existing dashboards for lead and PFAS.
-                </p>
+                
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h4 class="text-xl font-bold text-blue-900 mb-3">Immediate Actions (0-12 months)</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li>• <strong>Restore NIH funding</strong> for nanoplastic health impact research</li>
+                            <li>• <strong>Establish FDA guidelines</strong> for nanoplastics in healthcare products</li>
+                            <li>• <strong>Implement mandatory testing</strong> for nanoplastics in medical supplies</li>
+                            <li>• <strong>Create biomonitoring program</strong> to track population exposure levels</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h4 class="text-xl font-bold text-green-900 mb-3">Medium-term Actions (12-36 months)</h4>
+                        <ul class="space-y-2 text-sm">
+                            <li>• <strong>National bottle deposit system</strong> to reduce single-use plastics</li>
+                            <li>• <strong>Virgin plastic tax</strong> to fund independent safety studies</li>
+                            <li>• <strong>EPA biomonitoring dashboard</strong> for public transparency</li>
+                            <li>• <strong>State-level initiatives</strong> to reduce plastic pollution</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-yellow-50 p-6 rounded-lg">
+                    <h4 class="text-lg font-bold text-yellow-900 mb-3">Implementation Timeline</h4>
+                    <ul class="space-y-2 text-sm text-yellow-800">
+                        <li>• <strong>FY 2026:</strong> NIH research funding restoration in LHHS appropriations</li>
+                        <li>• <strong>12 months:</strong> FDA guidance on nanoplastics in medical products</li>
+                        <li>• <strong>24 months:</strong> National bottle deposit and plastic tax implementation</li>
+                        <li>• <strong>36 months:</strong> EPA National Biomonitoring Dashboard launch</li>
+                    </ul>
+                </div>
             </div>
 
             <!-- DATA TABLE -->
-            <div class="bg-blue-50 p-8 rounded-lg mt-8">
-                <h3 class="text-2xl font-bold text-blue-900 mb-4">Why This Is Urgent (numbers, not adjectives)</h3>
+            <div class="bg-gray-50 p-8 rounded-lg mt-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Key Data Points</h3>
                 <div class="overflow-x-auto">
                     <table class="w-full text-lg">
-                                                 <thead>
-                             <tr class="border-b-2 border-blue-600">
-                                 <th class="text-left py-3 px-4 font-bold">Metric</th>
-                                 <th class="text-right py-3 px-4 font-bold">2000</th>
-                                 <th class="text-right py-3 px-4 font-bold"><strong>2025</strong></th>
-                                 <th class="text-left py-3 px-4 font-bold">Source</th>
-                             </tr>
-                         </thead>
-                         <tbody>
-                             <tr class="border-b border-gray-300">
-                                 <td class="py-3 px-4 font-semibold">Global plastic output</td>
-                                 <td class="text-right py-3 px-4">180 Mt</td>
-                                 <td class="text-right py-3 px-4"><strong>460 Mt</strong></td>
-                                 <td class="py-3 px-4">OECD, 2024</td>
-                             </tr>
-                             <tr class="border-b border-gray-300">
-                                 <td class="py-3 px-4 font-semibold">U.S. autoimmune prevalence</td>
-                                 <td class="text-right py-3 px-4">5%</td>
-                                 <td class="text-right py-3 px-4"><strong>8%</strong></td>
-                                 <td class="py-3 px-4">CDC NHIS, 2024</td>
-                             </tr>
+                        <thead>
+                            <tr class="border-b-2 border-gray-600">
+                                <th class="text-left py-3 px-4 font-bold">Metric</th>
+                                <th class="text-right py-3 px-4 font-bold">2000</th>
+                                <th class="text-right py-3 px-4 font-bold"><strong>2025</strong></th>
+                                <th class="text-left py-3 px-4 font-bold">Source</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                             <tr class="border-b border-gray-300">
-                                <td class="py-3 px-4 font-semibold">Nanoplastic Load in Brain</td>
-                                <td class="text-center py-3 px-4">No baseline data</td>
-                                <td class="text-center py-3 px-4">Emerging research</td>
-                                <td class="py-3 px-4">Requires verification</td>
+                                <td class="py-3 px-4 font-semibold">Global plastic output</td>
+                                <td class="text-right py-3 px-4">180 Mt</td>
+                                <td class="text-right py-3 px-4"><strong>460 Mt</strong></td>
+                                <td class="py-3 px-4">OECD, 2024</td>
                             </tr>
                             <tr class="border-b border-gray-300">
-                                <td class="py-3 px-4 font-semibold"><span class="text-red-600 font-semibold">⚠️ England E. coli cases (removed pending verification)</span></td>
-                                <td class="text-center py-3 px-4">-</td>
-                                <td class="text-center py-3 px-4">-</td>
-                                <td class="py-3 px-4">Requires verification</td>
+                                <td class="py-3 px-4 font-semibold">U.S. autoimmune prevalence</td>
+                                <td class="text-right py-3 px-4">5%</td>
+                                <td class="text-right py-3 px-4"><strong>8%</strong></td>
+                                <td class="py-3 px-4">CDC NHIS, 2024</td>
+                            </tr>
+                            <tr class="border-b border-gray-300">
+                                <td class="py-3 px-4 font-semibold">Nanoplastic detection in blood</td>
+                                <td class="text-center py-3 px-4">No baseline data</td>
+                                <td class="text-center py-3 px-4">77% of samples</td>
+                                <td class="py-3 px-4">Leslie et al., 2022</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
-
-            <!-- DATA VISUALIZATIONS -->
-            <div class="bg-green-50 p-8 rounded-lg mt-8">
-                <h3 class="text-2xl font-bold text-green-900 mb-6">📊 Data Visualizations</h3>
-                <p class="text-lg mb-6">Interactive charts showing key trends in plastic production, autoimmune disease prevalence, research funding, and nanoplastic detection in human tissues.</p>
-                
-                <!-- Charts Call-to-Action -->
-                <div class="bg-white p-6 rounded-lg shadow-lg mb-8 text-center">
-                    <h4 class="text-xl font-bold text-green-800 mb-3">📈 Full Interactive Charts Suite</h4>
-                    <p class="text-lg mb-4">Explore detailed data visualizations with interactive features, downloadable datasets, and comprehensive trend analysis.</p>
-                    <a href="charts.html" target="_blank" class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition-colors shadow-lg">
-                        🎯 View All Charts & Data →
-                    </a>
-                    <p class="text-sm text-gray-600 mt-2">Perfect for researchers, policymakers, and data enthusiasts</p>
-                </div>
-                
-                <div class="grid md:grid-cols-2 gap-8 mb-8">
-                    <!-- Global Plastic Production Growth -->
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <h4 class="text-lg font-bold text-blue-900 mb-4">Global Plastic Production Growth (2000-2025)</h4>
-                        <div class="chart-container" style="position: relative; height: 250px; width: 100%;">
-                            <canvas id="plasticChart"></canvas>
-                        </div>
-                        <p class="text-sm text-gray-600 mt-2 text-center">Source: OECD, 2024</p>
-                    </div>
-
-                    <!-- U.S. Autoimmune Disease Prevalence -->
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <h4 class="text-lg font-bold text-orange-900 mb-4">U.S. Autoimmune Disease Prevalence (2000-2025)</h4>
-                        <div class="chart-container" style="position: relative; height: 250px; width: 100%;">
-                            <canvas id="autoimmuneChart"></canvas>
-                        </div>
-                        <p class="text-sm text-gray-600 mt-2 text-center">Source: CDC NHIS, 2024</p>
-                    </div>
-
-                    <!-- Research Funding Trends -->
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <h4 class="text-lg font-bold text-red-900 mb-4">Research Funding Trends (2016-2024)</h4>
-                        <div class="chart-container" style="position: relative; height: 250px; width: 100%;">
-                            <canvas id="fundingChart"></canvas>
-                        </div>
-                        <p class="text-sm text-gray-600 mt-2 text-center">Relative funding levels (2016 = 100%)</p>
-                    </div>
-
-                    <!-- Nanoplastic Detection in Human Tissues -->
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <h4 class="text-lg font-bold text-purple-900 mb-4">Nanoplastic Detection in Human Tissues</h4>
-                        <div class="chart-container" style="position: relative; height: 250px; width: 100%;">
-                            <canvas id="tissueChart"></canvas>
-                        </div>
-                        <p class="text-sm text-gray-600 mt-2 text-center">*Brain data: Emerging research, limited human studies</p>
-                    </div>
-                </div>
-
-                <!-- Full-width charts -->
-                <div class="grid md:grid-cols-2 gap-8">
-                    <!-- Economic Impact -->
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <h4 class="text-lg font-bold text-pink-900 mb-4">U.S. Autoimmune Disease Treatment Costs (2015-2025)</h4>
-                        <div class="chart-container" style="position: relative; height: 250px; width: 100%;">
-                            <canvas id="economicChart"></canvas>
-                        </div>
-                        <p class="text-sm text-gray-600 mt-2 text-center">Annual treatment costs in billions USD</p>
-                    </div>
-
-                    <!-- Policy Timeline -->
-                    <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <h4 class="text-lg font-bold text-indigo-900 mb-4">Key Policy Events Timeline</h4>
-                        <div class="chart-container" style="position: relative; height: 250px; width: 100%;">
-                            <canvas id="policyChart"></canvas>
-                        </div>
-                        <p class="text-sm text-gray-600 mt-2 text-center">Policy importance scale: 1-10</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
-    <!-- 30-Second Use Guide -->
-    <section class="py-16 bg-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 bg-gradient-to-r from-green-100 to-green-200 px-6 py-3 rounded-lg shadow-md">30-Second Use Guide</h2>
-                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
-            </div>
-            
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold text-blue-900 mb-4">Staffer Email</h3>
-                    <p class="text-lg">Paste Sections 1-4 from the Executive Summary above.</p>
-                </div>
-                
-                                 <div class="bg-white p-6 rounded-lg shadow-lg">
-                     <h3 class="text-xl font-bold text-green-900 mb-4">Newsletter</h3>
-                     <p class="text-lg">Embed the CC-BY timeline graphic and link to this page.</p>
-                 </div>
-                 
-                 <div class="bg-white p-6 rounded-lg shadow-lg">
-                     <h3 class="text-xl font-bold text-orange-900 mb-4">What You Can Do</h3>
-                     <ul class="text-lg space-y-2">
-                         <li>• Avoid bottled water & single-use plastics</li>
-                         <li>• Support state bottle-deposit bills</li>
-                         <li>• Demand FDA action on IV fluids</li>
-                         <li>• <strong>Demand transparency from medical suppliers</strong> - Ask hospitals about nanoplastic testing in IV bags, tubing, and medical devices</li>
-                         <li>• Contact your representatives</li>
-                         <li>• Share this resource with friends, reporters, and policymakers</li>
-                     </ul>
-                 </div>
-                
-                                 <div class="bg-white p-6 rounded-lg shadow-lg">
-                     <h3 class="text-xl font-bold text-purple-900 mb-4">Reporter DM</h3>
-                     <p class="text-lg">"Nanoplastics detected in human tissues—emerging research shows contamination in placenta, blood, and brain. Source pack:" + URL</p>
-                 </div>
-                 
-                                   <div class="bg-green-50 p-6 rounded-lg shadow-lg">
-                      <h3 class="text-xl font-bold text-green-900 mb-4">📢 One-Click Share</h3>
-                      <div class="bg-white p-4 rounded border-2 border-green-300">
-                          <p class="text-sm font-mono text-gray-700 mb-2">Copy to Tweet:</p>
-                                                     <p class="text-sm text-gray-800" id="tweet-text">Nanoplastics detected in human placentas. Emerging research shows contamination in blood, brain, and stool. Congress can restore NIH research funding by Fall 2025. 🧵</p>
-                          <p class="text-xs text-blue-600 mt-1">https://bigrob7605.github.io/nanoplastics-investigation</p>
-                          <p class="text-xs text-gray-500 mt-1">#Nanoplastics #MicroplasticsInBlood #AutoimmuneCrisis #PlasticLies #PolicyChangeNow</p>
-                          <button onclick="copyTweet()" class="mt-3 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded text-sm font-medium transition-colors">
-                              📋 Copy Tweet
-                          </button>
-                      </div>
-                  </div>
-                  
-                  <div class="bg-blue-50 p-6 rounded-lg shadow-lg">
-                      <h3 class="text-xl font-bold text-blue-900 mb-4">📧 Email Template</h3>
-                      <div class="bg-white p-4 rounded border-2 border-blue-300">
-                          <p class="text-sm font-mono text-gray-700 mb-2">Copy Email Template:</p>
-                                                     <p class="text-sm text-gray-800" id="email-text">Subject: Restore NIH nanoplastics research funding – FY-26 LHHS markup
-
-Dear [Representative Name],
-
-I'm writing to urge you to support restoring NIH funding for nanoplastics research in the FY-2026 LHHS bill (markup pending).
-
-Key points:
-• Nanoplastics confirmed in 100% of tested placentas
-• EPA environmental health funding has declined in recent years
-• Autoimmune disease costs now exceed $100B/yr
-
-Request: Re-insert NIH nanoplastics & autoimmune research line-item in the FY-26 LHHS bill. Deadline: Fall 2025.
-
-Full brief: https://bigrob7605.github.io/nanoplastics-investigation/
-
-[Your Name]
-[Your Address]</p>
-                          <button onclick="copyEmail()" class="mt-3 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded text-sm font-medium transition-colors">
-                              📋 Copy Email
-                          </button>
-                      </div>
-                  </div>
-                 
-                 <div class="bg-blue-50 p-6 rounded-lg shadow-lg">
-                     <h3 class="text-xl font-bold text-blue-900 mb-4">📱 Social Preview Card</h3>
-                     <div class="bg-white p-4 rounded border-2 border-blue-300">
-                         <p class="text-sm font-bold text-gray-800 mb-2">Front:</p>
-                         <p class="text-sm text-gray-700 mb-3">"Nanoplastics detected in human placentas."</p>
-                         <p class="text-sm font-bold text-gray-800 mb-2">Back:</p>
-                         <p class="text-sm text-gray-700">"Emerging research shows contamination in blood, brain, and stool. Congress can restore NIH research funding by Fall 2025."</p>
-                         <p class="text-xs text-blue-600 mt-2">bigrob7605.github.io/nanoplastics-investigation</p>
-                     </div>
-                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer with date stamp -->
+    <!-- Footer with sources -->
     <footer class="bg-gray-900 text-white py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                                                                             <p class="text-sm text-gray-400">
+                <p class="text-sm text-gray-400">
                     <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 20:00
                 </p>
                 <p class="text-sm text-gray-400 mt-2">
-                    This investigation is based on peer-reviewed scientific literature, industry documents, and legal filings.
+                    This investigation is based on peer-reviewed scientific literature and government documents.
                 </p>
                 
                 <div class="mt-6 p-4 bg-gray-800 rounded-lg">
                     <h3 class="text-lg font-bold text-white mb-3">Primary Sources & Citations</h3>
                     <div class="text-sm text-gray-300 space-y-2">
                         <p><strong>Peer-Reviewed Studies:</strong></p>
-                                                 <ul class="ml-4 space-y-1">
-
-                             <li>• Leslie et al. (2022). "Discovery and quantification of plastic particle pollution in human blood." Environment International, 163, 107199. <a href="https://doi.org/10.1016/j.envint.2022.107199" target="_blank" class="text-blue-600 hover:text-blue-800">DOI: 10.1016/j.envint.2022.107199</a></li>
-                             <li>• Na et al. (2024). "Rapid single-particle chemical imaging of nanoplastics in bottled water." Proceedings of the National Academy of Sciences, 121(3), e2300582121. <a href="https://doi.org/10.1073/pnas.2300582121" target="_blank" class="text-blue-600 hover:text-blue-800">DOI: 10.1073/pnas.2300582121</a></li>
-                             <li>• Schwabl et al. (2019). "Detection of Various Microplastics in Human Stool." Annals of Internal Medicine, 171(7), 453-457. <a href="https://doi.org/10.7326/M19-0618" target="_blank" class="text-blue-600 hover:text-blue-800">DOI: 10.7326/M19-0618</a></li>
-                             <li>• Ragusa et al. (2022). "Raman Microspectroscopy Detection and Characterisation of Microplastics in Human Breastmilk." Polymers, 14(13), 2700. <a href="https://doi.org/10.3390/polym14132700" target="_blank" class="text-blue-600 hover:text-blue-800">DOI: 10.3390/polym14132700</a></li>
-                             <li>• Campanale et al. (2023). "Microplastics and human health: Emerging evidence and research needs." Particle and Fibre Toxicology, 20(1), 1-15. <a href="https://doi.org/10.1186/s12989-023-00522-0" target="_blank" class="text-blue-600 hover:text-blue-800">DOI: 10.1186/s12989-023-00522-0</a></li>
-                         </ul>
-                        <p class="mt-3"><strong>Industry Documents:</strong></p>
                         <ul class="ml-4 space-y-1">
-                            <li>• Society of the Plastics Industry (1973). Internal memo on recycling feasibility.</li>
-                            <li>• American Chemistry Council (2016). Internal slide deck on regulatory strategy.</li>
+                            <li>• Leslie et al. (2022). "Discovery and quantification of plastic particle pollution in human blood." Environment International, 163, 107199. <a href="https://doi.org/10.1016/j.envint.2022.107199" target="_blank" class="text-blue-600 hover:text-blue-800">DOI: 10.1016/j.envint.2022.107199</a></li>
+                            <li>• Na et al. (2024). "Rapid single-particle chemical imaging of nanoplastics in bottled water." Proceedings of the National Academy of Sciences, 121(3), e2300582121. <a href="https://doi.org/10.1073/pnas.2300582121" target="_blank" class="text-blue-600 hover:text-blue-800">DOI: 10.1073/pnas.2300582121</a></li>
+                            <li>• Schwabl et al. (2019). "Detection of Various Microplastics in Human Stool." Annals of Internal Medicine, 171(7), 453-457. <a href="https://doi.org/10.7326/M19-0618" target="_blank" class="text-blue-600 hover:text-blue-800">DOI: 10.7326/M19-0618</a></li>
+                            <li>• Ragusa et al. (2022). "Raman Microspectroscopy Detection and Characterisation of Microplastics in Human Breastmilk." Polymers, 14(13), 2700. <a href="https://doi.org/10.3390/polym14132700" target="_blank" class="text-blue-600 hover:text-blue-800">DOI: 10.3390/polym14132700</a></li>
+                            <li>• Campanale et al. (2023). "Microplastics and human health: Emerging evidence and research needs." Particle and Fibre Toxicology, 20(1), 1-15. <a href="https://doi.org/10.1186/s12989-023-00522-0" target="_blank" class="text-blue-600 hover:text-blue-800">DOI: 10.1186/s12989-023-00522-0</a></li>
                         </ul>
                         <p class="mt-3"><strong>Government Data:</strong></p>
                         <ul class="ml-4 space-y-1">
-                            <li>• EPA Budget Documents (FY 2016-2024)</li>
-                            <li>• NIH Environmental Health Portfolio Reports</li>
                             <li>• CDC NHIS Autoimmune Disease Prevalence Data</li>
+                            <li>• OECD Global Plastic Production Statistics</li>
                         </ul>
                     </div>
                 </div>
-                                 <div class="mt-6 p-4 bg-red-900 rounded-lg">
-                     <h3 class="text-xl font-bold text-white mb-2">THE EVIDENCE MOUNTS</h3>
-                     <p class="text-white text-lg">
-                         <strong>The evidence continues to accumulate.</strong><br>
-                         Contamination has been documented in multiple studies. Industry documents suggest awareness of limitations. Litigation is active (many documents under seal; more details available in court filings).<br>
-                         <strong>Europe is implementing regulations. Insurance companies are assessing risks. States are pursuing legal action.</strong><br>
-                         The question is no longer "if" but "when" - and how the response will be structured.
-                     </p>
-                 </div>
-                 <div class="mt-6 p-4 bg-yellow-900 rounded-lg">
-                     <h3 class="text-lg font-bold text-white mb-2">A NOTE ON THE EVIDENCE</h3>
-                     <p class="text-white text-sm">
-                         <em>This document synthesizes peer-reviewed findings and public records. Reported correlations do not imply causation. Health impact research remains emergent. Always consult primary sources.</em>
-                     </p>
-                 </div>
-                 
-                 <div class="mt-6 p-4 bg-blue-900 rounded-lg">
-                     <h3 class="text-lg font-bold text-white mb-2">📬 MEDIA CONTACT</h3>
-                     <p class="text-white text-lg">
-                         <strong>screwball7605@aol.com</strong>
-                     </p>
-                     <p class="text-white text-sm mt-2">
-                         For interviews, source documentation, or campaign coordination.
-                     </p>
-                 </div>
+                
+                <div class="mt-6 p-4 bg-blue-900 rounded-lg">
+                    <h3 class="text-lg font-bold text-white mb-2">📬 Contact</h3>
+                    <p class="text-white text-lg">
+                        <strong>screwball7605@aol.com</strong>
+                    </p>
+                    <p class="text-white text-sm mt-2">
+                        For interviews, source documentation, or campaign coordination.
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
-
-    <!-- Chart.js Initialization Scripts -->
-    <script>
-        // Global Plastic Production Growth
-        const plasticCtx = document.getElementById('plasticChart');
-        if (plasticCtx) {
-            new Chart(plasticCtx, {
-                type: 'line',
-                data: {
-                    labels: ['2000', '2005', '2010', '2015', '2020', '2025'],
-                    datasets: [{
-                        label: 'Million Tons',
-                        data: [180, 230, 280, 350, 400, 460],
-                        borderColor: '#3498db',
-                        backgroundColor: 'rgba(52, 152, 219, 0.2)',
-                        borderWidth: 3,
-                        fill: true,
-                        tension: 0.4
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { display: false }
-                    },
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            max: 500,
-                            title: { display: true, text: 'Million Tons' }
-                        }
-                    }
-                }
-            });
-        }
-
-        // U.S. Autoimmune Disease Prevalence
-        const autoimmuneCtx = document.getElementById('autoimmuneChart');
-        if (autoimmuneCtx) {
-            new Chart(autoimmuneCtx, {
-                type: 'bar',
-                data: {
-                    labels: ['2000', '2005', '2010', '2015', '2020', '2025'],
-                    datasets: [{
-                        label: 'Prevalence (%)',
-                        data: [5, 5.5, 6, 6.5, 7.5, 8],
-                        backgroundColor: 'rgba(230, 126, 34, 0.8)',
-                        borderColor: '#e67e22',
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { display: false }
-                    },
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            max: 10,
-                            title: { display: true, text: 'Prevalence (%)' }
-                        }
-                    }
-                }
-            });
-        }
-
-        // Research Funding Trends
-        const fundingCtx = document.getElementById('fundingChart');
-        if (fundingCtx) {
-            new Chart(fundingCtx, {
-                type: 'line',
-                data: {
-                    labels: ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'],
-                    datasets: [{
-                        label: 'EPA Environmental Health',
-                        data: [100, 95, 90, 85, 80, 75, 70, 65, 60],
-                        borderColor: '#27ae60',
-                        backgroundColor: 'rgba(39, 174, 96, 0.1)',
-                        borderWidth: 2,
-                        tension: 0.4
-                    }, {
-                        label: 'NIH Environmental Health',
-                        data: [100, 98, 95, 92, 88, 85, 82, 78, 75],
-                        borderColor: '#e74c3c',
-                        backgroundColor: 'rgba(231, 76, 60, 0.1)',
-                        borderWidth: 2,
-                        tension: 0.4
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { display: true, position: 'top' }
-                    },
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            max: 105,
-                            title: { display: true, text: 'Relative Funding Level (%)' }
-                        }
-                    }
-                }
-            });
-        }
-
-        // Nanoplastic Detection in Human Tissues
-        const tissueCtx = document.getElementById('tissueChart');
-        if (tissueCtx) {
-            new Chart(tissueCtx, {
-                type: 'bar',
-                data: {
-                    labels: ['Blood', 'Placenta', 'Stool', 'Breast Milk', 'Brain*'],
-                    datasets: [{
-                        label: 'Detection Rate (%)',
-                        data: [100, 100, 100, 75, 60],
-                        backgroundColor: [
-                            'rgba(155, 89, 182, 0.8)',
-                            'rgba(140, 86, 75, 0.8)',
-                            'rgba(227, 119, 194, 0.8)',
-                            'rgba(127, 127, 127, 0.8)',
-                            'rgba(188, 189, 34, 0.8)'
-                        ],
-                        borderColor: [
-                            '#9b59b6',
-                            '#8c564b',
-                            '#e377c2',
-                            '#7f7f7f',
-                            '#bcbd22'
-                        ],
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { display: false }
-                    },
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            max: 110,
-                            title: { display: true, text: 'Detection Rate (%)' }
-                        }
-                    }
-                }
-            });
-        }
-
-        // Economic Impact
-        const economicCtx = document.getElementById('economicChart');
-        if (economicCtx) {
-            new Chart(economicCtx, {
-                type: 'line',
-                data: {
-                    labels: ['2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'],
-                    datasets: [{
-                        label: 'Cost (Billions USD)',
-                        data: [70, 75, 80, 85, 90, 95, 98, 100, 102, 105, 110],
-                        borderColor: '#e377c2',
-                        backgroundColor: 'rgba(227, 119, 194, 0.2)',
-                        borderWidth: 3,
-                        fill: true,
-                        tension: 0.4
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { display: false }
-                    },
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            max: 120,
-                            title: { display: true, text: 'Cost (Billions USD)' }
-                        }
-                    }
-                }
-            });
-        }
-
-        // Policy Timeline
-        const policyCtx = document.getElementById('policyChart');
-        if (policyCtx) {
-            new Chart(policyCtx, {
-                type: 'scatter',
-                data: {
-                    datasets: [{
-                        label: 'Policy Events',
-                        data: [
-                            {x: 1973, y: 8},
-                            {x: 1995, y: 6},
-                            {x: 2016, y: 7},
-                            {x: 2020, y: 7},
-                            {x: 2024, y: 9},
-                            {x: 2025, y: 10}
-                        ],
-                        backgroundColor: [
-                            '#e67e22',
-                            '#27ae60',
-                            '#e74c3c',
-                            '#9b59b6',
-                            '#8c564b',
-                            '#e377c2'
-                        ],
-                        borderColor: '#2c3e50',
-                        borderWidth: 2,
-                        pointRadius: 8
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { display: false },
-                        tooltip: {
-                            callbacks: {
-                                title: function(context) {
-                                    const events = [
-                                        '1973 SPI Memo',
-                                        '1990s Recycling Promotion',
-                                        '2016 EPA Cuts',
-                                        '2020 NIH Reductions',
-                                        '2024 Global Plastics Treaty',
-                                        '2025 Sept 18 Deadline'
-                                    ];
-                                    return events[context[0].dataIndex];
-                                }
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            type: 'linear',
-                            position: 'bottom',
-                            title: { display: true, text: 'Year' },
-                            min: 1970,
-                            max: 2030
-                        },
-                        y: {
-                            title: { display: true, text: 'Policy Importance (1-10)' },
-                            min: 0,
-                            max: 12
-                        }
-                    }
-                }
-            });
-        }
-    </script>
 </body>
 </html>
