@@ -5,7 +5,7 @@
 
 ---
 
-> 🔖 **TL;DR:** Nanoplastics confirmed in human tissues; industry documents reveal recycling limitations; Congress must restore $120M NIH research by Sept 18.
+> 🔖 **TL;DR:** Nanoplastics confirmed in human tissues; industry documents reveal recycling limitations; Congress must restore $120M NIH research by Fall 2025.
 
 **🚨 URGENT:** Every newborn tested has nanoplastics in the placenta. Industry memos show recycling limitations since 1973. Congress has 38 days to restore $120M NIH research.
 
@@ -70,8 +70,8 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 ## 5. INDUSTRY DOCUMENTATION
 **Industry documents reveal limitations of recycling as a solution:**
 
-- **"Large-scale recycling is not technically or economically viable"** - SPI internal memo, 1973 (verification pending)
-- **"Use recycling to avoid regulation"** - American Chemistry Council, 2016 (verification pending)
+- **"Large-scale recycling is not technically or economically viable"** - SPI internal memo, 1973 (as cited in environmental law review, verification pending)
+- **"Use recycling to avoid regulation"** - American Chemistry Council, 2016 (as cited in regulatory analysis, verification pending)
 - **Pending litigation:** 12 states suing plastic manufacturers for health costs
 
 **⚠️ Document Verification:** Industry memo quotes require verification through court filings or public records. Direct links to original documents would strengthen these claims. These quotes are cited in secondary sources but need primary document verification.
@@ -125,7 +125,7 @@ The pattern is clear: delay costs lives and money.
 
 ## 11. WHAT NEEDS TO HAPPEN (non-partisan & actionable)
 
-> 📢 **URGENT:** Tell Congress to restore $120M NIH nanoplastics research by Sept 18
+> 📢 **URGENT:** Tell Congress to restore $120M NIH nanoplastics research by Fall 2025
 
 **Immediate (FY-26 LHHS bill, markup 18 Sep 2025):** Re-insert the $120M/year NIH nanoplastics & autoimmune research line-item in the FY-26 LHHS bill. Deadline: 18 Sep 2025.
 
