@@ -1,5 +1,5 @@
 # NANOPLASTICS: SCIENTIFIC EVIDENCE AND HEALTH IMPLICATIONS
-*Updated August 2, 2025 with peer-reviewed data*
+*Updated August 2, 2025 - 1:34 PM with peer-reviewed data*
 
 *Nanoplastics are plastic fragments smaller than 1 micrometer (1,000 nanometers)—invisible to the naked eye, small enough to cross biological barriers and enter nearly every organ.*
 
