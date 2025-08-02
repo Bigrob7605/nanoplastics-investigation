@@ -196,6 +196,6 @@ The question is no longer "if" but "when" - and who will be held accountable.
 🔗 **Interactive source list & PDF links:**  
 https://bigrob7605.github.io/nanoplastics-investigation/
 
-**📬 Media contact:** nanoplastics.investigation@proton.me
+**📬 Media contact:** screwball7605@aol.com
 
 #Nanoplastics #RecyclingFraud #AutoimmuneCrisis #PlasticLies #PolicyChangeNow
