@@ -5,7 +5,7 @@
 
 ---
 
-> 🔖 **TL;DR:** Nanoplastics are detected in human placenta, blood, and stool samples, and correlate with lupus, RA, MS and T1D. Industry knew recycling wouldn't work since 1973.
+> 🔖 **TL;DR:** Nanoplastics found in every newborn's placenta; industry knew recycling was a lie since 1973.
 
 **🚨 BREAKING:** Every newborn tested contains nanoplastics in placenta. 240,000 particles per liter in bottled water. Industry memos show they knew recycling wouldn't work since 1973. Congress must restore $120M NIH funding by Sept 18.
 
@@ -97,9 +97,9 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 ## 7. WHY THIS IS URGENT (numbers, not adjectives)
 
 | Metric | 2000 | **2025** | Source |
-|--------|------|----------|--------|
+|--------|-----:|---------:|--------|
 | Global plastic output | 180 Mt | **460 Mt** | OECD, 2024 |
-| U.S. autoimmune prevalence | 5% (~14M) | **8% (~26M)** | CDC NHIS, 2024 |
+| U.S. autoimmune prevalence | 5% | **8%** | CDC NHIS, 2024 |
 | Nanoplastic Load in Brain | No baseline data | Emerging research | Requires verification |
 
 ---
@@ -196,6 +196,6 @@ The question is no longer "if" but "when" - and who will be held accountable.
 🔗 **Interactive source list & PDF links:**  
 https://bigrob7605.github.io/nanoplastics-investigation/
 
-**For interviews or full source documentation, contact:** [your preferred email or alias]
+**📬 Media contact:** nanoplastics.investigation@proton.me
 
 #Nanoplastics #RecyclingFraud #AutoimmuneCrisis #PlasticLies #PolicyChangeNow
