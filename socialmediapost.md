@@ -1,13 +1,13 @@
-# NANOPLASTICS: THE SMOKING GUN EVIDENCE
+# NANOPLASTICS: SCIENTIFIC EVIDENCE AND HEALTH IMPLICATIONS
 *Updated August 2, 2025 with peer-reviewed data*
 
 *Nanoplastics are plastic fragments smaller than 1 micrometer (1,000 nanometers)—invisible to the naked eye, small enough to cross biological barriers and enter nearly every organ.*
 
 ---
 
-> 🔖 **TL;DR:** Nanoplastics found in every newborn's placenta; industry knew recycling was a lie since 1973.
+> 🔖 **TL;DR:** Nanoplastics confirmed in human tissues; industry documents reveal recycling limitations; Congress must restore $120M NIH research by Sept 18.
 
-**🚨 BREAKING:** Every newborn tested has nanoplastics in the placenta. Industry knew recycling wouldn't work in 1973. Congress has 38 days to restore $120M NIH research.
+**🚨 URGENT:** Every newborn tested has nanoplastics in the placenta. Industry memos show recycling limitations since 1973. Congress has 38 days to restore $120M NIH research.
 
 ---
 
@@ -19,8 +19,6 @@
 - **Infants:** Nanoplastics cross the placenta and are present in breast milk—exposing babies from day one
 - **Bottled water:** Contains up to 240,000 nanoplastics per liter (Na et al., PNAS, 2024)
 - **Geographic hotspots:** Highest levels in urban areas, near plastic manufacturing facilities
-- **Environmental justice:** Fence-line communities near recycling facilities reportedly record higher airborne nanoplastic counts (emerging research, requires verification)
-- **Medical exposure:** Nanoplastics reportedly found in medical equipment (emerging research, requires verification)
 
 ---
 
@@ -69,13 +67,14 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 
 ---
 
-## 5. THE SMOKING GUN EVIDENCE
-**Industry knew. Regulators knew. Action was blocked:**
+## 5. INDUSTRY DOCUMENTATION
+**Industry documents reveal limitations of recycling as a solution:**
 
 - **"Large-scale recycling is not technically or economically viable"** - SPI internal memo, 1973
 - **"Use recycling to avoid regulation"** - American Chemistry Council, 2016
-- **Revolving door:** EPA chemical safety officials reportedly work for industry (emerging research, requires verification)
 - **Pending litigation:** 12 states suing plastic manufacturers for health costs
+
+**⚠️ Document Verification:** Industry memo quotes require verification through court filings or public records. Direct links to original documents would strengthen these claims.
 
 ---
 
@@ -87,10 +86,11 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 
 **2016-2024:**
 - EPA nanoplastics budget ↓ 40% (FY 2016 → FY 2024)
-- NIH environmental health portfolio reportedly reduced (FY 2020 → FY 2024, requires verification)
 - CDC environmental health grants ↓ 30% (FY 2023)
 
-**The Strategy:** The paper trail reveals a decades-long playbook: deny the health risks, promote a non-viable solution (recycling), and systematically defund the government agencies responsible for public health oversight.
+**The Pattern:** The documentation reveals a decades-long approach: minimize health risks, promote limited solutions (recycling), and reduce funding for government agencies responsible for public health oversight.
+
+**⚠️ Budget Verification:** Specific budget percentages require verification through official government budget documents. NIH environmental health portfolio reduction needs confirmation from official sources.
 
 ---
 
