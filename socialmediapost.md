@@ -9,6 +9,7 @@
 
 **🚨 URGENT:** Every newborn tested has nanoplastics in the placenta. Industry memos show recycling limitations since 1973. Congress has 38 days to restore $120M NIH research.
 
+
 [Jump to staffer one-pager](#12-30-second-use-guide)
 
 ---
