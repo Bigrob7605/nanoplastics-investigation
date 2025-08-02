@@ -1,27 +1,32 @@
-# NANOPLASTICS: SCIENTIFIC EVIDENCE AND HEALTH IMPLICATIONS
+# NANOPLASTICS IN HUMAN TISSUES
 *Updated August 2, 2025 - 1:34 PM with peer-reviewed data*
 
-*Nanoplastics are plastic fragments smaller than 1 micrometer (1,000 nanometers)—invisible to the naked eye, small enough to cross biological barriers and enter nearly every organ.*
+*Evidence-Based Analysis of Environmental Health Research*
 
 ---
 
-> 🔖 **TL;DR:** Nanoplastics confirmed in human tissues; industry documents reveal recycling limitations; Congress must restore $120M NIH research by Fall 2025.
+> 🔬 **Key Finding:** Multiple peer-reviewed studies confirm nanoplastic presence in human blood, placenta, and other tissues. Research into health implications is actively ongoing.
 
-**🚨 URGENT:** Every newborn tested has nanoplastics in the placenta. Industry memos show recycling limitations since 1973. Congress has 38 days to restore $120M NIH research.
+**⚠️ Research Status:** This field represents emerging science. While nanoplastics have been confirmed in human tissues, health impact research is ongoing. Correlations do not establish causation.
 
 
 [Jump to staffer one-pager](#12-30-second-use-guide)
 
 ---
 
-## 1. IMMEDIATE PERSONAL RELEVANCE
-**This affects you directly:**
+## 1. PEER-REVIEWED SCIENTIFIC EVIDENCE
 
-- **Nanoplastics detected in human stool samples at median 20 particles/g** (Schwabl et al., Annals of Internal Medicine, 2019)
-- **Breast milk:** Microplastics detected in 75% of samples tested using Raman spectroscopy (Ragusa et al., Polymers, 2022)
-- **Infants:** Nanoplastics cross the placenta and are present in breast milk—exposing babies from day one
-- **Bottled water:** Contains up to 240,000 nanoplastics per liter (Na et al., PNAS, 2024)
-- **Geographic hotspots:** Highest levels in urban areas, near plastic manufacturing facilities
+**Human Tissue Detection:**
+- **Blood:** 77% of participants (n=22) had detectable microplastics (Leslie et al., 2022)
+- **Placenta:** Microplastics detected in placental tissue samples (Ragusa et al., 2022)
+- **Breast milk:** Particles found in 75% of samples tested (Ragusa et al., 2022)
+- **Stool:** Median 20 particles/g detected (Schwabl et al., 2019)
+
+**Environmental Sources:**
+- **Bottled water:** Up to 240,000 particles/liter (Na et al., 2024)
+- **Tap water:** Lower but measurable concentrations
+- **Food packaging:** Major source of microplastic migration
+- **Airborne particles:** Inhalation pathway documented
 
 ---
 
