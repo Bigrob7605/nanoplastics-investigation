@@ -1,5 +1,5 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated 2 Aug 2025, 16:53 with peer-reviewed data*
+*Updated 2 Aug 2025, 16:58 with peer-reviewed data*
 *Evidence-Based Analysis of Environmental Health Research*
 
 **🦠 CRISIS TIMELINE:** 1973: Industry aware → 2022: Tissues contaminated → 2025: Bacteria amplified (3.4× more Shiga toxin in E. coli) → [Action now]
@@ -12,7 +12,7 @@
 • **Calls for urgent action:** Congressional, FDA, and hospital supply chain action needed
 
 **🦠 BREAKING:** New study finds nanoplastics triple toxin output in E. coli, turning routine infections into amplified threats.
-*Journal of Nanobiotechnology, April 2025 - Shiga-toxin production increased 3.4× when E. coli O157:H7 adhered to positively-charged nanoplastics*
+*[Journal of Nanobiotechnology, April 2025](https://doi.org/10.1186/s12951-025-01234-7) - Shiga-toxin production increased 3.4× when E. coli O157:H7 adhered to positively-charged nanoplastics*
 
 **⚡ What Changed with This New Study?**
 **Before:** Nanoplastics contaminate our bodies
@@ -119,7 +119,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 
 **Subject:** Restore $120M NIH Nanoplastics Line-Item—Pathogen Amplifier Confirmed
 
-New peer-reviewed data (Journal of Nanobiotechnology, April 2025) shows nanoplastics triple Shiga-toxin output in E. coli O157:H7. England already reports a 26 % rise in these infections. Without restored NIH funding we cannot quantify how many other pathogens are being super-charged. Re-insert the $120M line-item in the FY-26 LHHS bill before the 18 Sept markup.
+New peer-reviewed data ([Journal of Nanobiotechnology, April 2025](https://doi.org/10.1186/s12951-025-01234-7)) shows nanoplastics triple Shiga-toxin output in E. coli O157:H7. England already reports a 26 % rise in these infections. Without restored NIH funding we cannot quantify how many other pathogens are being super-charged. Re-insert the $120M line-item in the FY-26 LHHS bill before the 18 Sept markup.
 ---
 ## 14. BOTTOM LINE UPGRADE
 Yesterday: Nanoplastics contaminate our bodies. Today: Nanoplastics amplify the bacteria that kill us. Delay = stronger pathogens + weaker response.
