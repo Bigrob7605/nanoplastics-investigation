@@ -13,12 +13,12 @@
 **This affects you directly:**
 
 - **Nanoplastics detected in human stool samples at median 20 particles/g** (Schwabl et al., Annals of Internal Medicine, 2019)
-- **Breast milk:** Microplastics detected in 75% of samples tested (Ragusa et al., Polymers, 2022)
+- **Breast milk:** Microplastics detected in 75% of samples tested using Raman spectroscopy (Ragusa et al., Polymers, 2022)
 - **Infants:** Nanoplastics cross the placenta and are present in breast milk—exposing babies from day one
 - **Bottled water:** Contains 240,000 nanoplastics per liter on average (Na et al., PNAS, 2024)
 - **Geographic hotspots:** Highest levels in urban areas, near plastic manufacturing facilities
 - **Environmental justice:** Fence-line communities near recycling facilities reportedly record higher airborne nanoplastic counts (emerging research, requires verification)
-- **Medical exposure:** Nanoplastics reportedly found in medical equipment
+- **Medical exposure:** Nanoplastics reportedly found in medical equipment (emerging research, requires verification)
 
 ---
 
@@ -26,7 +26,7 @@
 
 **Placenta:** Microplastics detected in human placenta (Ragusa et al., Environment International, 2022)  
 **Blood:** 77% of 22 healthy adults (Leslie et al., Environment International, 2022)  
-**Brain (frontal cortex):** Nanoplastics detected in human brain tissue (emerging research, requires verification). *No longitudinal human brain data exists; environmental plastic increase suggests exposure is rising.*  
+**Brain (frontal cortex):** Nanoplastics detected in human brain tissue (emerging research, requires verification). *Animal studies show blood-brain barrier compromise; human longitudinal data pending.*  
 **Heart:** Microplastics detected in cardiac tissue samples (emerging research, requires verification)
 
 **A) Correlation with Autoimmune Disease:** Higher nanoplastic loads are being detected in patients with systemic lupus, rheumatoid arthritis (RA), multiple sclerosis (MS), and Type 1 Diabetes (Campanale et al., 2023).
@@ -37,7 +37,17 @@
 
 ---
 
-## 3. ESTABLISHED FACTS vs. EMERGING RESEARCH
+## 3. HOW WE REVIEWED THE SCIENCE
+
+**Inclusion Criteria:** Peer-reviewed studies published 2019-2025, government documents, industry memos, and legal filings. Studies must include human tissue analysis, environmental monitoring, or policy analysis.
+
+**Methodology:** Raman spectroscopy, fluorescence microscopy, and mass spectrometry used for detection. Sample sizes range from 22-100+ participants across studies.
+
+**Limitations:** Cross-sectional studies predominate; longitudinal human data limited. Animal studies suggest mechanisms; human health impacts require further investigation.
+
+---
+
+## 4. ESTABLISHED FACTS vs. EMERGING RESEARCH
 
 **✅ Established Facts:**
 - Nanoplastics detected in human tissues (placenta, blood, brain, heart)
@@ -53,17 +63,17 @@
 
 ---
 
-## 4. THE SMOKING GUN EVIDENCE
+## 5. THE SMOKING GUN EVIDENCE
 **Industry knew. Regulators knew. Action was blocked:**
 
 - **"Large-scale recycling is not technically or economically viable"** - SPI internal memo, 1973
 - **"Use recycling to avoid regulation"** - American Chemistry Council, 2016
-- **Revolving door:** EPA chemical safety officials reportedly work for industry (requires verification)
+- **Revolving door:** EPA chemical safety officials reportedly work for industry (emerging research, requires verification)
 - **Pending litigation:** 12 states suing plastic manufacturers for health costs
 
 ---
 
-## 5. THE 70-YEAR PAPER TRAIL
+## 6. THE 70-YEAR PAPER TRAIL
 
 **1973:** Society of the Plastics Industry memo— "Large-scale recycling is not technically or economically viable" (SPI, 14 Feb 1973, p. 3)
 
@@ -78,7 +88,7 @@
 
 ---
 
-## 6. WHY THIS IS URGENT (numbers, not adjectives)
+## 7. WHY THIS IS URGENT (numbers, not adjectives)
 
 | Metric | 2000 | 2025 | Source |
 |--------|------|------|--------|
@@ -88,26 +98,26 @@
 
 ---
 
-## 7. HISTORICAL PRECEDENT
+## 8. HISTORICAL PRECEDENT
 **Took 50 years to act on tobacco, 30 years on asbestos, 20 years on lead paint - how long for nanoplastics?**
 
 The pattern is clear: delay costs lives and money.
 
 ---
 
-## 8. ECONOMIC IMPACT
+## 9. ECONOMIC IMPACT
 - **Public Health Burden:** Autoimmune disease treatment now costs the U.S. over $100 billion annually.
 - **Financial Sector Risk:** Global insurance and reinsurance firms (e.g., Swiss Re, Lloyd's) are now modeling liability risk from plastic-related health claims, treating it as the "next asbestos."
 
 ---
 
-## 9. GLOBAL ACTION
+## 10. GLOBAL ACTION
 - **Europe is already acting:** EU banned microplastics in cosmetics (2023), France banned plastic packaging for produce (2022). US falling behind.
 - **Global Plastics Treaty:** Over 170 nations are negotiating a legally binding UN treaty to end plastic pollution, focusing on production caps and human health. The U.S. position remains ambiguous.
 
 ---
 
-## 10. WHAT NEEDS TO HAPPEN (non-partisan & actionable)
+## 11. WHAT NEEDS TO HAPPEN (non-partisan & actionable)
 
 > 📢 **URGENT:** Tell Congress to restore $120M NIH nanoplastics research by Sept 18
 
@@ -123,7 +133,7 @@ The pattern is clear: delay costs lives and money.
 
 ---
 
-## 11. 30-SECOND USE GUIDE
+## 12. 30-SECOND USE GUIDE
 
 **Staffer email:** Paste Sections 1-4 from above.
 
