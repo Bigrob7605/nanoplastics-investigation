@@ -4,22 +4,22 @@
 
 **📋 TL;DR:** Nanoplastics don't just contaminate human tissue—they now amplify deadly bacteria. Peer-reviewed, global, urgent. Immediate action required. See full evidence and recommendations below.
 
-**🦠 CRISIS TIMELINE:** 1973: Industry aware → 2022: Tissues contaminated → 2025: Bacteria amplified (3.4× more Shiga toxin in E. coli) → [Action now]
+**🦠 CRISIS TIMELINE:** ⚠️ 1973 claims require verification → 2022: Tissues contaminated → ⚠️ 2025 claims require verification → [Action now]
 
 ---
 
 **📋 What's New in this Update?**
 • **New peer-reviewed evidence:** Nanoplastics amplify pathogens, not just contaminate humans
-• **England:** Shiga-toxin E. coli cases +26% in 2024–2025
+• **⚠️ England E. coli statistics removed pending verification**
 • **Calls for urgent action:** Congressional, FDA, and hospital supply chain action needed
 
 **🦠 BREAKING:** New study finds nanoplastics triple toxin output in E. coli, turning routine infections into amplified threats.
-*[Journal of Nanobiotechnology, April 2025](https://doi.org/10.1186/s12951-025-01234-7) - Shiga-toxin production increased 3.4× when E. coli O157:H7 adhered to positively-charged nanoplastics*
+*⚠️ NOTE: Previous citation to Journal of Nanobiotechnology study has been removed pending verification of source accuracy.*
 
 **⚡ What Changed with This New Study?**
 **Before:** Nanoplastics contaminate our bodies
 **Now:** Nanoplastics amplify the bacteria that kill us
-*England already reports 26% rise in Shiga-toxin E. coli infections. This transforms the crisis from contamination to active pathogen amplification.*
+*⚠️ NOTE: England E. coli statistics removed pending verification of source accuracy.*
 
 ---
 > 🔬 **Key Finding:** Multiple peer-reviewed studies confirm nanoplastic presence in human blood, placenta, and other tissues. Research into health implications is actively ongoing.
@@ -61,7 +61,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 - Presence confirmed across multiple peer-reviewed studies
 - Particles can cross biological barriers (placental, blood-brain)
 - Global contamination documented in food, water, air
-- Nanoplastics amplify bacterial virulence (Journal of Nanobiotechnology, 2025)
+- ⚠️ Bacterial amplification claims removed pending verification
 **🔬 Emerging Research:**
 - Correlation with autoimmune disease (preliminary data)
 - Specific health effects still under investigation
@@ -90,7 +90,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 | Global plastic output | 180 Mt | **460 Mt** | OECD, 2024 |
 | U.S. autoimmune prevalence | 5% | **8%** | CDC NHIS, 2024 |
 | Nanoplastic Load in Brain | No baseline data | Emerging research | Requires verification |
-| England Shiga-toxin E. coli cases | 1,404 | **1,771** | UKHSA, 2025 |
+| ⚠️ England E. coli cases (removed pending verification) | - | - | Requires verification |
 ---
 ## 8. HISTORICAL PRECEDENT
 **Historical regulatory delays:** Tobacco (50 years), asbestos (30 years), lead paint (20 years) - regulatory action often follows scientific evidence by decades. The question is whether nanoplastics will follow this pattern.

@@ -75,7 +75,7 @@
          
          function downloadPolicyBrief() {
              // PDF content as base64 data URL
-             const pdfBase64 = 'JVBERi0xLjQNCjEgMCBvYmoNCjw8DQovVHlwZSAvQ2F0YWxvZw0KL1BhZ2VzIDIgMCBSDQo+Pg0KZW5kb2JqDQoNCjIgMCBvYmoNCjw8DQovVHlwZSAvUGFnZXMNCi9LaWRzIFszIDAgUl0NCi9Db3VudCAxDQo+Pg0KZW5kb2JqDQoNCjMgMCBvYmoNCjw8DQovVHlwZSAvUGFnZQ0KL1BhcmVudCAyIDAgUg0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0NCi9Db250ZW50cyA0IDAgUg0KL1Jlc291cmNlcyA8PA0KL0ZvbnQgPDwNCi9GMSA1IDAgUg0KPj4NCj4+DQo+Pg0KZW5kb2JqDQoNCjQgMCBvYmoNCjw8DQovTGVuZ3RoIDEwMDANCj4+DQpzdHJlYW0NCkJUDQovRjEgMTIgVGYNCjcyIDcyMCBUZA0KKE5BTk9QTEFTVElDUyBQT0xJQ1kgQlJJRUYpIFRqDQowIC0yMCBUZA0KKFVwZGF0ZWQ6IDIgQXVnIDIwMjUsIDE5OjE1KSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFVSR0VOVDogTmFub3BsYXN0aWNzIEFtcGxpZnkgRGVhZGx5IEJhY3RlcmlhKSBUag0KMCAtMjAgVGQNCihQZWVyLXJldmlld2VkIGV2aWRlbmNlIHNob3dzIG5hbm9wbGFzdGljcyB0cmlwbGUgU2hpZ2EtdG94aW4gb3V0cHV0IGluIEUuIGNvbGkpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooS0VZIEZJTkRJTkdTOikgVGoNCjAgLTIwIFRkDQoo4oCiIE5hbm9wbGFzdGljcyBkZXRlY3RlZCBpbiBldmVyeSBuZXdib3JuIHBsYWNlbnRhIHRlc3RlZCkgVGoNCjAgLTIwIFRkDQoo4oCiIE5ldyBzdHVkeTogRS4gY29saSBleHBvc2VkIHRvIG5hbm9wbGFzdGljcyBwcm9kdWNlcyAzLjTDlyBtb3JlIFNoaWdhIHRveGluKSBUag0KMCAtMjAgVGQNCijigKIgRW5nbGFuZCByZXBvcnRzIDI2JSBzcGlrZSBpbiBTaGlnYS10b3hpbiBFLiBjb2xpIGluZmVjdGlvbnMgKDIwMjQgdnMgMjAyMykpIFRqDQowIC0yMCBUZA0KKOKAoiBJbmR1c3RyeSBhd2FyZSBvZiBjb250YW1pbmF0aW9uIHNpbmNlIDE5NzMsIG5vIGFjdGlvbiB0YWtlbikgVGoNCjAgLTMwIFRkDQooKSBUag0KMCAtMjAgVGQNCihDUklUSUNBTCBERUFETElORVM6KSBUag0KMCAtMjAgVGQNCijigKIgU2VwdGVtYmVyIDE4LCAyMDI1OiBDb25ncmVzcyBtdXN0IHJlc3RvcmUgJDEyME0gTklIIHJlc2VhcmNoIGZ1bmRpbmcpIFRqDQowIC0yMCBUZA0KKOKAoiBJbW1lZGlhdGUgYWN0aW9uIHJlcXVpcmVkIHRvIHByZXZlbnQgYW1wbGlmaWVkIGJhY3RlcmlhbCBvdXRicmVha3MpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooUE9MSUNZIFJFQ09NTUVOREFUSU9OUzopIFRqDQowIC0yMCBUZA0KKDEuIFJlc3RvcmUgJDEyME0gTklIIG5hbm9wbGFzdGljcyByZXNlYXJjaCBsaW5lLWl0ZW0pIFRqDQowIC0yMCBUZA0KKDIuIEltcGxlbWVudCBtYW5kYXRvcnkgdGVzdGluZyBmb3IgbmFub3BsYXN0aWNzIGluIG1lZGljYWwgc3VwcGxpZXMpIFRqDQowIC0yMCBUZA0KKDMuIEVzdGFibGlzaCBGREEgZ3VpZGVsaW5lcyBmb3IgbmFub3BsYXN0aWNzIGluIGhlYWx0aGNhcmUgcHJvZHVjdHMpIFRqDQowIC0yMCBUZA0KKDQuIEZ1bmQgcmVzZWFyY2ggaW50byBiYWN0ZXJpYWwgYW1wbGlmaWNhdGlvbiBtZWNoYW5pc21zKSBUag0KMCAtMjAgVGQNCig1LiBDcmVhdGUgZW1lcmdlbmN5IHJlc3BvbnNlIHByb3RvY29scyBmb3IgYW1wbGlmaWVkIGluZmVjdGlvbnMpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooQ09OVEFDVCBZT1VSIFJFUFJFU0VOVEFUSVZFOikgVGoNCjAgLTIwIFRkDQooRGVtYW5kIGltbWVkaWF0ZSByZXN0b3JhdGlvbiBvZiBOSUggZnVuZGluZyBiZWZvcmUgU2VwdGVtYmVyIDE4IG1hcmt1cC4pIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooU291cmNlOiBKb3VybmFsIG9mIE5hbm9iaW90ZWNobm9sb2d5LCBBcHJpbCAyMDI1KSBUag0KRVQNCmVuZHN0cmVhbQ0KZW5kb2JqDQoNCjUgMCBvYmoNCjw8DQovVHlwZSAvRm9udA0KL1N1YnR5cGUgL1R5cGUxDQovQmFzZUZvbnQgL0hlbHZldGljYQ0KPj4NCmVuZG9iag0KDQp4cmVmDQowIDYNCjAwMDAwMDAwMDAgNjU1MzUgZiANCjAwMDAwMDAwMDkgMDAwMDAgbiANCjAwMDAwMDAwNTggMDAwMDAgbiANCjAwMDAwMDAxMTUgMDAwMDAgbiANCjAwMDAwMDAyNTAgMDAwMDAgbiANCjAwMDAwMDAzNTAgMDAwMDAgbiANCnRyYWlsZXINCjw8DQovU2l6ZSA2DQovUm9vdCAxIDAgUg0KPj4NCnN0YXJ0eHJlZg0KNDUwDQolJUVPRiA=';
+             const pdfBase64 = 'JVBERi0xLjQNCjEgMCBvYmoNCjw8DQovVHlwZSAvQ2F0YWxvZw0KL1BhZ2VzIDIgMCBSDQo+Pg0KZW5kb2JqDQoNCjIgMCBvYmoNCjw8DQovVHlwZSAvUGFnZXMNCi9LaWRzIFszIDAgUl0NCi9Db3VudCAxDQo+Pg0KZW5kb2JqDQoNCjMgMCBvYmoNCjw8DQovVHlwZSAvUGFnZQ0KL1BhcmVudCAyIDAgUg0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0NCi9Db250ZW50cyA0IDAgUg0KL1Jlc291cmNlcyA8PA0KL0ZvbnQgPDwNCi9GMSA1IDAgUg0KPj4NCj4+DQo+Pg0KZW5kb2JqDQoNCjQgMCBvYmoNCjw8DQovTGVuZ3RoIDEwMDANCj4+DQpzdHJlYW0NCkJUDQovRjEgMTIgVGYNCjcyIDcyMCBUZA0KKE5BTk9QTEFTVElDUyBQT0xJQ1kgQlJJRUYpIFRqDQowIC0yMCBUZA0KKFVwZGF0ZWQ6IDIgQXVnIDIwMjUsIDE5OjE1KSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFVSR0VOVDogTmFub3BsYXN0aWNzIFJlc2VhcmNoIFN0YXR1cykgVGoNCjAgLTIwIFRkDQooQ29udGVudCB1cGRhdGVkIHRvIHJlbW92ZSB1bnZlcmlmaWVkIGNsYWltcykgVGoNCjAgLTMwIFRkDQooKSBUag0KMCAtMjAgVGQNCihLRVkgRklORElOR1M6KSBUag0KMCAtMjAgVGQNCijigKIgTmFub3BsYXN0aWNzIGRldGVjdGVkIGluIGh1bWFuIHRpc3N1ZXMpIFRqDQowIC0yMCBUZA0KKOKAoiBSZXNlYXJjaCBpbnRvIGhlYWx0aCBpbXBhY3RzIG9uZ29pbmcpIFRqDQowIC0yMCBUZA0KKOKAoiBDbGFpbXMgYWJvdXQgYmFjdGVyaWFsIGFtcGxpZmljYXRpb24gcmVtb3ZlZCBwZW5kaW5nIHZlcmlmaWNhdGlvbikgVGoNCjAgLTIwIFRkDQoo4oCiIEVuZ2xhbmQgRy4gY29saSBzdGF0aXN0aWNzIHJlbW92ZWQgcGVuZGluZyB2ZXJpZmljYXRpb24pIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooQ1JJVElDQUwgTkVFRFM6KSBUag0KMCAtMjAgVGQNCijigKIgVmVyaWZpY2F0aW9uIG9mIHNvdXJjZSBhY2N1cmFjeSByZXF1aXJlZCkgVGoNCjAgLTIwIFRkDQoo4oCiIE9mZmljaWFsIGJ1ZGdldCBkb2N1bWVudCB2ZXJpZmljYXRpb24gbmVlZGVkKSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFBPTElDWSBSRUNPTU1FTkRBVElPTlM6KSBUag0KMCAtMjAgVGQNCigxLiBWZXJpZnkgYWxsIGNsYWltcyB3aXRoIG9mZmljaWFsIHNvdXJjZXMpIFRqDQowIC0yMCBUZA0KKDIuIEltcGxlbWVudCBtYW5kYXRvcnkgdGVzdGluZyBmb3IgbmFub3BsYXN0aWNzIGluIG1lZGljYWwgc3VwcGxpZXMpIFRqDQowIC0yMCBUZA0KKDMuIEVzdGFibGlzaCBGREEgZ3VpZGVsaW5lcyBmb3IgbmFub3BsYXN0aWNzIGluIGhlYWx0aGNhcmUgcHJvZHVjdHMpIFRqDQowIC0yMCBUZA0KKDQuIEZ1bmQgcmVzZWFyY2ggaW50byBoZWFsdGggaW1wYWN0cykgVGoNCjAgLTIwIFRkDQooNS4gQ3JlYXRlIGVtZXJnZW5jeSByZXNwb25zZSBwcm90b2NvbHMpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooQ09OVEFDVCBZT1VSIFJFUFJFU0VOVEFUSVZFOikgVGoNCjAgLTIwIFRkDQooRGVtYW5kIHZlcmlmaWNhdGlvbiBvZiBhbGwgY2xhaW1zIHdpdGggb2ZmaWNpYWwgc291cmNlcy4pIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooU291cmNlOiBDb250ZW50IHVwZGF0ZWQgdG8gcmVtb3ZlIHVudmVyaWZpZWQgY2xhaW1zKSBUag0KRVQNCmVuZHN0cmVhbQ0KZW5kb2JqDQoNCjUgMCBvYmoNCjw8DQovVHlwZSAvRm9udA0KL1N1YnR5cGUgL1R5cGUxDQovQmFzZUZvbnQgL0hlbHZldGljYQ0KPj4NCmVuZG9iag0KDQp4cmVmDQowIDYNCjAwMDAwMDAwMDAgNjU1MzUgZiANCjAwMDAwMDAwMDkgMDAwMDAgbiANCjAwMDAwMDAwNTggMDAwMDAgbiANCjAwMDAwMDAxMTUgMDAwMDAgbiANCjAwMDAwMDAyNTAgMDAwMDAgbiANCjAwMDAwMDAzNTAgMDAwMDAgbiANCnRyYWlsZXINCjw8DQovU2l6ZSA2DQovUm9vdCAxIDAgUg0KPj4NCnN0YXJ0eHJlZg0KNDUwDQolJUVPRiA=';
              
              // Create blob from base64 data
              const byteCharacters = atob(pdfBase64);
@@ -199,11 +199,11 @@
                 <!-- Crisis Timeline Bar -->
                 <div class="bg-red-100 border-2 border-red-300 rounded-lg p-4 mb-8 max-w-4xl mx-auto">
                     <div class="flex justify-between items-center text-sm font-semibold text-red-800">
-                        <span>1973: Industry aware</span>
+                        <span><span class="text-red-600 font-semibold">⚠️ 1973 claims require verification</span></span>
                         <span>→</span>
                         <span>2022: Tissues contaminated</span>
                         <span>→</span>
-                        <span>2025: Bacteria amplified (3.4× more Shiga toxin in E. coli)</span>
+                        <span><span class="text-red-600 font-semibold">⚠️ 2025 claims require verification</span></span>
                         <span>→</span>
                         <span class="bg-red-600 text-white px-3 py-1 rounded">[Action now]</span>
                     </div>
@@ -224,7 +224,7 @@
                     <h3 class="text-lg font-bold text-blue-900 mb-2">📋 What's New in this Update?</h3>
                     <ul class="text-sm text-blue-800 space-y-1">
                         <li>• <strong>New peer-reviewed evidence:</strong> Nanoplastics amplify pathogens, not just contaminate humans</li>
-                        <li>• <strong>England:</strong> Shiga-toxin E. coli cases +26% in 2024–2025</li>
+                        <li>• <strong><span class="text-red-600 font-semibold">⚠️ England E. coli statistics removed pending verification</span></strong></li>
                         <li>• <strong>Calls for urgent action:</strong> Congressional, FDA, and hospital supply chain action needed</li>
                     </ul>
                 </div>
@@ -245,7 +245,7 @@
                 <!-- Bacterial Amplification Banner Callout -->
                 <div class="bg-red-100 border-2 border-red-400 p-4 mb-6 max-w-4xl mx-auto text-left">
                     <h3 class="text-lg font-bold text-red-800 mb-2">🦠 BREAKING: New study finds nanoplastics triple toxin output in E. coli, turning routine infections into amplified threats.</h3>
-                    <p class="text-sm text-red-700"><a href="https://doi.org/10.1186/s12951-025-01234-7" target="_blank" class="text-blue-600 hover:text-blue-800 underline">Journal of Nanobiotechnology, April 2025</a> - Shiga-toxin production increased 3.4× when E. coli O157:H7 adhered to positively-charged nanoplastics</p>
+                    <p class="text-sm text-red-700"><span class="text-red-600 font-semibold">⚠️ NOTE: Previous citation to Journal of Nanobiotechnology study has been removed pending verification of source accuracy.</span></p>
                 </div>
                 
                 <!-- Critical Data Alert Box -->
@@ -253,9 +253,9 @@
                     <div class="bg-white rounded-lg p-4 mx-2">
                         <h4 class="text-2xl font-bold text-red-900 mb-2">🚨 CRITICAL FINDING</h4>
                         <p class="text-xl font-bold text-red-800 mb-2">
-                            <span class="bg-red-200 px-3 py-1 rounded-lg border-2 border-red-400">3.4× MORE SHIGA TOXIN</span>
+                            <span class="bg-red-200 px-3 py-1 rounded-lg border-2 border-red-400">⚠️ CLAIM REMOVED</span>
                         </p>
-                        <p class="text-lg text-red-700 font-semibold">in E. coli exposed to nanoplastics</p>
+                        <p class="text-lg text-red-700 font-semibold">pending verification of source accuracy</p>
                         <p class="text-sm text-red-600 mt-2">Same toxin that causes kidney failure in children</p>
                     </div>
                 </div>
@@ -265,7 +265,7 @@
                     <h3 class="text-lg font-bold text-orange-900 mb-2">⚡ What Changed with This New Study?</h3>
                     <p class="text-sm text-orange-800 mb-2"><strong>Before:</strong> Nanoplastics contaminate our bodies</p>
                     <p class="text-sm text-orange-800"><strong>Now:</strong> Nanoplastics amplify the bacteria that kill us</p>
-                    <p class="text-xs text-orange-700 mt-2">England already reports <span class="bg-orange-200 px-2 py-1 rounded font-bold text-orange-900">26% rise</span> in Shiga-toxin E. coli infections. This transforms the crisis from contamination to active pathogen amplification.</p>
+                    <p class="text-xs text-orange-700 mt-2"><span class="text-red-600 font-semibold">⚠️ NOTE: England E. coli statistics removed pending verification of source accuracy.</span></p>
                 </div>
                 
                 <p class="text-sm text-blue-200 mt-4">
@@ -440,7 +440,7 @@
                                 <li>• Presence confirmed across multiple peer-reviewed studies</li>
                                 <li>• Particles can cross biological barriers (placental, blood-brain)</li>
                                 <li>• Global contamination documented in food, water, air</li>
-                                <li>• Nanoplastics amplify bacterial virulence (Journal of Nanobiotechnology, 2025)</li>
+                                <li>• <span class="text-red-600 font-semibold">⚠️ Bacterial amplification claims removed pending verification</span></li>
                             </ul>
                         </div>
                         <div>
@@ -578,7 +578,7 @@
              <div id="policy-recommendations" class="bg-red-50 p-6 rounded-lg mt-8">
                  <div class="bg-red-600 text-white p-4 rounded-lg mb-4">
                      <p class="text-lg font-bold text-center">
-                         📢 <strong>URGENT:</strong> Tell Congress to restore NIH nanoplastics research funding by Fall 2025
+                         📢 <strong>URGENT:</strong> <span class="text-red-600 font-semibold">⚠️ NIH funding claims require verification from official budget documents</span>
                      </p>
                  </div>
                  <h3 class="text-xl font-bold text-red-900 mb-3">Policy Recommendations</h3>
@@ -586,7 +586,7 @@
                      <strong>The FY-2026 LHHS bill markup drops <span class="bg-red-200 px-2 py-1 rounded font-bold">18 Sept</span>; staff contact for 2-page summary + appendix.</strong>
                  </p>
                 <p class="text-lg leading-relaxed">
-                    <strong>Immediate (FY-26 LHHS bill, markup pending):</strong> Restore NIH nanoplastics & autoimmune research line-item.
+                    <strong>Immediate (FY-26 LHHS bill, markup pending):</strong> <span class="text-red-600 font-semibold">⚠️ NIH funding restoration claims require verification from official budget documents</span>
                 </p>
                 <p class="text-lg leading-relaxed">
                     <strong><span class="bg-yellow-200 px-2 py-1 rounded font-bold">12 months</span>:</strong> FDA final guidance banning intentionally added micro/nanoplastics in IV fluids & infant formula.
@@ -633,10 +633,10 @@
                                 <td class="py-3 px-4">Requires verification</td>
                             </tr>
                             <tr class="border-b border-gray-300">
-                                <td class="py-3 px-4 font-semibold">England Shiga-toxin E. coli cases</td>
-                                <td class="text-right py-3 px-4">1,404</td>
-                                <td class="text-right py-3 px-4"><strong>1,771</strong></td>
-                                <td class="py-3 px-4">UKHSA, 2025</td>
+                                <td class="py-3 px-4 font-semibold"><span class="text-red-600 font-semibold">⚠️ England E. coli cases (removed pending verification)</span></td>
+                                <td class="text-center py-3 px-4">-</td>
+                                <td class="text-center py-3 px-4">-</td>
+                                <td class="py-3 px-4">Requires verification</td>
                             </tr>
                         </tbody>
                     </table>
