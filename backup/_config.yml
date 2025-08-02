@@ -1,0 +1,14 @@
+# GitHub Pages configuration for static HTML site
+# This tells GitHub Pages not to use Jekyll processing
+
+# Disable Jekyll processing
+plugins: []
+
+# No Jekyll processing
+exclude: []
+
+# Mark as static site
+markdown: kramdown
+
+# Disable Jekyll
+jekyll: false 
