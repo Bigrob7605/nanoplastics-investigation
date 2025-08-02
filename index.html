@@ -54,6 +54,24 @@
                  }, 2000);
              });
          }
+         
+         function copyPageLink() {
+             const pageUrl = window.location.href;
+             
+             navigator.clipboard.writeText(pageUrl).then(function() {
+                 const button = event.target;
+                 const originalText = button.textContent;
+                 button.textContent = '✅ Link Copied!';
+                 button.classList.remove('bg-green-600', 'hover:bg-green-700');
+                 button.classList.add('bg-blue-600');
+                 
+                 setTimeout(function() {
+                     button.textContent = originalText;
+                     button.classList.remove('bg-blue-600');
+                     button.classList.add('bg-green-600', 'hover:bg-green-700');
+                 }, 2000);
+             });
+         }
      </script>
 </head>
 <body class="bg-gray-50 text-gray-900">
@@ -75,6 +93,9 @@
                     <a href="#scientific-evidence" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Scientific Evidence</a>
                     <a href="#industry-evidence" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Industry Documents</a>
                     <a href="#policy-recommendations" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Policy</a>
+                    <button onclick="copyPageLink()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
+                        📤 Share This Page
+                    </button>
                 </div>
             </div>
         </div>
@@ -95,9 +116,23 @@
     <div class="bg-gradient-to-r from-blue-900 to-purple-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
             <div class="text-center">
-                                <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">
                     Nanoplastics in Human Tissues
                 </h1>
+                
+                <!-- Crisis Timeline Bar -->
+                <div class="bg-red-100 border-2 border-red-300 rounded-lg p-3 mb-6 max-w-4xl mx-auto">
+                    <div class="flex justify-between items-center text-sm font-semibold text-red-800">
+                        <span>1973: Industry aware</span>
+                        <span>→</span>
+                        <span>2022: Tissues contaminated</span>
+                        <span>→</span>
+                        <span>2025: Bacteria amplified</span>
+                        <span>→</span>
+                        <span class="bg-red-600 text-white px-3 py-1 rounded">[Action now]</span>
+                    </div>
+                </div>
+                
                 <p class="text-lg italic text-blue-200 mb-4">
                     Evidence-Based Analysis of Environmental Health Research
                 </p>
@@ -107,6 +142,16 @@
                 <p class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
                     A comprehensive review of peer-reviewed research on nanoplastic contamination in human tissues and the implications for public health policy.
                 </p>
+                
+                <!-- What's New in this Update Section -->
+                <div class="bg-blue-100 border-l-4 border-blue-500 p-4 mb-6 max-w-4xl mx-auto text-left">
+                    <h3 class="text-lg font-bold text-blue-900 mb-2">📋 What's New in this Update?</h3>
+                    <ul class="text-sm text-blue-800 space-y-1">
+                        <li>• <strong>New peer-reviewed evidence:</strong> Nanoplastics amplify pathogens, not just contaminate humans</li>
+                        <li>• <strong>England:</strong> Shiga-toxin E. coli cases +26% in 2024–2025</li>
+                        <li>• <strong>Calls for urgent action:</strong> Congressional, FDA, and hospital supply chain action needed</li>
+                    </ul>
+                </div>
                 
                 <!-- Important Disclaimers -->
                 <div class="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-6 max-w-4xl mx-auto text-left">
@@ -120,8 +165,22 @@
                         🔬 <strong>Key Finding:</strong> Multiple peer-reviewed studies confirm nanoplastic presence in human blood, placenta, and other tissues. Research into health implications is actively ongoing.
                     </p>
                 </div>
+                
+                <!-- Bacterial Amplification Banner Callout -->
+                <div class="bg-red-100 border-2 border-red-400 p-4 mb-6 max-w-4xl mx-auto text-left">
+                    <h3 class="text-lg font-bold text-red-800 mb-2">🦠 BREAKING: New study finds nanoplastics triple toxin output in E. coli, turning routine infections into amplified threats.</h3>
+                    <p class="text-sm text-red-700">Journal of Nanobiotechnology, April 2025 - Shiga-toxin production increased 3.4× when E. coli O157:H7 adhered to positively-charged nanoplastics</p>
+                </div>
+                
+                <!-- What Changed with This New Study -->
+                <div class="bg-orange-100 border-l-4 border-orange-500 p-4 mb-6 max-w-4xl mx-auto text-left">
+                    <h3 class="text-lg font-bold text-orange-900 mb-2">⚡ What Changed with This New Study?</h3>
+                    <p class="text-sm text-orange-800 mb-2"><strong>Before:</strong> Nanoplastics contaminate our bodies</p>
+                    <p class="text-sm text-orange-800"><strong>Now:</strong> Nanoplastics amplify the bacteria that kill us</p>
+                    <p class="text-xs text-orange-700 mt-2">England already reports 26% rise in Shiga-toxin E. coli infections. This transforms the crisis from contamination to active pathogen amplification.</p>
+                </div>
                                                  <p class="text-sm text-blue-200 mt-4">
-                    <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 16:40
+                    <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 16:46
                 </p>
                 <div class="flex flex-wrap justify-center gap-4 text-sm">
                     <span class="bg-blue-600 px-4 py-2 rounded-full">Peer-Reviewed Research</span>
@@ -578,6 +637,7 @@
                          <li>• Avoid bottled water & single-use plastics</li>
                          <li>• Support state bottle-deposit bills</li>
                          <li>• Demand FDA action on IV fluids</li>
+                         <li>• <strong>Demand transparency from medical suppliers</strong> - Ask hospitals about nanoplastic testing in IV bags, tubing, and medical devices</li>
                          <li>• Contact your representatives</li>
                          <li>• Share this resource with friends, reporters, and policymakers</li>
                      </ul>
@@ -647,7 +707,7 @@ Full brief: https://bigrob7605.github.io/nanoplastics-investigation/
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
                                                  <p class="text-sm text-gray-400">
-                    <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 16:40
+                    <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 16:46
                 </p>
                 <p class="text-sm text-gray-400 mt-2">
                     This investigation is based on peer-reviewed scientific literature, industry documents, and legal filings.

@@ -1,10 +1,27 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated 2 Aug 2025, 16:40 with peer-reviewed data*
+*Updated 2 Aug 2025, 16:46 with peer-reviewed data*
 *Evidence-Based Analysis of Environmental Health Research*
+
+**🦠 CRISIS TIMELINE:** 1973: Industry aware → 2022: Tissues contaminated → 2025: Bacteria amplified → [Action now]
+
+---
+**📋 What's New in this Update?**
+• **New peer-reviewed evidence:** Nanoplastics amplify pathogens, not just contaminate humans
+• **England:** Shiga-toxin E. coli cases +26% in 2024–2025
+• **Calls for urgent action:** Congressional, FDA, and hospital supply chain action needed
+
+**🦠 BREAKING:** New study finds nanoplastics triple toxin output in E. coli, turning routine infections into amplified threats.
+*Journal of Nanobiotechnology, April 2025 - Shiga-toxin production increased 3.4× when E. coli O157:H7 adhered to positively-charged nanoplastics*
+
+**⚡ What Changed with This New Study?**
+**Before:** Nanoplastics contaminate our bodies
+**Now:** Nanoplastics amplify the bacteria that kill us
+*England already reports 26% rise in Shiga-toxin E. coli infections. This transforms the crisis from contamination to active pathogen amplification.*
+
 ---
 > 🔬 **Key Finding:** Multiple peer-reviewed studies confirm nanoplastic presence in human blood, placenta, and other tissues. Research into health implications is actively ongoing.
 **⚠️ Research Status:** This field represents emerging science. While nanoplastics have been confirmed in human tissues, health impact research is ongoing. Correlations do not establish causation.
-[Jump to staffer one-pager](#12-30-second-use-guide)
+[Jump to staffer one-pager](#15-30-second-use-guide)
 ---
 ## 1. PEER-REVIEWED SCIENTIFIC EVIDENCE
 **Human Tissue Detection:**
@@ -109,6 +126,7 @@ Yesterday: Nanoplastics contaminate our bodies. Today: Nanoplastics amplify the 
 - Avoid bottled water & single-use plastics
 - Support state bottle-deposit bills  
 - Demand FDA action on IV fluids
+- **Demand transparency from medical suppliers** - Ask hospitals about nanoplastic testing in IV bags, tubing, and medical devices
 - Contact your representatives
 - Share this resource with friends, reporters, and policymakers
 **Reporter DM:** "Nanoplastics detected in human tissues—emerging research shows contamination in placenta, blood, and brain. Source pack:" + URL.
