@@ -42,7 +42,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 
 **Limitations:** Cross-sectional studies predominate; longitudinal human data limited. Animal studies suggest mechanisms; human health impacts require further investigation.
 
-**† Footnotes:** Brain data from Dunlop et al. used limited autopsy sample (n=12). Blood study sample size (n=22) is small but significant.
+**† Footnotes:** Brain data from Dunlop et al. used limited autopsy sample (n=12). Results require replication in larger, diverse populations. Blood study sample size (n=22) is small but significant.
 
 ---
 
