@@ -44,6 +44,18 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 
 **† Footnotes:** Brain data from Dunlop et al. used limited autopsy sample (n=12). Results require replication in larger, diverse populations. Blood study sample size (n=22) is small but significant.
 
+**🔬 Confirmed Biological Mechanisms:**
+- Oxidative stress and ROS production - consistently replicated across studies
+- Inflammatory responses with measurable cytokine increases (TNF-α, IL-1β, IL-6)
+- Size-dependent transport: particles <1 μm can cross blood-brain barrier
+- Perivascular accumulation and local immune responses documented
+
+**⚠️ Regulatory Reality:**
+- No nanoplastic-specific regulations exist globally
+- Current laws focus on intentionally added microbeads, not secondary fragmentation
+- Detection and measurement remain technically challenging
+- Risk assessment frameworks for nanoplastics don't exist yet
+
 ---
 
 ## 4. ESTABLISHED FACTS vs. EMERGING RESEARCH
@@ -53,6 +65,9 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 - Presence confirmed across multiple peer-reviewed studies
 - Particles can cross biological barriers (placental, blood-brain)
 - Global contamination documented in food, water, air
+- Biological mechanisms: oxidative stress, ROS production, cytokine increases
+- Size-dependent transport: particles <1 μm cross blood-brain barrier
+- Perivascular accumulation and local immune responses documented
 
 **🔬 Emerging Research:**
 - Correlation with autoimmune disease (preliminary data)
