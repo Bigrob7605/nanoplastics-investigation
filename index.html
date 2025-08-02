@@ -106,11 +106,11 @@ Source: Journal of Nanobiotechnology, April 2025
              `;
              
              // Create blob and download
-             const blob = new Blob([policyBrief], { type: 'text/plain' });
+             const blob = new Blob([policyBrief], { type: 'application/pdf' });
              const url = window.URL.createObjectURL(blob);
              const a = document.createElement('a');
              a.href = url;
-             a.download = 'nanoplastics-policy-brief.txt';
+             a.download = 'nanoplastics-policy-brief.pdf';
              document.body.appendChild(a);
              a.click();
              document.body.removeChild(a);
@@ -167,7 +167,7 @@ Source: Journal of Nanobiotechnology, April 2025
                 </div>
                 <div class="bg-white rounded-xl p-8 shadow-2xl max-w-5xl mx-auto border-4 border-red-600">
                     <p class="text-2xl md:text-3xl text-gray-900 font-bold leading-relaxed mb-6">
-                        <span class="bg-red-100 px-4 py-3 rounded-lg border-2 border-red-400 leading-tight">Nanoplastics don't just contaminate human tissue—they now amplify deadly bacteria.</span> 
+                        <span class="bg-red-100 px-4 py-4 rounded-lg border-2 border-red-400 leading-normal">Nanoplastics don't just contaminate human tissue—they now amplify deadly bacteria.</span> 
                         <br><br>
                         <span class="text-red-700 font-black">Peer-reviewed, global, urgent. Immediate action required.</span>
                         <br><br>
