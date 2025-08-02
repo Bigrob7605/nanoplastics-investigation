@@ -17,7 +17,7 @@
 - **Nanoplastics detected in human stool samples at median 20 particles/g** (Schwabl et al., Annals of Internal Medicine, 2019)
 - **Breast milk:** Microplastics detected in 75% of samples tested using Raman spectroscopy (Ragusa et al., Polymers, 2022)
 - **Infants:** Nanoplastics cross the placenta and are present in breast milk—exposing babies from day one
-- **Bottled water:** Contains 240,000 nanoplastics per liter on average (Na et al., PNAS, 2024)
+- **Bottled water:** Contains up to 240,000 nanoplastics per liter (Na et al., PNAS, 2024)
 - **Geographic hotspots:** Highest levels in urban areas, near plastic manufacturing facilities
 - **Environmental justice:** Fence-line communities near recycling facilities reportedly record higher airborne nanoplastic counts (emerging research, requires verification)
 - **Medical exposure:** Nanoplastics reportedly found in medical equipment (emerging research, requires verification)
@@ -198,4 +198,4 @@ https://bigrob7605.github.io/nanoplastics-investigation/
 
 **📬 Media contact:** screwball7605@aol.com
 
-#Nanoplastics #RecyclingFraud #AutoimmuneCrisis #PlasticLies #PolicyChangeNow
+#Nanoplastics #MicroplasticsInBlood #AutoimmuneCrisis #PlasticLies #PolicyChangeNow
