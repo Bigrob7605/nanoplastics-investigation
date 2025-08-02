@@ -9,8 +9,8 @@
 ## 1. PEER-REVIEWED SCIENTIFIC EVIDENCE
 
 **Human Tissue Detection:**
-- **Blood:** 77% of participants (n=22) had detectable microplastics (Leslie et al., 2022)
-- **Placenta:** Microplastics detected in placental tissue samples (Ragusa et al., 2022)
+- **Blood:** 17 of 22 participants (77%) with average 1.6 µg/mL concentration. Four polymer types: PET, PE, styrene polymers, PMMA (Leslie et al., 2022)
+- **Placenta:** Polypropylene identified via Raman microspectroscopy in placental tissue samples (Ragusa et al., 2022)
 - **Breast milk:** Particles found in 75% of samples tested (Ragusa et al., 2022)
 - **Stool:** Median 20 particles/g detected (Schwabl et al., 2019)
 
@@ -24,8 +24,8 @@
 
 ## 2. WHAT WE NOW KNOW (2022-2025, peer-reviewed)
 
-**Placenta:** Microplastics detected in human placenta (Ragusa et al., Environment International, 2022)  
-**Blood:** 77% of 22 healthy adults (Leslie et al., Environment International, 2022) † Small sample size (n=22)  
+**Placenta:** Polypropylene identified via Raman microspectroscopy in human placenta (Ragusa et al., Environment International, 2022)  
+**Blood:** 17 of 22 healthy adults (77%) with average 1.6 µg/mL concentration. Four polymer types: PET, PE, styrene polymers, PMMA (Leslie et al., Environment International, 2022) † Small sample size (n=22)  
 **Brain (frontal cortex):**  
 Nanoplastics detected **(Dunlop et al., 2023)**  
 † Limited autopsy sample (n=12); human longitudinal data pending.
@@ -38,7 +38,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 
 **Inclusion Criteria:** Peer-reviewed studies published 2019-2025, government documents, industry memos, and legal filings. Studies must include human tissue analysis, environmental monitoring, or policy analysis.
 
-**Methodology:** Raman spectroscopy, fluorescence microscopy, and mass spectrometry used for detection. Sample sizes range from 22-100+ participants across studies.
+**Methodology:** Py-GC/MS (pyrolysis gas chromatography-mass spectrometry) at 600°C, SEM/TEM visualization, Raman microspectroscopy, and energy-dispersive X-ray spectroscopy (EDS) used for detection. Sample sizes range from 22-100+ participants across studies.
 
 **Limitations:** Cross-sectional studies predominate; longitudinal human data limited. Animal studies suggest mechanisms; human health impacts require further investigation.
 
