@@ -28,7 +28,9 @@
 
 **Placenta:** Microplastics detected in human placenta (Ragusa et al., Environment International, 2022)  
 **Blood:** 77% of 22 healthy adults (Leslie et al., Environment International, 2022)  
-**Brain (frontal cortex):** Human brain data: Dunlop et al. median 4,500 particles/g († limited autopsy sample, n=12). *Animal studies show blood-brain barrier compromise; human longitudinal data pending.*  
+**Brain (frontal cortex):**  
+Nanoplastics detected **(Dunlop et al., 2023)**  
+† Limited autopsy sample (n=12); human longitudinal data pending.  
 **Heart:** Microplastics detected in cardiac tissue samples (emerging research, requires verification)
 
 **A) Correlation with Autoimmune Disease:** Higher nanoplastic loads are being detected in patients with systemic lupus, rheumatoid arthritis (RA), multiple sclerosis (MS), and Type 1 Diabetes (Campanale et al., 2023).
@@ -94,10 +96,10 @@
 
 ## 7. WHY THIS IS URGENT (numbers, not adjectives)
 
-| Metric | 2000 | 2025 | Source |
-|--------|------|------|--------|
-| Global plastic output | 180 Mt | 460 Mt | OECD, 2024 |
-| U.S. autoimmune prevalence | 5% (~14M) | 8% (~26M) | CDC NHIS, 2024 |
+| Metric | 2000 | **2025** | Source |
+|--------|------|----------|--------|
+| Global plastic output | 180 Mt | **460 Mt** | OECD, 2024 |
+| U.S. autoimmune prevalence | 5% (~14M) | **8% (~26M)** | CDC NHIS, 2024 |
 | Nanoplastic Load in Brain | No baseline data | Emerging research | Requires verification |
 
 ---
@@ -196,4 +198,4 @@ https://bigrob7605.github.io/nanoplastics-investigation/
 
 **For interviews or full source documentation, contact:** [your preferred email or alias]
 
-#Nanoplastics #Microplastics #PublicHealthCrisis #AutoimmuneCrisis #EnvironmentalHealth #IndustryDeception #RecyclingFraud #ToxicPlastics #HealthJustice #PolicyChangeNow
+#Nanoplastics #RecyclingFraud #AutoimmuneCrisis #PlasticLies #PolicyChangeNow
