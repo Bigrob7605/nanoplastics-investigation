@@ -25,7 +25,7 @@
 ## 2. WHAT WE NOW KNOW (2022-2025, peer-reviewed)
 
 **Placenta:** Microplastics detected in human placenta (Ragusa et al., Environment International, 2022)  
-**Blood:** 77% of 22 healthy adults (Leslie et al., Environment International, 2022)  
+**Blood:** 77% of 22 healthy adults (Leslie et al., Environment International, 2022) † Small sample size (n=22)  
 **Brain (frontal cortex):**  
 Nanoplastics detected **(Dunlop et al., 2023)**  
 † Limited autopsy sample (n=12); human longitudinal data pending.  
@@ -47,7 +47,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 
 **Limitations:** Cross-sectional studies predominate; longitudinal human data limited. Animal studies suggest mechanisms; human health impacts require further investigation.
 
-**† Footnotes:** Brain data from Dunlop et al. used limited autopsy sample (n=12). EPA nanoplastics budget confirmed ↓40% (FY 2016-2024); NIH environmental health portfolio reduction requires verification from official budget documents.
+**† Footnotes:** Brain data from Dunlop et al. used limited autopsy sample (n=12). Blood study sample size (n=22) is small but significant. EPA nanoplastics budget confirmed ↓40% (FY 2016-2024); NIH environmental health portfolio reduction requires verification from official budget documents.
 
 ---
 
@@ -70,11 +70,11 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 ## 5. INDUSTRY DOCUMENTATION
 **Industry documents reveal limitations of recycling as a solution:**
 
-- **"Large-scale recycling is not technically or economically viable"** - SPI internal memo, 1973
-- **"Use recycling to avoid regulation"** - American Chemistry Council, 2016
+- **"Large-scale recycling is not technically or economically viable"** - SPI internal memo, 1973 (verification pending)
+- **"Use recycling to avoid regulation"** - American Chemistry Council, 2016 (verification pending)
 - **Pending litigation:** 12 states suing plastic manufacturers for health costs
 
-**⚠️ Document Verification:** Industry memo quotes require verification through court filings or public records. Direct links to original documents would strengthen these claims.
+**⚠️ Document Verification:** Industry memo quotes require verification through court filings or public records. Direct links to original documents would strengthen these claims. These quotes are cited in secondary sources but need primary document verification.
 
 ---
 
@@ -85,12 +85,12 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 **1990s-2020s:** PR plans cite recycling to "avoid regulation" (American Chemistry Council, internal slide deck, 2016, slide 7)
 
 **2016-2024:**
-- EPA nanoplastics budget ↓ 40% (FY 2016 → FY 2024)
+- EPA nanoplastics budget ↓ 40% (FY 2016 → FY 2024) (requires official budget document verification)
 - CDC environmental health grants ↓ 30% (FY 2023)
 
 **The Pattern:** The documentation reveals a decades-long approach: minimize health risks, promote limited solutions (recycling), and reduce funding for government agencies responsible for public health oversight.
 
-**⚠️ Budget Verification:** Specific budget percentages require verification through official government budget documents. NIH environmental health portfolio reduction needs confirmation from official sources.
+**⚠️ Budget Verification:** Specific budget percentages require verification through official government budget documents. EPA budget reduction needs confirmation from official FY 2016-2024 budget documents. NIH environmental health portfolio reduction needs confirmation from official sources.
 
 ---
 
