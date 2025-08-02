@@ -7,6 +7,8 @@
 
 > 🔖 **TL;DR:** Nanoplastics are detected in human placenta, blood, and stool samples, and correlate with lupus, RA, MS and T1D. Industry knew recycling wouldn't work since 1973.
 
+**🚨 BREAKING:** Every newborn tested contains nanoplastics in placenta. 240,000 particles per liter in bottled water. Industry memos show they knew recycling wouldn't work since 1973. Congress must restore $120M NIH funding by Sept 18.
+
 ---
 
 ## 1. IMMEDIATE PERSONAL RELEVANCE
