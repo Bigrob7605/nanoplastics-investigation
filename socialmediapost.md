@@ -1,5 +1,5 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated 2 Aug 2025, 20:45 as England reports 26% surge in Shiga-toxin E. coli*
+*Updated 2 Aug 2025, 21:00 as England reports 26% surge in Shiga-toxin E. coli*
 *Evidence-Based Analysis of Environmental Health Research*
 
 **📰 For Journalists:** Peer-reviewed studies confirm nanoplastics in human blood, placenta, and brain tissue. While health implications remain unclear, the findings warrant urgent research funding and regulatory attention. Sample sizes are small but statistically significant, representing the first direct evidence of human exposure.
@@ -217,6 +217,9 @@ https://bigrob7605.github.io/nanoplastics-investigation/
 
 🧬 **Solution Framework:** Open-source VPT-101 research platform for nanoplastic detoxification  
 https://bigrob7605.github.io/VPT-101/
+
+🚀 **Next-Gen Enzyme Design:** Open-source computational workflow for nanoplastic degradation enzymes  
+https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow
 
 **📬 Media contact:** screwball7605@aol.com
 
