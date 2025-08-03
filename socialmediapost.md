@@ -215,6 +215,9 @@ Nanoplastics represent the latest in a series of environmental health challenges
 🔗 **Full investigation with interactive charts:**  
 https://bigrob7605.github.io/nanoplastics-investigation/
 
+🧬 **Solution Framework:** Open-source VPT-101 research platform for nanoplastic detoxification  
+https://bigrob7605.github.io/VPT-101/
+
 **📬 Media contact:** screwball7605@aol.com
 
 #Nanoplastics #MicroplasticsInBlood #EnvironmentalHealth #PolicyChangeNow
