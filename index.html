@@ -72,6 +72,88 @@
                 button.classList.add('bg-blue-600', 'hover:bg-blue-700');
             }, 2000);
         }
+
+        // Table of Contents functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const tocLinks = document.querySelectorAll('.toc-link');
+            const sections = ['executive-summary', 'scientific-evidence', 'research-gaps', 'policy-recommendations'];
+            const progressElement = document.getElementById('reading-progress');
+            
+            // Smooth scrolling for TOC links
+            tocLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('data-section');
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        const offsetTop = targetElement.offsetTop - 120; // Account for sticky nav + TOC
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Update active section and progress based on scroll position
+            function updateTOC() {
+                const scrollPosition = window.scrollY + 150; // Offset for better detection
+                let activeSection = '';
+                let totalProgress = 0;
+                
+                sections.forEach((sectionId, index) => {
+                    const element = document.getElementById(sectionId);
+                    if (element) {
+                        const elementTop = element.offsetTop;
+                        const elementBottom = elementTop + element.offsetHeight;
+                        
+                        if (scrollPosition >= elementTop && scrollPosition < elementBottom) {
+                            activeSection = sectionId;
+                        }
+                        
+                        // Calculate progress
+                        if (scrollPosition >= elementTop) {
+                            const sectionProgress = Math.min(100, ((scrollPosition - elementTop) / element.offsetHeight) * 100);
+                            totalProgress += sectionProgress;
+                        }
+                    }
+                });
+                
+                // Update active link styling
+                tocLinks.forEach(link => {
+                    const section = link.getAttribute('data-section');
+                    if (section === activeSection) {
+                        link.classList.remove('text-gray-600', 'hover:text-blue-600', 'hover:bg-blue-50');
+                        link.classList.add('text-blue-600', 'bg-blue-100', 'font-semibold');
+                    } else {
+                        link.classList.remove('text-blue-600', 'bg-blue-100', 'font-semibold');
+                        link.classList.add('text-gray-600', 'hover:text-blue-600', 'hover:bg-blue-50');
+                    }
+                });
+                
+                // Update progress indicator
+                const overallProgress = Math.min(100, Math.round(totalProgress / sections.length));
+                progressElement.textContent = overallProgress + '%';
+                
+                // Add visual progress bar
+                if (!document.getElementById('progress-bar')) {
+                    const progressBar = document.createElement('div');
+                    progressBar.id = 'progress-bar';
+                    progressBar.className = 'absolute bottom-0 left-0 h-1 bg-blue-500 transition-all duration-300';
+                    progressBar.style.width = overallProgress + '%';
+                    document.getElementById('table-of-contents').appendChild(progressBar);
+                } else {
+                    const progressBar = document.getElementById('progress-bar');
+                    progressBar.style.width = overallProgress + '%';
+                }
+            }
+            
+            // Add scroll event listener
+            window.addEventListener('scroll', updateTOC);
+            
+            // Initial update
+            updateTOC();
+        });
     </script>
 </head>
 <body class="bg-gray-50 text-gray-900">
@@ -99,6 +181,30 @@
             </div>
         </div>
     </nav>
+
+    <!-- Sticky Table of Contents -->
+    <div id="table-of-contents" class="bg-white shadow-md sticky top-16 z-40 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap justify-center py-3 space-x-2 md:space-x-4">
+                <a href="#executive-summary" class="toc-link text-sm font-medium px-3 py-2 rounded-md transition-colors text-gray-600 hover:text-blue-600 hover:bg-blue-50" data-section="executive-summary">
+                    📋 Executive Summary
+                </a>
+                <a href="#scientific-evidence" class="toc-link text-sm font-medium px-3 py-2 rounded-md transition-colors text-gray-600 hover:text-blue-600 hover:bg-blue-50" data-section="scientific-evidence">
+                    🔬 Scientific Evidence
+                </a>
+                <a href="#research-gaps" class="toc-link text-sm font-medium px-3 py-2 rounded-md transition-colors text-gray-600 hover:text-blue-600 hover:bg-blue-50" data-section="research-gaps">
+                    ❓ Research Gaps
+                </a>
+                <a href="#policy-recommendations" class="toc-link text-sm font-medium px-3 py-2 rounded-md transition-colors text-gray-600 hover:text-blue-600 hover:bg-blue-50" data-section="policy-recommendations">
+                    📋 Policy Recommendations
+                </a>
+                <div class="hidden md:block w-px bg-gray-300 mx-2"></div>
+                <div class="text-xs text-gray-500 px-2 py-2">
+                    <span id="reading-progress">0%</span> complete
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Executive Summary Banner -->
     <div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-12 shadow-2xl">
@@ -132,7 +238,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                                 <div class="text-center">
                         <p class="text-sm font-semibold">
-                            <i class="fas fa-clock mr-2"></i>Last Updated: 2 Aug 2025, 20:26 as England reports 26% surge in Shiga-toxin E. coli
+                            <i class="fas fa-clock mr-2"></i>Last Updated: 2 Aug 2025, 20:45 as England reports 26% surge in Shiga-toxin E. coli
                         </p>
                     </div>
         </div>
@@ -157,7 +263,7 @@
                 </p>
                 
                 <p class="text-sm text-blue-200 mt-4">
-                    <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 20:26
+                    <i class="fas fa-calendar mr-2"></i>Last updated: 2 Aug 2025, 20:45
                 </p>
                 <div class="flex flex-wrap justify-center gap-4 text-sm">
                     <span class="bg-blue-600 px-4 py-2 rounded-full">Peer-Reviewed Research</span>
