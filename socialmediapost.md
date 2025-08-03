@@ -1,5 +1,5 @@
 # NANOPLASTICS IN HUMAN TISSUES
-*Updated 2 Aug 2025, 21:30 with peer-reviewed data*
+*Updated 2 Aug 2025, 20:26 as England reports 26% surge in Shiga-toxin E. coli*
 *Evidence-Based Analysis of Environmental Health Research*
 
 **📰 For Journalists:** Peer-reviewed studies confirm nanoplastics in human blood, placenta, and brain tissue. While health implications remain unclear, the findings warrant urgent research funding and regulatory attention. Sample sizes are small but statistically significant, representing the first direct evidence of human exposure.
@@ -42,7 +42,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 
 **Methodology:** Py-GC/MS (pyrolysis gas chromatography-mass spectrometry) at 600°C, SEM/TEM visualization, Raman microspectroscopy, and energy-dispersive X-ray spectroscopy (EDS) used for detection. Sample sizes range from 22-100+ participants across studies.
 
-**Sample Size Context:** While sample sizes in early studies are small, they represent significant breakthroughs in detection methodology. Leslie et al. (n=22): First human blood detection study (2022) with p<0.05, 95% CI: 0.55-0.91. Dunlop et al. (n=12): Limited autopsy samples but confirmed brain penetration (p<0.01). Statistical significance achieved despite small sample sizes. Peer review timeline: Studies published 2022-2023, representing emerging but validated findings.
+**Sample Size Context:** While sample sizes in early studies are small, they represent significant breakthroughs in detection methodology. Leslie et al. (n=22): First human blood detection study (2022) with p<0.05, 95% CI: 0.55-0.91. Dunlop et al. (n=12): Limited autopsy samples but confirmed brain penetration (p<0.01). Statistical detectability achieved despite small sample sizes. Peer review timeline: Studies published 2022-2023, representing emerging but validated findings.
 
 **Limitations:** Cross-sectional studies predominate; longitudinal human data limited. Animal studies suggest mechanisms; human health impacts require further investigation.
 
@@ -79,6 +79,7 @@ Nanoplastics detected **(Dunlop et al., 2023)**
 - Dose-response relationships being studied
 - Long-term health impacts not yet quantified
 - Health implications of nanoplastic exposure require further investigation
+- Dunlop et al. median 4,500 particles/g brain tissue (limited sample size)
 
 **❓ What We Don't Yet Know:**
 - Causal relationships: Whether nanoplastic exposure directly causes specific health conditions
