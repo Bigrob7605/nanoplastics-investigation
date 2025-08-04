@@ -102,23 +102,39 @@
         /* Better text sizing for mobile */
         @media (max-width: 768px) {
             body {
-                font-size: 16px;
+                font-size: 18px;
             }
             
             h1 {
-                font-size: 2rem;
+                font-size: 2.5rem;
             }
             
             h2 {
-                font-size: 1.75rem;
+                font-size: 2rem;
             }
             
             h3 {
-                font-size: 1.5rem;
+                font-size: 1.75rem;
             }
             
             p {
-                font-size: 1rem;
+                font-size: 1.1rem;
+            }
+            
+            /* Improve mobile readability for the enzyme section */
+            .bg-gradient-to-r.text-white h2 {
+                font-size: 2.5rem !important;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.5) !important;
+            }
+            
+            .bg-gradient-to-r.text-white p {
+                font-size: 1.3rem !important;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+            }
+            
+            .bg-gradient-to-r.text-white ul {
+                font-size: 1.2rem !important;
+                text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
             }
         }
         
@@ -611,66 +627,114 @@
     </section>
 
     <!-- Next-Gen Enzyme Design Section -->
-    <section class="bg-gradient-to-r from-orange-600 to-red-700 text-white py-16">
+    <section class="bg-gradient-to-r from-orange-600 to-red-700 text-white py-16" style="background: linear-gradient(135deg, #ea580c 0%, #dc2626 100%);">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">🚀 Next-Generation Enzyme Design Workflow</h2>
-                <p class="text-xl mb-8">Open-source computational platform for nanoplastic degradation enzymes</p>
-                <div class="bg-yellow-500 text-yellow-900 px-6 py-3 rounded-lg inline-block mb-4">
-                    <span class="font-bold">🏆 REAL EXPERIMENTAL VALIDATION COMPLETE</span>
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white drop-shadow-lg" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">🚀 Next-Generation Enzyme Design Workflow</h2>
+                <p class="text-2xl mb-8 text-white font-medium" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Open-source computational platform for nanoplastic degradation enzymes</p>
+                <div class="bg-yellow-400 text-yellow-900 px-8 py-4 rounded-lg inline-block mb-6 shadow-lg border-2 border-yellow-300">
+                    <span class="font-bold text-xl">🏆 REAL EXPERIMENTAL VALIDATION COMPLETE</span>
                 </div>
             </div>
             
             <div class="grid md:grid-cols-2 gap-8 mb-8">
-                <div class="bg-white bg-opacity-10 p-8 rounded-lg">
-                    <h3 class="text-2xl font-bold mb-4">🧬 Real Experimental Validation</h3>
-                    <p class="text-lg mb-4">BREAKTHROUGH ACHIEVED: PETase S238F Mutant (Ideonella sakaiensis) with 684 residues successfully validated.</p>
-                    <ul class="space-y-2 text-lg">
-                        <li>• <strong>Enzyme:</strong> PETase S238F Mutant</li>
-                        <li>• <strong>Sequence:</strong> 684 residues with S238F mutation</li>
-                        <li>• <strong>Quality:</strong> pLDDT 87.3 (high confidence)</li>
-                        <li>• <strong>Energy:</strong> -1.2 REU improvement</li>
-                        <li>• <strong>Status:</strong> In silico validated, wet lab ready</li>
+                <div class="bg-white bg-opacity-20 p-8 rounded-lg shadow-lg border border-white border-opacity-30">
+                    <h3 class="text-3xl font-bold mb-6 text-white drop-shadow-md">🧬 Real Experimental Validation</h3>
+                    <p class="text-xl mb-6 text-white font-medium" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">BREAKTHROUGH ACHIEVED: PETase S238F Mutant (Ideonella sakaiensis) with 684 residues successfully validated.</p>
+                    <ul class="space-y-3 text-xl text-white" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">•</span>
+                            <span><strong>Enzyme:</strong> PETase S238F Mutant</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">•</span>
+                            <span><strong>Sequence:</strong> 684 residues with S238F mutation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">•</span>
+                            <span><strong>Quality:</strong> pLDDT 87.3 (high confidence)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">•</span>
+                            <span><strong>Energy:</strong> -1.2 REU improvement</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">•</span>
+                            <span><strong>Status:</strong> In silico validated, wet lab ready</span>
+                        </li>
                     </ul>
                 </div>
                 
-                <div class="bg-white bg-opacity-10 p-8 rounded-lg">
-                    <h3 class="text-2xl font-bold mb-4">📊 Publication-Quality Outputs</h3>
-                    <p class="text-lg mb-4">Real experimental results with comprehensive documentation and environmental applications.</p>
-                    <ul class="space-y-2 text-lg">
-                        <li>• <strong>Structure:</strong> ranked_0.pdb (8KB, realistic PDB)</li>
-                        <li>• <strong>Visualization:</strong> energy_analysis.png (540KB, 4-panel)</li>
-                        <li>• <strong>Metadata:</strong> Complete YAML/JSON files</li>
-                        <li>• <strong>Applications:</strong> PET degradation, microplastic remediation</li>
-                        <li>• <strong>Impact:</strong> Environmental cleanup ready</li>
+                <div class="bg-white bg-opacity-20 p-8 rounded-lg shadow-lg border border-white border-opacity-30">
+                    <h3 class="text-3xl font-bold mb-6 text-white drop-shadow-md">📊 Publication-Quality Outputs</h3>
+                    <p class="text-xl mb-6 text-white font-medium" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Real experimental results with comprehensive documentation and environmental applications.</p>
+                    <ul class="space-y-3 text-xl text-white" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">•</span>
+                            <span><strong>Structure:</strong> ranked_0.pdb (8KB, realistic PDB)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">•</span>
+                            <span><strong>Visualization:</strong> energy_analysis.png (540KB, 4-panel)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">•</span>
+                            <span><strong>Metadata:</strong> Complete YAML/JSON files</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">•</span>
+                            <span><strong>Applications:</strong> PET degradation, microplastic remediation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="font-bold mr-2">•</span>
+                            <span><strong>Impact:</strong> Environmental cleanup ready</span>
+                        </li>
                     </ul>
                 </div>
             </div>
             
-            <div class="bg-white bg-opacity-10 p-8 rounded-lg mb-8">
-                <h3 class="text-2xl font-bold mb-4 text-center">🌍 Environmental Applications</h3>
-                <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white bg-opacity-20 p-8 rounded-lg mb-8 shadow-lg border border-white border-opacity-30">
+                <h3 class="text-3xl font-bold mb-6 text-center text-white drop-shadow-md">🌍 Environmental Applications</h3>
+                <div class="grid md:grid-cols-2 gap-8">
                     <div>
-                        <h4 class="text-xl font-bold mb-2">Industrial Applications</h4>
-                        <ul class="space-y-1 text-lg">
-                            <li>• PET Bottle Degradation</li>
-                            <li>• Industrial Waste Treatment</li>
-                            <li>• Wastewater Treatment Systems</li>
+                        <h4 class="text-2xl font-bold mb-4 text-white drop-shadow-md">Industrial Applications</h4>
+                        <ul class="space-y-2 text-xl text-white" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">
+                            <li class="flex items-start">
+                                <span class="font-bold mr-2">•</span>
+                                <span>PET Bottle Degradation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="font-bold mr-2">•</span>
+                                <span>Industrial Waste Treatment</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="font-bold mr-2">•</span>
+                                <span>Wastewater Treatment Systems</span>
+                            </li>
                         </ul>
                     </div>
                     <div>
-                        <h4 class="text-xl font-bold mb-2">Environmental Cleanup</h4>
-                        <ul class="space-y-1 text-lg">
-                            <li>• Microplastic Remediation</li>
-                            <li>• Municipal Water Systems</li>
-                            <li>• Bioremediation Systems</li>
+                        <h4 class="text-2xl font-bold mb-4 text-white drop-shadow-md">Environmental Cleanup</h4>
+                        <ul class="space-y-2 text-xl text-white" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">
+                            <li class="flex items-start">
+                                <span class="font-bold mr-2">•</span>
+                                <span>Microplastic Remediation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="font-bold mr-2">•</span>
+                                <span>Municipal Water Systems</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="font-bold mr-2">•</span>
+                                <span>Bioremediation Systems</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
             
             <div class="text-center">
-                <a href="https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow" target="_blank" class="inline-block bg-white text-orange-700 font-bold py-4 px-8 rounded-lg text-lg transition-colors shadow-lg hover:bg-gray-100 border-2 border-orange-300">
+                <a href="https://github.com/Bigrob7605/Next-Gen-Open-Enzyme-Design-Workflow" target="_blank" class="inline-block bg-white text-orange-700 font-bold py-6 px-10 rounded-lg text-xl transition-colors shadow-lg hover:bg-gray-100 border-2 border-orange-300 hover:shadow-xl">
                     🔬 Explore the Validated Enzyme Design Workflow
                 </a>
             </div>
