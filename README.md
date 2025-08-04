@@ -139,6 +139,12 @@ Key scientific sources include:
 
 ## Contact
 
+### 🧬 **Principal Investigator**
+**For direct research collaboration and academic partnerships**
+
+- **Email**: screball7605@aol.com
+- **ORCID ID**: 0009-0008-4352-6842
+
 For questions about the scientific content or technical implementation, please refer to the cited research papers and institutional sources listed in the document.
 
 ---
