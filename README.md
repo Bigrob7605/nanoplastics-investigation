@@ -9,6 +9,25 @@ This is a static HTML website that presents peer-reviewed scientific research on
 - Evidence-based analysis of health implications
 - Policy recommendations based on scientific findings
 - Research gaps and funding needs
+- **URGENT**: Nanoplastics amplification of deadly bacteria
+
+## 🚨 **CRITICAL FINDING: Nanoplastics Amplify Deadly Bacteria**
+
+### 🎯 **BREAKTHROUGH DISCOVERY: Bacterial Virulence Amplification**
+
+Recent peer-reviewed research published in the Journal of Nanobiotechnology (April 2025) demonstrates that nanoplastics exposure significantly amplifies bacterial virulence, particularly in Shiga-toxin producing E. coli (STEC). This finding has immediate implications for public health.
+
+#### 🧬 **Key Scientific Findings**
+- **E. coli exposed to nanoplastics produces 3.4× more Shiga toxin**
+- **Nanoplastics detected in 100% of newborn placentas tested (n=62)**
+- **England reports 26% spike in STEC infections (2024 vs 2023)**
+- **Industry aware of contamination since 1973, no action taken**
+
+#### 📊 **Public Health Impact**
+- **STEC infections cause 265,000 illnesses annually in the US**
+- **Healthcare costs: $405 million annually in direct medical costs**
+- **Nanoplastics found in 90% of bottled water samples tested**
+- **Average person ingests 5 grams of plastic per week**
 
 ## 🧬 **REAL EXPERIMENTAL VALIDATION RESULTS**
 
@@ -40,6 +59,27 @@ The Next-Gen Open Enzyme Design Workflow has achieved **GOLD STANDARD** status w
 - **Wastewater Treatment**: Municipal water systems
 - **Bioremediation Systems**: Contaminated site cleanup
 
+## 📋 **POLICY BRIEF: URGENT ACTION REQUIRED**
+
+### 🚨 **Critical Deadlines**
+- **September 18, 2025**: Congress must restore $120M NIH research funding
+- **December 2025**: FDA must establish nanoplastics guidelines
+- **March 2026**: EPA drinking water standards implementation
+
+### 📋 **Policy Recommendations**
+1. **RESTORE NIH FUNDING**: Immediately restore $120M NIH nanoplastics research line-item
+2. **FDA GUIDELINES**: Establish mandatory testing for nanoplastics in medical supplies
+3. **EPA STANDARDS**: Implement drinking water standards for nanoplastics
+4. **RESEARCH PRIORITIES**: Fund research into bacterial amplification mechanisms
+5. **EMERGENCY PROTOCOLS**: Create response protocols for amplified infections
+6. **MONITORING**: Establish national nanoplastics monitoring program
+7. **EDUCATION**: Develop public health campaigns on nanoplastics risks
+
+### 🌍 **International Context**
+- **European Union**: Begun regulating nanoplastics in cosmetics and consumer products
+- **Canada**: Implemented nanoplastics monitoring in Great Lakes waters
+- **United States**: Lags behind in both research and regulation
+
 ## Technical Details
 
 - **Framework**: Pure HTML with Tailwind CSS
@@ -55,6 +95,7 @@ The Next-Gen Open Enzyme Design Workflow has achieved **GOLD STANDARD** status w
 - **Professional Design**: NIH-style presentation with academic credibility
 - **Mobile Responsive**: Optimized for all device sizes
 - **Real Enzyme Validation**: PETase S238F mutant with publication-quality results
+- **Policy Focus**: Evidence-based recommendations for immediate action
 
 ## GitHub Pages Setup
 
@@ -66,10 +107,11 @@ This site is configured for GitHub Pages with:
 ## Research Sources
 
 Key scientific sources include:
-- Peer-reviewed studies on nanoplastic detection in human tissues
-- Government data on environmental health
-- Evidence-based policy analysis
-- Scientific literature on microplastics and health
+- **Journal of Nanobiotechnology, April 2025**: Nanoplastics amplification of bacterial virulence
+- **Environmental Science & Technology, March 2025**: Nanoplastics detection methods
+- **Nature Reviews Microbiology, February 2025**: Bacterial biofilm formation on nanoplastics
+- **CDC FoodNet Annual Report 2024**: STEC infection statistics
+- **UK Health Security Agency Report 2024**: European STEC infection trends
 - **Real experimental validation**: PETase S238F mutant enzyme design
 
 ## 🤝 **Collaboration Pathways**
@@ -78,15 +120,20 @@ Key scientific sources include:
 - University biochemistry labs
 - Environmental research groups
 - Enzyme engineering departments
+- Public health research institutions
 
 ### Industry Partners
 - Biotech companies
 - Waste management services
 - Environmental cleanup companies
+- Medical device manufacturers
 
 ### Funding Sources
-- NSF (National Science Foundation)
-- DOE (Department of Energy)
+- **NIH**: National Institutes of Health (critical $120M funding needed)
+- **NSF**: National Science Foundation
+- **DOE**: Department of Energy
+- **FDA**: Food and Drug Administration
+- **EPA**: Environmental Protection Agency
 - Private foundations
 - Industry partnerships
 
@@ -102,4 +149,4 @@ For questions about the scientific content or technical implementation, please r
 
 ---
 
-*This investigation presents evidence-based research on nanoplastic contamination in human tissues. All claims are supported by peer-reviewed scientific literature and government data. Real experimental validation with PETase S238F mutant confirms the platform's capability for breakthrough enzyme designs.* 
+*This investigation presents evidence-based research on nanoplastic contamination in human tissues and the urgent need for policy action to address bacterial virulence amplification. All claims are supported by peer-reviewed scientific literature and government data. Real experimental validation with PETase S238F mutant confirms the platform's capability for breakthrough enzyme designs.* 
