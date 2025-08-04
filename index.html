@@ -337,27 +337,17 @@
         }
         
         function downloadPolicyBrief() {
-            // PDF content as base64 data URL - Updated to match evidence-based approach
-            const pdfBase64 = 'JVBERi0xLjQNCjEgMCBvYmoNCjw8DQovVHlwZSAvQ2F0YWxvZw0KL1BhZ2VzIDIgMCBSDQo+Pg0KZW5kb2JqDQoNCjIgMCBvYmoNCjw8DQovVHlwZSAvUGFnZXMNCi9LaWRzIFszIDAgUl0NCi9Db3VudCAxDQo+Pg0KZW5kb2JqDQoNCjMgMCBvYmoNCjw8DQovVHlwZSAvUGFnZQ0KL1BhcmVudCAyIDAgUg0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0NCi9Db250ZW50cyA0IDAgUg0KL1Jlc291cmNlcyA8PA0KL0ZvbnQgPDwNCi9GMSA1IDAgUg0KPj4NCj4+DQo+Pg0KZW5kb2JqDQoNCjQgMCBvYmoNCjw8DQovTGVuZ3RoIDEwMDANCj4+DQpzdHJlYW0NCkJUDQovRjEgMTIgVGYNCjcyIDcyMCBUZA0KKE5BTk9QTEFTVElDUyBQT0xJQ1kgQlJJRUYpIFRqDQowIC0yMCBUZA0KKFVwZGF0ZWQ6IDIgQXVnIDIwMjUsIDIwOjAwKSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFNFQ1RJT04gMTogRVZJREVOQ0UtQkFTRUQgRklORElOR1MpIFRqDQowIC0yMCBUZA0KKOKAoiBOYW5vcGxhc3RpY3MgZGV0ZWN0ZWQgaW4gaHVtYW4gdGlzc3VlcykgVGoNCjAgLTIwIFRkDQoo4oCiIFBlZXItcmV2aWV3ZWQgc3R1ZGllcyBjb25maXJtZWQpIFRqDQowIC0yMCBUZA0KKOKAoiBIZWFsdGggaW1wbGljYXRpb25zIHJlcXVpcmUgcmVzZWFyY2gpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooU0VDVElPTiAyOiBSRVNFQVJDSCBORUVEUykpIFRqDQowIC0yMCBUZA0KKOKAoiBMb25naXR1ZGluYWwgc3R1ZGllcyBuZWVkZWQpIFRqDQowIC0yMCBUZA0KKOKAoiBEb3NlLXJlc3BvbnNlIHJlbGF0aW9uc2hpcHMpIFRqDQowIC0yMCBUZA0KKOKAoiBNZWNoYW5pc3RpYyBzdHVkaWVzIHVuZGVyd2F5KSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFNFQ1RJT04gMzogUE9MSUNZIFJFQ09NTUVOREFUSU9OUykpIFRqDQowIC0yMCBUZA0KKOKAoiBSZXN0b3JlIE5JSCBmdW5kaW5nKSBUag0KMCAtMjAgVGQNCijigKIgRXN0YWJsaXNoIEZEQSBndWlkZWxpbmVzKSBUag0KMCAtMjAgVGQNCijigKIgSW1wbGVtZW50IG1hbmRhdG9yeSB0ZXN0aW5nKSBUag0KMCAtMjAgVGQNCijigKIgQ3JlYXRlIGJpb21vbml0b3JpbmcgcHJvZ3JhbSkpIFRqDQowIC0zMCBUZA0KKCkgVGoNCjAgLTIwIFRkDQooQ09OVEFDVCBZT1VSIFJFUFJFU0VOVEFUSVZFOikgVGoNCjAgLTIwIFRkDQooRGVtYW5kIGV2aWRlbmNlLWJhc2VkIHBvbGljeSBhY3Rpb24uKSBUag0KMCAtMzAgVGQNCigpIFRqDQowIC0yMCBUZA0KKFNvdXJjZTogRXZpZGVuY2UtYmFzZWQgYW5hbHlzaXMgb2YgcGVlci1yZXZpZXdlZCBzdHVkaWVzKSBUag0KRVQNCmVuZHN0cmVhbQ0KZW5kb2JqDQoNCjUgMCBvYmoNCjw8DQovVHlwZSAvRm9udA0KL1N1YnR5cGUgL1R5cGUxDQovQmFzZUZvbnQgL0hlbHZldGljYQ0KPj4NCmVuZG9iag0KDQp4cmVmDQowIDYNCjAwMDAwMDAwMDAgNjU1MzUgZiANCjAwMDAwMDAwMDkgMDAwMDAgbiANCjAwMDAwMDAwNTggMDAwMDAgbiANCjAwMDAwMDAxMTUgMDAwMDAgbiANCjAwMDAwMDAyNTAgMDAwMDAgbiANCjAwMDAwMDAzNTAgMDAwMDAgbiANCnRyYWlsZXINCjw8DQovU2l6ZSA2DQovUm9vdCAxIDAgUg0KPj4NCnN0YXJ0eHJlZg0KNDUwDQolJUVPRiA=';
-            
-            // Create blob from base64 data
-            const byteCharacters = atob(pdfBase64);
-            const byteNumbers = new Array(byteCharacters.length);
-            for (let i = 0; i < byteCharacters.length; i++) {
-                byteNumbers[i] = byteCharacters.charCodeAt(i);
-            }
-            const byteArray = new Uint8Array(byteNumbers);
-            const blob = new Blob([byteArray], { type: 'application/pdf' });
+            // Use the actual PDF file instead of embedded base64
+            const pdfUrl = 'nanoplastics-policy-brief.pdf';
             
             // Create download link
-            const url = window.URL.createObjectURL(blob);
             const a = document.createElement('a');
-            a.href = url;
+            a.href = pdfUrl;
             a.download = 'nanoplastics-policy-brief.pdf';
+            a.target = '_blank';
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-            window.URL.revokeObjectURL(url);
             
             // Show success message
             const button = event.target;
